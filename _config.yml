@@ -45,6 +45,10 @@ plugins:
 # SRB: shows excerpts from posts, https://github.com/jekyll/minima
 show_excerpts: true
 
+#https://jekyllrb.com/docs/assets/#sassscss
+sass:
+    sass_dir: _sass
+
 minima:
   skin: auto
 

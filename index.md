@@ -15,7 +15,7 @@ More information about us at [people](people); we also have the old (and infrequ
 
 ### Contact info
 
-<table class="imgtable"><tr><td id="mouse">&nbsp;</td></tr></table>
+<!-- <table class="imgtable"><tr><td id="mouse">&nbsp;</td></tr></table> -->
 
 <img style="float: right;" src="/assets/img/Stephen_2018_1_shadow.jpg" class="funnyHover">
 - Email: `stephen.becker@colorado.edu`

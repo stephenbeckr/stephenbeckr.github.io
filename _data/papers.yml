@@ -1,0 +1,634 @@
+- other-link: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">preprint</a>
+  title: Global solutions in deep learning in sub-linear time
+  author: Stephen Becker
+  venue: NeurIPS 2022 (best paper award)
+  year: 2022
+  unpublished: true
+
+- arXiv: 2112.07925 
+  title: Versatile fidelity estimation with confidence
+  author: Akshay Seshadri, Martin Ringbauer, Rainer Blatt, Thomas Monz, Stephen Becker
+  other-link: |-
+    See also the companion paper (an extended version): <a href="https://arxiv.org/abs/2112.07947">Theory of versatile fidelity estimation with confidence</a> 
+  year: 2021
+  unpublished: true
+  abstract: As quantum devices become more complex and the requirements on these devices become more demanding, it is crucial to be able to verify the performance of such devices in a scalable and reliable fashion. A cornerstone task in this challenge is quantifying how close an experimentally prepared quantum state is to the desired one. Here we present a method to construct an estimator for the quantum state fidelity that is compatible with any measurement protocol. Our method provides a confidence interval on this estimator that is guaranteed to be nearly minimax optimal for the specified measurement protocol. For a well-chosen measurement scheme, our method is competitive in the number of measurement outcomes required for estimation. We demonstrate our method using simulations and experimental data from a trapped-ion quantum computer and compare the results to state-of-the-art techniques. Our method can be easily extended to estimate the expectation value of any observable, such as entanglement witnesses.
+
+- arXiv: '2112.03390'
+  title: On the computation of a non-parametric estimator by convex optimization
+  author: Akshay Seshadri, Stephen Becker
+  year: 2021
+  abstract: |-
+    Estimation of linear functionals from observed data is an important task in many subjects. Juditsky & Nemirovski [The Annals of Statistics 37.5A (2009): 2278-2300] propose a framework for non-parametric estimation of linear functionals in a very general setting, with nearly minimax optimal confidence intervals. They compute this estimator and the associated confidence interval by approximating the saddle-point of a function. While this optimization problem is convex, it is rather difficult to solve using existing off-the-shelf optimization software. Furthermore, this computation can be expensive when the estimators live in a high-dimensional space. We propose a different algorithm to construct this estimator. Our algorithm can be used with existing optimization software and is much cheaper to implement even when the estimators are in a high-dimensional space, as long as the Hellinger affinity (or the Bhattacharyya coefficient) for the chosen parametric distribution can be efficiently computed given the parameters. We hope that our algorithm will foster the adoption of this estimation technique to a wider variety of problems with relative ease.
+  unpublished: true
+
+- arXiv: 2101.02404
+  title: Modeling massive multivariate spatial data with the basis graphical lasso
+  author: Mitchell Krock, William Kleiber, Dorit Hammerling, Stephen Becker
+  year: 2021
+  abstract: We propose a new modeling framework for highly-multivariate spatial processes that synthesizes ideas from recent multiscale and spectral approaches with graphical models. The basis graphical lasso writes a univariate Gaussian process as a linear combination of basis functions weighted with entries of a Gaussian graphical vector whose graph is estimated from optimizing an ℓ1 penalized likelihood. This paper extends the setting to a multivariate Gaussian process where the basis functions are weighted with Gaussian graphical vectors. We motivate a model where the basis functions represent different levels of resolution and the graphical vectors for each level are assumed to be independent. Using an orthogonal basis grants linear complexity and memory usage in the number of spatial locations, the number of basis functions, and the number of realizations. An additional fusion penalty encourages a parsimonious conditional independence structure in the multilevel graphical model. We illustrate our method on a large climate ensemble from the National Center for Atmospheric Research's Community Atmosphere Model that involves 40 spatial processes.
+  unpublished: true
+
+- arXiv: 2104.03307
+  title: Approximate maximum likelihood estimators for linear regression with design matrix uncertainty
+  author: Richard Clancy, Stephen Becker
+  year: 2022
+  abstract: In this paper we consider regression problems subject to arbitrary noise in the operator or design matrix. This characterization appropriately models many physical phenomena with uncertainty in the regressors. Although the problem has been studied extensively for ordinary/total least squares, and via models that implicitly or explicitly assume Gaussianity, less attention has been paid to improving estimation for regression problems under general uncertainty in the design matrix. To address difficulties encountered when dealing with distributions of sums of random variables, we rely on the saddle point method to estimate densities and form an approximate log-likelihood to maximize. We show that the proposed method performs favorably against other classical methods.
+  unpublished: true
+
+- arXiv: '2006.05610'
+  title: High probability convergence and uniform stability bounds for nonconvex stochastic gradient descent
+  author: Liam Madden, Emiliano Dall'Anese, Stephen Becker
+  year: 2021
+  abstract: |-
+    Stochastic gradient descent is one of the most common iterative algorithms used in machine learning. While being computationally cheap to implement, recent literature suggests it may have implicit regularization properties that prevent over-fitting. This paper analyzes the properties of stochastic gradient descent from a theoretical standpoint to help bridge the gap between theoretical and empirical results. Most theoretical results either assume convexity or only provide convergence results in mean, while this paper proves convergence bounds in high probability without assuming convexity. Assuming strong smoothness, we prove high probability convergence bounds in two settings: (1) assuming the Polyak-Łojasiewicz inequality and norm sub-Gaussian gradient noise and (2) assuming norm sub-Weibull gradient noise. In the first setting, we combine our convergence bounds with existing generalization bounds in order to bound the true risk and show that for a certain number of epochs, convergence and generalization balance in such a way that the true risk goes to the empirical minimum as the number of samples goes to infinity. In the second setting, as an intermediate step to proving convergence, we prove a probability result of independent interest. The probability result extends Freedman-type concentration beyond the sub-exponential threshold to heavier-tailed martingale difference sequences.
+  unpublished: true
+
+
+
+
+
+
+
+
+
+
+- title: A study of scalar optically-pumped magnetometers for use in magnetoencephalography without shielding
+  author: Richard Clancy, Vladislav Gerginov, Orang Alem, Stephen Becker, Svenja Knappe
+  venue: Physics in Medicine and Biology
+  arXiv: 2105.02316
+  DOI: https://doi.org/10.1088/1361-6560/ac18fb
+  year: 2021
+  abstract: Scalar optically-pumped magnetometers (OPMs) are being developed in small packages with high sensitivities. The high common-mode rejection ratio of these sensors allows for detection of very small signals in the presence of large background fields making them ideally suited for brain imaging applications in unshielded environments. Despite a flurry of activity around the topic, questions remain concerning how well a dipolar source can be localized under such conditions, especially when using few sensors. In this paper, we investigate the source localization capabilities using an array of scalar OPMs in the presence of a large background field while varying dipole strength, sensor count, and forward model accuracy. We also consider localization performance as the orientation angle of the background field changes. Our results are validated experimentally through accurate localization using a phantom virtual array mimicking a current dipole in a conducting sphere in a large background field. Our results are intended to give researchers a general sense of the capabilities and limitations of scalar OPMs for magnetoencephalography systems.
+
+- title: Spectral estimation from simulations via sketching
+  author: Zhishen Huang, Stephen Becker
+  arXiv: 2007.11026
+  venue: Journal of Computational Physics
+  DOI: https://doi.org/10.1016/j.jcp.2021.110686
+  year: 2021
+  abstract: Sketching is a stochastic dimension reduction method that preserves geometric structures of data and has applications in high-dimensional regression, low rank approximation and graph sparsification. In this work, we show that sketching can be used to compress simulation data and still accurately estimate time autocorrelation and power spectral density. For a given compression ratio, the accuracy is much higher than using previously known methods. In addition to providing theoretical guarantees, we apply sketching to a molecular dynamics simulation of methanol and find that the estimate of spectral density is 90% accurate using only 10% of the data.
+
+- title: A stochastic subspace approach to gradient-free optimization in high dimensions
+  arXiv: 2003.02684
+  author: David Kozak, Stephen Becker, Alireza Doostan, Luis Tenorio
+  venue: Computational Optimization and Applications
+  year: 2021
+  other-link: This is an updated version of <a href="https://arxiv.org/abs/1904.01145">Stochastic Subspace Descent</a>
+  DOI: https://doi.org/10.1007/s10589-021-00271-w
+  abstract: We present a stochastic descent algorithm for unconstrained optimization that is particularly efficient when the objective function is slow to evaluate and gradients are not easily obtained, as in some PDE-constrained optimization and machine learning problems. The algorithm maps the gradient onto a low-dimensional random subspace of dimension l at each iteration, similar to coordinate descent but without restricting directional derivatives to be along the axes. Without requiring a full gradient, this mapping can be performed by computing l directional derivatives (e.g., via forward-mode automatic differentiation). We give proofs for convergence in expectation under various convexity assumptions as well as probabilistic convergence results under strong-convexity. Our method extends the well-known Gaussian smoothing technique to descent in subspaces of dimension greater than one, opening the doors to new analysis of Gaussian smoothing when more than one directional derivative is used at each iteration. We also provide a finite-dimensional variant of a special case of the Johnson-Lindenstrauss lemma. Experimentally, we show that our method compares favorably to coordinate descent, Gaussian smoothing, gradient descent and BFGS (when gradients are calculated via forward-mode automatic differentiation) on problems from the machine learning and shape optimization literature.
+
+- title: Bounds for the tracking error of first-order online optimization methods
+  arXiv: '2003.02400'
+  author: Liam Madden, Stephen Becker, Emiliano Dall'Anese
+  DOI: https://doi.org/10.1007/s10957-021-01836-9
+  other-link: <a href="https://rdcu.be/cgTlW">Free final version</a>
+  code: https://github.com/liammadden/time-varying-experiments
+  venue: Journal of Optimization Theory and Applications (JOTA)
+  year: 2021
+  abstract: This paper investigates online algorithms for smooth time-varying optimization problems, focusing first on methods with constant step-size, momentum, and extrapolation-length. Assuming strong convexity, precise results for the tracking iterate error (the limit supremum of the norm of the difference between the optimal solution and the iterates) for online gradient descent are derived. The paper then considers a general first-order framework, where a universal lower bound on the tracking iterate error is established. Furthermore, a method using "long-steps" is proposed and shown to achieve the lower bound up to a fixed constant. This method is then compared with online gradient descent for specific examples. Finally, the paper analyzes the effect of regularization when the cost is not strongly convex. With regularization, it is possible to achieve a non-regret bound. The paper ends by testing the accelerated and regularized methods on synthetic time-varying least-squares and logistic regression problems, respectively.
+
+- title: l_1-regularized maximum likelihood estimation with focused-spot illumination quadruples the diffraction-limited resolution in fluorescence microscopy
+  author: J. Xing, S. Chen, S. Becker, J.-Y. Yu, C. Cogswell
+  venue: Optics Express
+  misc: 28(26) pp 39413-39429
+  year: 2020
+  DOI: https://doi.org/10.1364/OE.411574
+  abstract: Super-resolution fluorescence microscopy has proven to be a useful tool in biological studies. To achieve more than two-fold resolution improvement over the diffraction limit, existing methods require exploitation of the physical properties of the fluorophores. Recently, it has been demonstrated that achieving more than two-fold resolution improvement without such exploitation is possible using only a focused illumination spot and numerical post-processing. However, how the achievable resolution is affected by the processing step has not been thoroughly investigated. In this paper, we focus on the processing aspect of this emerging super-resolution microscopy technique. Based on a careful examination of the dominant noise source and the available prior information in the image, we find that if a processing scheme is appropriate for the dominant noise model in the image and can utilize the prior information in the form of sparsity, improved accuracy can be expected. Based on simulation results, we identify an improved processing scheme and apply it in a real-world experiment to super-resolve a known calibration sample. We show an improved super-resolution of 60nm, approximately four times beyond the conventional diffraction-limited resolution.
+
+- title: Robust Least Squares for Quantized Data
+  arXiv: 2003.12004
+  author: Richard Clancy, Stephen Becker
+  venue: Signal Processing
+  misc: 176(107711) 
+  year: 2020
+  DOI: https://doi.org/10.1016/j.sigpro.2020.107711
+  abstract: In this paper we formulate and solve a robust least squares problem for a system of linear equations subject to quantization error in the data matrix. Ordinary least squares fails to consider uncertainty in the operator, modeling all noise in the observed signal. Total least squares accounts for uncertainty in the data matrix, but necessarily increases the condition number of the operator compared to ordinary least squares. Tikhonov regularization or ridge regression is frequently employed to combat ill-conditioning, but requires parameter tuning which presents a host of challenges and places strong assumptions on parameter prior distributions. The proposed method also requires selection of a parameter, but it can be chosen in a natural way, e.g., a matrix rounded to the 4th digit uses an uncertainty bounding parameter of 0.5e-4. We show here that our robust method is theoretically appropriate, tractable, and performs favorably against ordinary and total least squares.
+
+- title: Randomization of Approximate Bilinear Computation for Matrix Multiplication
+  arXiv: 1905.07439
+  author: Osman Asif Malik and Stephen Becker
+  venue: >
+    Journal of Computer Mathematics: Computer Systems Theory  (IJCM: CST)
+  misc: 6(1) pp 54--93
+  year: 2021
+  DOI: https://doi.org/10.1080/23799927.2020.1861104
+  abstract: >
+    We present a method for randomizing formulas for bilinear computation of matrix products. We consider the implications of such randomization when there are two sources of error: One due to the formula itself only being approximately correct, and one due to using floating point arithmetic. Our theoretical results and numerical experiments indicate that our method can improve performance when each of these error sources are present individually, as well as when they are present at the same time.
+
+- title: Resolvability of Hamming Graphs
+  arXiv: 1907.05974
+  author: Lucas Laird, Richard C. Tillquist, Stephen Becker, Manuel E. Lladser
+  venue: SIAM J. Discrete Math
+  misc: 34(4) pp 2063-2081
+  year: 2020
+  DOI: https://doi.org/10.1137/19M1274511
+  abstract: A subset of vertices in a graph is called resolving when the geodesic distances to those vertices uniquely distinguish every vertex in the graph. Here, we characterize the resolvability of Hamming graphs in terms of a constrained linear system and deduce a novel but straightforward characterization of resolvability for hypercubes. We propose an integer linear programming method to assess resolvability rapidly, and provide a more costly but definite method based on Gröbner bases to determine whether or not a set of vertices resolves an arbitrary Hamming graph. As proof of concept, we identify a resolving set of size 77 in the metric space of all octapeptides (i.e., proteins composed of eight amino acids) with respect to the Hamming distance; in particular, any octamer may be readily represented as a 77-dimensional real-vector. Representing k-mers as low-dimensional numerical vectors may enable new applications of machine learning algorithms to symbolic sequences.
+
+- title: Fast Randomized Matrix and Tensor Interpolative Decomposition Using CountSketch
+  arXiv: 1901.10559 
+  author: Osman Asif Malik and Stephen Becker
+  code: https://github.com/OsmanMalik/countsketch-matrix-tensor-id
+  venue: Advances in Computational Mathematics
+  misc: vol  46 (76) 
+  other-link: <a href="https://rdcu.be/b9eFU">Free final version</a>
+  year: 2020 
+  DOI: https://doi.org/10.1007/s10444-020-09816-9
+  abstract: We propose a new fast randomized algorithm for interpolative decomposition of matrices which utilizes CountSketch. We then extend this approach to the tensor interpolative decomposition problem introduced by Biagioni et al. (J. Comput. Phys. 281, pp. 116-134, 2015). Theoretical performance guarantees are provided for both the matrix and tensor settings. Numerical experiments on both synthetic and real data demonstrate that our algorithms maintain the accuracy of competing methods, while running in less time, achieving at least an order of magnitude speed-up on large matrices and tensors.
+
+- title: Guarantees for the Kronecker Fast Johnson-Lindenstrauss Transform Using a Coherence and Sampling Argument
+  arXiv: 1911.08424
+  author: Osman Asif Malik and Stephen Becker
+  venue: Linear Algebra and its Applications
+  misc: 602(1) pp 120-127
+  year: 2020
+  DOI: https://doi.org/10.1016/j.laa.2020.05.004
+  abstract: In the recent paper [Jin, Kolda & Ward, arXiv:1909.04801], it is proved that the Kronecker fast Johnson-Lindenstrauss transform (KFJLT) is, in fact, a Johnson-Lindenstrauss transform, which had previously only been conjectured. In this paper, we provide an alternative proof of this, for when the KFJLT is applied to Kronecker vectors, using a coherence and sampling argument. Our proof yields a different bound on the embedding dimension, which can be combined with the bound in the paper by Jin et al. to get a better bound overall. As a stepping stone to proving our result, we also show that the KFJLT is a subspace embedding for matrices with columns that have Kronecker product structure. Lastly, we compare the KFJLT to four other sketch techniques in numerical experiments on both synthetic and real-world data.
+
+- title: Nonstationary Modeling With Sparsity for Spatial Data via the Basis Graphical Lasso
+  arXiv: 1902.06877
+  year: 2020
+  author: Mitchell Krock, William Kleiber, Stephen Becker
+  venue: Journal of Computational and Graphical Statistics
+  DOI: https://doi.org/10.1080/10618600.2020.1811103
+  misc: Previous arXiv version under the name "Penalized basis models for very large spatial datasets"
+  abstract: Many modern spatial models express the stochastic variation component as a basis expansion with random coefficients. Low rank models, approximate spectral decompositions, multiresolution representations, stochastic partial differential equations and empirical orthogonal functions all fall within this basic framework. Given a particular basis, stochastic dependence relies on flexible modeling of the coefficients. Under a Gaussianity assumption, we propose a graphical model family for the stochastic coefficients by parameterizing the precision matrix. Sparsity in the precision matrix is encouraged using a penalized likelihood framework. Computations follow from a majorization-minimization approach, a byproduct of which is a connection to the graphical lasso. The result is a flexible nonstationary spatial model that is adaptable to very large datasets. We apply the model to two large and heterogeneous spatial datasets in statistical climatology and recover physically sensible graphical structures. Moreover, the model performs competitively against the popular LatticeKrig model in predictive cross-validation, but substantially improves the Akaike information criterion score
+
+- title: Analyzing the super-resolution characteristics of focused-spot illumination approaches
+  DOI: http://dx.doi.org/10.1117/1.JBO.25.5.056501
+  author: J-Y Yu, V. Narumanchi, S. Chen, J. Xing, S. Becker, C. Cogswell
+  venue: J. of Biomedical Optics/
+  misc: 25(5), 056501
+  year: 2020
+  abstract: |-
+    Significance: It is commonly assumed that using the objective lens to create a tightly focused light spot for illumination provides a twofold resolution improvement over the Rayleigh resolution limit and that resolution improvement is independent of object properties. Nevertheless, such an assumption has not been carefully examined. We examine this assumption by analyzing the performance of two super-resolution methods, known as image scanning microscopy (ISM) and illumination-enhanced sparsity (IES).
+    Aim: We aim to identify the fundamental differences between the two methods, and to provide examples that help researchers determine which method to utilize for different imaging conditions.
+    Approach: We input the same image datasets into the two methods and analyze their restorations. In numerical simulations, we design objects of distinct brightness and sparsity levels for imaging. We use biological imaging experiments to verify the simulation results.
+    Results: The resolution of IES often exceeds twice the Rayleigh resolution limit when imaging sparse objects. A decrease in object sparsity negatively affects the resolution improvement in both methods.
+    Conclusions: The IES method is superior for imaging sparse objects with its main features being bright and small against a dark, large background. For objects that are largely bright with small dark features, the ISM method is favorable.
+
+- arXiv: 1804.06291
+  title: Efficient Solvers for Sparse Subspace Clustering
+  author: Farhad Pourkamali-Anaraki, James Folberth, Stephen Becker
+  venue: Signal Processing
+  misc: vol 172
+  year: 2020
+  DOI: https://doi.org/10.1016/j.sigpro.2020.107548
+  abstract: Sparse subspace clustering (SSC) clusters n points that lie near a union of low-dimensional subspaces. The SSC model expresses each point as a linear or affine combination of the other points, using either ℓ1 or ℓ0 regularization. Using ℓ1 regularization results in a convex problem but requires O(n2) storage, and is typically solved by the alternating direction method of multipliers which takes O(n3) flops. The ℓ0 model is non-convex but only needs memory linear in n, and is solved via orthogonal matching pursuit and cannot handle the case of affine subspaces. This paper shows that a proximal gradient framework can solve SSC, covering both ℓ1 and ℓ0 models, and both linear and affine constraints. For both ℓ1 and ℓ0, algorithms to compute the proximity operator in the presence of affine constraints have not been presented in the SSC literature, so we derive an exact and efficient algorithm that solves the ℓ1 case with just O(n2) flops. In the ℓ0 case, our algorithm retains the low-memory overhead, and is the first algorithm to solve the SSC-ℓ0 model with affine constraints. Experiments show our algorithms do not rely on sensitive regularization parameters, and they are less sensitive to sparsity misspecification and high noise.
+
+- arXiv: 1910.08123
+  title: |
+    Optimization and Learning with Information Streams: Time-varying Algorithms and Applications
+  author: Emiliano Dall'Anese, Andrea Simonetto, Stephen Becker, Liam Madden
+  venue: IEEE Signal Processing Magazine
+  misc: vol 37(3), pp. 71--83
+  year: 2020
+  DOI: https://doi.org/10.1109/MSP.2020.2968813
+  abstract: There is a growing cross-disciplinary effort in the broad domain of optimization and learning with streams of data, applied to settings where traditional batch optimization techniques cannot produce solutions at time scales that match the inter-arrival times of the data points due to computational and/or communication bottlenecks. Special types of online algorithms can handle this situation, and this article focuses on such time-varying optimization algorithms, with emphasis on Machine Leaning and Signal Processing, as well as data-driven Control. Approaches for the design of time-varying or online first-order optimization methods are discussed, with emphasis on algorithms that can handle errors in the gradient, as may arise when the gradient is estimated. Insights on performance metrics and accompanying claims are provided, along with evidence of cases where algorithms that are provably convergent in batch optimization may perform poorly in an online regime. The role of distributed computation is discussed. Illustrative numerical examples for a number of applications of broad interest are provided to convey key ideas.
+
+- arXiv: 1907.10831
+  title: Safe Feature Elimination for Non-Negativity Constrained Convex Optimization
+  author: James Folberth, Stephen Becker
+  venue: J. Optimization Theory and Applications (JOTA)
+  year:  2019
+  other-link: <a href="https://rdcu.be/b1pCR">Free final version</a>, or <a href="/assets/docs/safe_for_nonneg_final.pdf">locally hosted</a>
+  DOI: https://dx.doi.org/10.1007/s10957-019-01612-w
+  abstract: Inspired by recent work on safe feature elimination for 1-norm regularized least-squares, we develop strategies to eliminate features from convex optimization problems with non-negativity constraints. Our strategy is safe in the sense that it will only remove features/coordinates from the problem when they are guaranteed to be zero at a solution. To perform feature elimination we use an accurate, but not optimal, primal-dual feasible pair, making our methods robust and able to be used on ill-conditioned problems. We supplement our feature elimination problem with a method to construct an accurate dual feasible point from an accurate primal feasible point; this allows us to use a first-order method to find an accurate primal feasible point, then use that point to construct an accurate dual feasible point and perform feature elimination. Under reasonable conditions, our feature elimination strategy will eventually eliminate all zero features from the problem. As an application of our methods we show how safe feature elimination can be used to robustly certify the uniqueness of non-negative least-squares (NNLS) problems. We give numerical examples on a well-conditioned synthetic NNLS problem and a on set of 40000 extremely ill-conditioned NNLS problems arising in a microscopy application.
+
+# #:{Aug 2017}
+- arXiv: 1708.03218
+  title: >
+    Improved Fixed-Rank Nystrom Approximation via QR Decomposition: Practical and Theoretical Aspects
+  author: Farhad Pourkamali-Anaraki, Stephen Becker
+  venue: Neurocomputing
+  misc: 363(21) pp 261--272
+  year: 2019 
+  DOI: https://doi.org/10.1016/j.neucom.2019.06.070
+  abstract: The Nystrom method is a popular technique that uses a small number of landmark points to compute a fixed-rank approximation of large kernel matrices that arise in machine learning problems. In practice, to ensure high quality approximations, the number of landmark points is chosen to be greater than the target rank. However, for simplicity the standard Nystrom method uses a sub-optimal procedure for rank reduction. In this paper, we examine the drawbacks of the standard Nystrom method in terms of poor performance and lack of theoretical guarantees. To address these issues, we present an efficient modification for generating improved fixed-rank Nystrom approximations. Theoretical analysis and numerical experiments are provided to demonstrate the advantages of the modified method over the standard Nystrom method. Overall, the aim of this paper is to convince researchers to use the modified method, as it has nearly identical computational complexity, is easy to code, has greatly improved accuracy in many cases, and is optimal in a sense that we make precise.
+
+- title:  Stochastic Lanczos estimation of genomic variance components for linear mixed-effects models
+  other-link: <a href="https://www.biorxiv.org/content/10.1101/607168v1">BiorXiv</a>; or  <a href="https://rdcu.be/bMwR2">final (open access) version</a>
+  author: Richard Border and Stephen Becker
+  journal: BMC Bioinformatics
+  year: 2019
+  abstract: |-
+    Background Linear mixed-effects models (LMM) are a leading method in conducting genome-wide association studies (GWAS) but require residual maximum likelihood (REML) estimation of variance components, which is computationally demanding. Previous work has reduced the computational burden of variance component estimation by replacing direct matrix operations with iterative and stochastic methods and by employing loose tolerances to limit the number of iterations in the REML optimization procedure. Here, we introduce two novel algorithms, stochastic Lanczos derivative-free REML (SLDF_REML) and Lanczos first-order Monte Carlo REML (L_FOMC_REML), that exploit problem structure via the principle of Krylov subspace shift-invariance to speed computation beyond existing methods. Both novel algorithms only require a single round of computation involving iterative matrix operations, after which their respective objectives can be repeatedly evaluated using vector operations. Further, in contrast to existing stochastic methods, SLDF_REML can exploit precomputed genomic relatedness matrices (GRMs), when available, to further speed computation.
+    Results Results of numerical experiments are congruent with theory and demonstrate that interpreted-language implementations of both algorithms match or exceed existing compiled-language software packages in speed, accuracy, and flexibility.
+    Conclusions Both the SLDF_REML and L_FOMC_REML algorithms outperform existing methods for REML estimation of variance components for LMM and are suitable for incorporation into existing GWAS LMM software implementations.
+
+- title: |-
+    On Quasi-Newton Forward-Backward Splitting: Proximal Calculus and Convergence
+  author: Stephen Becker, Jalal Fadili, Peter Ochs
+  arXiv: 1801.08691
+  venue: SIAM J. Optimization
+  misc: 29(4), 2445-2482
+  year: 2019
+  DOI: https://epubs.siam.org/doi/10.1137/18M1167152
+  other-link: [<a href="http://www.optimization-online.org/DB_HTML/2018/01/6437.html">Optimization Online</a>]
+  abstract: We introduce a framework for quasi-Newton forward--backward splitting algorithms (proximal quasi-Newton methods) with a metric induced by diagonal ± rank-r symmetric positive definite matrices. This special type of metric allows for a highly efficient evaluation of the proximal mapping. The key to this efficiency is a general proximal calculus in the new metric. By using duality, formulas are derived that relate the proximal mapping in a rank-r modified metric to the original metric. We also describe efficient implementations of the proximity calculation for a large class of functions; the implementations exploit the piece-wise linear nature of the dual problem. Then, we apply these results to acceleration of composite convex minimization problems, which leads to elegant quasi-Newton methods for which we prove convergence. The algorithm is tested on several numerical examples and compared to a comprehensive list of alternatives in the literature. Our quasi-Newton splitting algorithm with the prescribed metric compares favorably against state-of-the-art. The algorithm has extensive applications including signal processing, sparse recovery, machine learning and classification to name a few.
+
+- arXiv: 1702.02241
+  title: Adapting Regularized Low Rank Models for Parallel Architectures
+  author: Derek Driggs, Stephen Becker, Aleksandr Aravkin
+  venue: SIAM J. Sci. Computing
+  year: 2019
+  DOI: https://doi.org/10.1137/17M1147342
+  abstract: We introduce a reformulation of regularized low-rank recovery models to take advantage of GPU, multiple CPU, and hybridized architectures. Low-rank recovery often involves nuclear-norm minimization through iterative thresholding of singular values. These models are slow to fit and difficult to parallelize because of their dependence on computing a singular value decomposition at each iteration. Regularized low-rank recovery models also incorporate non-smooth terms to separate structured components (e.g. sparse outliers) from the low-rank component, making these problems more difficult. Using Burer-Monteiro splitting and marginalization, we develop a smooth, non-convex formulation of regularized low-rank recovery models that can be fit with first-order solvers. We develop a computable certificate of convergence for this non-convex program, and use it to establish bounds on the suboptimality of any point. Using robust principal component analysis (RPCA) as an example, we include numerical experiments showing that this approach is an order-of-magnitude faster than existing RPCA solvers on the GPU. We also show that this acceleration allows new applications for RPCA, including real-time background subtraction and MR image analysis.
+
+- DOI: https://doi.org/10.1007/s10703-018-0323-1
+  title: Template Polyhedra and Bilinear Optimization
+  author: Jessica Gronski, Mohamed-Amin Ben Sassi, Stephen Becker, Sriram Sankaranarayanan
+  venue: Formal Methods and Design
+  year: 2018
+  abstract: In this paper, we study the template polyhedral abstract domain using connections to bilinear optimization techniques. The connections between abstract interpretation and convex optimization approaches have been studied for nearly a decade now. Specifically, data flow constraints for numerical domains such as polyhedra can be expressed in terms of bilinear constraints. Algorithms such as policy and strategy iteration have been proposed for the special case of bilinear constraints that arise from template polyhedra wherein the desired invariants conform to a fixed template form. In particular, policy iteration improves upon a known post-fixed point by alternating between solving for an improved post-fixed point against finding certificates that are used to prove the new fixed point. In the first part of this paper, we propose a policy iteration scheme that changes the template on the fly in order to prove a target reachability property of interest. We show how the change to the template naturally fits inside a policy iteration scheme, and thus, propose a scheme that updates the template matrices associated with each program location. We demonstrate that the approach is effective over a set of benchmark instances, wherein, starting from a simple predefined choice of templates, the approach is able to infer appropriate template directions to prove a property of interest. However, it is well known that policy iteration can end up “stuck” in a saddle point from which future iterations cannot make progress. In the second part of this paper, we study this problem further by empirically comparing policy iteration with a variety of other approaches for bilinear programming. These approaches adapt well-known algorithms to the special case of bilinear programs as well as using off-the-shelf tools for nonlinear programming. Our initial experience suggests that policy iteration seems to be the most advantageous approach for problems arising from abstract interpretation, despite the potential problems of getting stuck at a saddle point.
+
+- DOI: https://doi.org/10.1364/OE.26.009850
+  title: Achieving superresolution with illumination-enhanced sparsity
+  author: Jiun-Yann Yu, Stephen R. Becker, James Folberth, Bruce F. Wallin, Simeng Chen, and Carol J. Cogswell
+  venue: Optics Express
+  misc: vol 26(8) pp. 9850-9865
+  year: 2018
+  other-link: <a href="https://www.researchgate.net/publication/324233321_Achieving_superresolution_with_illumination-enhanced_sparsity">Researchgate full text</a>
+  abstract: Recent advances in superresolution fluorescence microscopy have been limited by a belief that surpassing two-fold resolution enhancement of the Rayleigh resolution limit requires stimulated emission or the fluorophore to undergo state transitions. Here we demonstrate a new superresolution method that requires only image acquisitions with a focused illumination spot and computational post-processing. The proposed method utilizes the focused illumination spot to effectively reduce the object size and enhance the object sparsity and consequently increases the resolution and accuracy through nonlinear image post-processing. This method clearly resolves 70nm resolution test objects emitting ~530nm light with a 1.4 numerical aperture (NA) objective, and, when imaging through a 0.5NA objective, exhibits high spatial frequencies comparable to a 1.4NA widefield image, both demonstrating a resolution enhancement above two-fold of the Rayleigh resolution limit. More importantly, we examine how the resolution increases with photon numbers, and show that the more-than-two-fold enhancement is achievable with realistic photon budgets.
+
+- arXiv: 1511.00152
+  title: Preconditioned Data Sparsification for Big Data with Applications to PCA and K-means
+  author: F. Pourkamali-Anaraki, S. Becker
+  venue: IEEE Trans. Info Theory
+  year: 2017
+  DOI: http://ieeexplore.ieee.org/document/7862251/
+  other-link: <a href="https://scholar.colorado.edu/appm_facpapers/15/">CU Scholar website</a>
+  abstract: We analyze a compression scheme for large data sets that randomly keeps a small percentage of the components of each data sample. The benefit is that the output is a sparse matrix and therefore subsequent processing, such as PCA or K-means, is significantly faster, especially in a distributed-data setting. Furthermore, the sampling is single-pass and applicable to streaming data. The sampling mechanism is a variant of previous methods proposed in the literature combined with a randomized preconditioning to smooth the data. We provide guarantees for PCA in terms of the covariance matrix, and guarantees for K-means in terms of the error in the center estimators at a given step. We present numerical evidence to show both that our bounds are nearly tight and that our algorithms provide a real benefit when applied to standard test data sets, as well as providing certain benefits over related sampling approaches.
+
+- title: Efficient Adjoint Computation for Wavelet and Convolution Operators (Lecture Notes)
+  author: J. Folberth and S. Becker
+  venue: IEEE Signal Processing Magazine
+  misc: vol 33(6) 135-147
+  year: 2016
+  DOI: http://ieeexplore.ieee.org/document/7736183/
+  arXiv: 1707.02018
+  abstract: First-order optimization algorithms, often preferred for large problems, require the gradient of the differentiable terms in the objective function. These gradients often involve linear operators and their adjoints, which must be applied rapidly. We consider two example problems and derive methods for quickly evaluating the required adjoint operator. The first example is an image deblurring problem, where we must compute efficiently the adjoint of multi-stage wavelet reconstruction. Our formulation of the adjoint works for a variety of boundary conditions, which allows the formulation to generalize to a larger class of problems. The second example is a blind channel estimation problem taken from the optimization literature where we must compute the adjoint of the convolution of two signals. In each example, we show how the adjoint operator can be applied efficiently while leveraging existing software.
+
+- title: Designing Statistical Estimators That Balance Sample Size, Risk, and Computational Cost
+  author: J. Bruer, J. Tropp, V. Cevher and S. Becker
+  venue: IEEE J. Selected Topics in Signal Processing
+  DOI: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7031873
+  year: 2015
+  other-link: <a href="http://users.cms.caltech.edu/~jtropp/papers/BTCB15-Designing-Statistical-TSP.pdf">Final version</a>
+  abstract: This paper proposes a tradeoff between computational time, sample complexity, and statistical accuracy that applies to statistical estimators based on convex optimization. When we have a large amount of data, we can exploit excess samples to decrease statistical risk, to decrease computational cost, or to trade off between the two. We propose to achieve this tradeoff by varying the amount of smoothing applied to the optimization problem. This work uses regularized linear regression as a case study to argue for the existence of this tradeoff both theoretically and experimentally. We also apply our method to describe a tradeoff in an image interpolation problem.
+
+- DOI: http://dx.doi.org/10.1109/MSP.2014.2329397
+  title: |-
+    Convex Optimization for Big Data: Scalable, randomized, and parallel algorithms for big data analytics
+  author: Volkan Cevher, Stephen Becker, Mark Schmidt
+  venue: IEEE Signal Processing Magazine
+  misc: vol. 31, no. 5
+  year: 2014
+  arXiv: 1411.0972
+  abstract: This article reviews recent advances in convex optimization algorithms for Big Data, which aim to reduce the computational, storage, and communications bottlenecks. We provide an overview of this emerging field, describe contemporary approximation techniques like first-order methods and randomization for scalability, and survey the important role of parallel and distributed computation. The new Big Data algorithms are based on surprisingly simple principles and attain staggering accelerations even on classical problems.
+
+- arXiv: 1305.5828
+  title: An Algorithm for Splitting Parallel Sums of Linearly Composed Monotone Operators, with Applications to Signal Recovery
+  author: Stephen Becker and Patrick L. Combettes
+  venue: Journal of Nonlinear and Convex Analysis
+  misc: vol. 15, no. 1, pp. 137--159
+  year: 2014
+  abstract: We present a new primal-dual splitting algorithm for structured monotone inclusions in Hilbert spaces and analyze its asymptotic behavior. A novelty of our framework, which is motivated by image recovery applications, is to consider inclusions that combine a variety of monotonicity-preserving operations such as sums, linear compositions, parallel sums, and a new notion of parallel composition. The special case of minimization problems is studied in detail, and applications to signal recovery are discussed. Numerical simulations are provided to illustrate the implementation of the algorithm.
+
+- title: Improving IMRT delivery efficiency with iteratively reweighted L1-minimization for inverse planning
+  author: Hojin Kim, Lei Xing, Ruijiang Li et al.
+  venue: Medical Physics
+  misc: vol. 40, 071719
+  year: 2013
+  DOI: http://dx.doi.org/10.1118/1.4811100
+
+- title: A Non-Uniform Sampler for Wideband Spectrally-Sparse Environments
+  author: Michael Wakin, Stephen Becker, Eric Nakamura, Michael Grant, Emilio Sovero, Daniel Ching, Juhwan Yoo, Justin Romberg, Azita Emami-Neyestanak, Emmanuel Candès
+  venue: IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS)
+  misc: vol. 2, no. 3, pp. 516--529
+  year: 2012
+  DOI: http://dx.doi.org/10.1109/JETCAS.2012.2214635
+  other-link: <a href="http://inside.mines.edu/~mwakin/papers/NUS_20120628.pdf">link</a>
+  abstract:  We present a wide bandwidth, compressed sensing based non-uniform sampling (NUS) system with a custom sample-=and-hold chip designed to take advantage of a low average sampling rate. By sampling signals non-uniformly, the average sample rate can be more than a magnitude lower than the Nyquist rate, provided that these signals have a relatively low information content as measured by the sparsity of their spectrum. The hardware design combines a wideband Indium-Phosphide (InP) heterojunction bipolar transistor (HBT) sample-and-hold with a commercial off-the-shelf (COTS) analog-to-digital converter (ADC) to digitize an 800 MHz to 2 GHz band (having 100 MHz of non-contiguous spectral content) at an average sample rate of 236 Msps. Signal reconstruction is performed via a non-linear compressed sensing algorithm, and the challenges of developing an efficient GPU implementation are discussed. Measured biterror-rate (BER) data for a GSM channel is presented, and comparisons to a conventional wideband 4.4 Gsps ADC are made.
+
+- title: A Compressed Sensing Parameter Extraction Platform for Radar Pulse Signal Acquisition
+  other-link: <a href="http://inside.mines.edu/~mwakin/papers/RMPI_20120630.pdf">link</a>
+  author: J. Yoo, C. Turnes, E. Nakamura, C. Le, S. Becker, E. Sovero, M. Wakin, M. Grant, J. Romberg, A. Emami-Neyestanak, and E. Candès
+  venue: IEEE Journal on Emerging and Selected Topics in Circuits and Systems (JETCAS)
+  misc: vol. 2, no. 3, pp. 626--638
+  year: 2012
+  DOI: http://dx.doi.org/10.1109/JETCAS.2012.2214634
+  abstract: In this paper we present a complete (hardware/ software) sub-Nyquist rate (× 13) wideband signal acquisition chain capable of acquiring radar pulse parameters in an instantaneous bandwidth spanning 100 MHz-2.5 GHz with the equivalent of 8 effective number of bits (ENOB) digitizing performance. The approach is based on the alternative sensing-paradigm of compressed sensing (CS). The hardware platform features a fully-integrated CS receiver architecture named the random-modulation preintegrator (RMPI) fabricated in Northrop Grumman's 450 nm InP HBT bipolar technology. The software back-end consists of a novel CS parameter recovery algorithm which extracts information about the signal without performing full time-domain signal reconstruction. This approach significantly reduces the computational overhead involved in retrieving desired information which demonstrates an avenue toward employing CS techniques in power-constrained real-time applications. The developed techniques are validated on CS samples physically measured by the fabricated RMPI and measurement results are presented. The parameter estimation algorithms are described in detail and a complete description of the physical hardware is given.
+
+- DOI: http://dx.doi.org/10.1021/jp204889m
+  title: Dynamical Behavior Near a Liquid-Liquid Phase Transition in Simulations of Supercooled Water
+  author: P. H. Poole, S. R. Becker, F. Sciortino, and F. W. Starr
+  venue: Journal of Physical Chemistry B
+  misc: vol. 114, no. 48, pp. 14176--14183
+  year: 2011
+  abstract: We examine the behavior of the diffusion coefficient of the ST2 model of water over a broad region of the phase diagram via molecular dynamics simulations. The ST2 model has an accessible liquid–liquid transition between low-density and high-density phases, making the model an ideal candidate to explore the impacts of the liquid–liquid transition on dynamics. We locate characteristic dynamical loci in the phase diagram and compare them with the previously investigated thermodynamic loci. The low-density liquid phase shows a crossover from non-Arrhenius to Arrhenius behavior, signaling the onset of a crossover from fragile-to-strong behavior. We explain this crossover in terms of the asymptotic approach of the low-density liquid to a random tetrahedral network and show that the temperature dependence of the diffusion coefficient over a wide temperature range can be simply related to the concentration of defects in the network. Our findings thus confirm that the low-density phase of ST2 water is a well-defined metastable liquid.
+
+- title: Templates for Convex Cone Problems with Applications to Sparse Signal Recovery
+  author: S. Becker, E. Candès, M. Grant
+  venue: Mathematical Programming Computation
+  misc: vol 3 no 3 165--218
+  year: 2011
+  DOI: https://link.springer.com/article/10.1007/s12532-011-0029-5
+  code: http://cvxr.com/tfocs/
+  other-link: |-
+    <a href="https://amath.colorado.edu/faculty/becker/TFOCS.pdf">local version</a>. 
+    An extended version appears as chapter 4 in my <a href="http://resolver.caltech.edu/CaltechTHESIS:06022011-152525054">thesis</a>.
+     Typos: eq. 4.6a should have 1, not \sigma_k^{-1}t_k^{(1)}, in the second parameter of Trunc, 
+     and the two equations above should have z^{(1)} not z^{(2)} in the l-infinity norm constraint. Listing 6 should have the adjoint of W in line 4.
+  abstract: |-
+    This paper develops a general framework for solving a variety of convex cone problems that frequently arise in signal processing, machine learning, statistics, and other fields. The approach works as follows: first, determine a conic formulation of the problem; second, determine its dual; third, apply smoothing; and fourth, solve using an optimal first-order method. A merit of this approach is its flexibility: for example, all compressed sensing problems can be solved via this approach. These include models with objective functionals such as the total-variation norm, ||Wx||1 where W is arbitrary, or a combination thereof. In addition, the paper introduces a number of technical contributions such as a novel continuation scheme and a novel approach for controlling the step size, and applies results showing that the smooth and unsmoothed problems are sometimes formally equivalent. Combined with our framework, these lead to novel, stable and computationally efficient algorithms. For instance, our general implementation is competitive with state-of-the-art methods for solving intensively studied problems such as the LASSO. Further, numerical experiments show that one can solve the Dantzig selector problem, for which no efficient large-scale solvers exist, in a few hundred iterations. Finally, the paper is accompanied with a software release. This software is not a single, monolithic solver; rather, it is a suite of programs and routines designed to serve as building blocks for constructing complete algorithms.
+
+- title: |-
+    NESTA: a fast and accurate first-order method for sparse recovery
+  author:  S. Becker, J. Bobin and E. J. Candès
+  venue: SIAM J. on Imaging Sciences (SIIMS)
+  misc: vol 4 no. 1
+  year: 2011
+  DOI: https://doi.org/10.1137/090756855
+  arXiv: "0904.3367"
+  code: http://www-stat.stanford.edu/~candes/nesta/
+  other-link: An extended version appears as chapter 2 in my <a href="http://resolver.caltech.edu/CaltechTHESIS:06022011-152525054">thesis</a>
+  abstract: Accurate signal recovery or image reconstruction from indirect and possibly undersampled data is a topic of considerable interest; for example, the literature in the recent field of compressed sensing is already quite immense. Inspired by recent breakthroughs in the development of novel first-order methods in convex optimization, most notably Nesterov's smoothing technique, this paper introduces a fast and accurate algorithm for solving common recovery problems in signal processing. In the spirit of Nesterov's work, one of the key ideas of this algorithm is a subtle averaging of sequences of iterates, which has been shown to improve the convergence properties of standard gradient-descent algorithms. This paper demonstrates that this approach is ideally suited for solving large-scale compressed sensing reconstruction problems as 1) it is computationally efficient, 2) it is accurate and returns solutions with several correct digits, 3) it is flexible and amenable to many kinds of reconstruction problems, and 4) it is robust in the sense that its excellent performance across a wide range of problems does not depend on the fine tuning of several parameters. Comprehensive numerical experiments on realistic signals exhibiting a large dynamic range show that this algorithm compares favorably with recently proposed state-of-the-art methods. We also apply the algorithm to solve other problems for which there are fewer alternatives, such as total-variation minimization, and convex programs seeking to minimize the l1 norm of Wx under constraints, in which W is not diagonal.
+
+- arXiv: "0909.3304"
+  title: Quantum state tomography via compressed sensing
+  DOI: https://doi.org/10.1103/PhysRevLett.105.150401
+  author: Gross, Liu, Flammia, Becker and Eisert
+  venue: Physical Review Letters
+  year: 2010
+  misc: vol 105, number 15 (4 pages)
+  abstract: |-
+    We establish methods for quantum state tomography based on compressed sensing. These methods are specialized for quantum states that are fairly pure, and they offer a significant performance improvement on large quantum systems. In particular, they are able to reconstruct an unknown density matrix of dimension d and rank r using O(rd log^2 d) measurement settings, compared to standard methods that require d^2 settings. Our methods have several features that make them amenable to experimental implementation: they require only simple Pauli measurements, use fast convex optimization, are stable against noise, and can be applied to states that are only approximately low-rank. The acquired data can be used to certify that the state is indeed close to pure, so no a priori assumptions are needed. We present both theoretical bounds and numerical simulations.
+
+- DOI: https://doi.org/10.1073/pnas.0702608104
+  title: Relation between the Widom line and the breakdown of the Stokes-Einstein relation in supercooled water]
+  author: P. Kumar, S.V. Buldyrev, S.R. Becker, P.H. Poole, F.W. Starr, and H.E. Stanley
+  venue: Proceedings of the National Academy of Science
+  misc: Vol. 104, 9575-9579
+  year: 2007
+  abstract: Supercooled water exhibits a breakdown of the Stokes–Einstein relation between the diffusion constant D and the alpha relaxation time τα. For water simulated with two different potentials, TIP5P and ST2, we find that the temperature of the decoupling of diffusion and alpha relaxation correlates with the temperature of the maximum in specific heat that corresponds to crossing the Widom line TW(P). Specifically, we find that our results for Dτα/T collapse onto a single “master curve” if temperature is replaced by T − TW(P). We further find that the size of the mobile molecule clusters (dynamical heterogeneities) increases sharply near TW(P). Moreover, our calculations of mobile particle cluster size <n(t*)>w for different pressures, where t* is the time for which the mobile particle cluster size is largest, also collapse onto a single master curve if T is replaced by T − TW(P). The crossover to a more locally structured low density liquid (LDL) as T → TW(P) appears to be well correlated both with the breakdown of the Stokes–Einstein relation and with the growth of dynamic heterogeneities. Our results are consistent with the possibility that the breakdown of the SE relation in supercooled water at low pressures is associated with the hypothesized liquid–liquid phase transition.
+
+# #2006
+- other-link: <a href="https://fstarr.wescreates.wesleyan.edu/publications/bps.pdf">self-hosted version</a>
+  title: Fractional Stokes-Einstein and Debye-Stokes-Einstein Relations in a Network-Forming Liquid
+  author: Stephen R. Becker, Peter H. Poole, and Francis W. Starr
+  venue: Physical Review Letters
+  misc: vol. 97 no. 5
+  year: 2006
+  DOI: http://dx.doi.org/10.1103/PhysRevLett.97.055901
+  abstract: We study the breakdown of the Stokes-Einstein (SE) and Debye-Stokes-Einstein (DSE) relations for translational and rotational motion in a prototypical model of a network-forming liquid, the ST2 model of water. We find that the emergence of fractional SE and DSE relations at low temperature is ubiquitous in this system, with exponents that vary little over a range of distinct physical regimes. We also show that the same fractional SE relation is obeyed by both mobile and immobile dynamical heterogeneities of the liquid.
+
+- title: The Dynamics of Falling Dominoes
+  author: Stan Wagon, Adrianne Pontarelli, Stephen Becker and William Briggs
+  venue: UMAP Journal
+  misc: (26)1 pp. 37-48
+  year: 2005
+
+
+
+
+
+
+
+- arXiv: 2105.03809 
+  title: Superresolution photoacoustic tomography using random speckle illumination and second order moments
+  author: Osman Asif Malik, Venkatalakshmi Vyjayanthi Narumanchi, Stephen Becker, Todd W. Murray
+  venue: WASPAA conference
+  year: 2021
+  conference: true
+  abstract: Idier et al. [IEEE Trans. Comput. Imaging 4(1), 2018] propose a method which achieves superresolution in the microscopy setting by leveraging random speckle illumination and knowledge about statistical second order moments for the illumination patterns and model noise. This is achieved without any assumptions on the sparsity of the imaged object. In this paper, we show that their technique can be extended to photoacoustic tomography. We propose a simple algorithm for doing the reconstruction which only requires a small number of linear algebra steps. It is therefore much faster than the iterative method used by Idier et al. We also propose a new representation of the imaged object based on Dirac delta expansion functions.
+
+- arXiv: 2010.08581 
+  title: A Sampling Based Method for Tensor Ring Decomposition
+  author: Osman Asif Malik, Stephen Becker
+  venue: ICML
+  year: 2021
+  conference: true
+  abstract: We propose a sampling-based method for computing the tensor ring (TR) decomposition of a data tensor. The method uses leverage score sampled alternating least squares to fit the TR cores in an iterative fashion. By taking advantage of the special structure of TR tensors, we can efficiently estimate the leverage scores and attain a method which has complexity sublinear in the number of input tensor entries. We provide high-probability relative-error guarantees for the sampled least squares problems. We compare our proposal to existing methods in experiments on both synthetic and real data. Our method achieves substantial speedup -- sometimes two or three orders of magnitude -- over competing methods, while maintaining good accuracy. We also provide an example of how our method can be used for rapid feature extraction.
+
+- other-link: <a href="https://ieeexplore.ieee.org/document/9443532">link</a>
+  title: Nuclear Norm Based Spectrum Estimation for Molecular Dynamic Simulations
+  author: Shuang Li, Stephen Becker, Michael Wakin
+  venue: In Asilomar conference on Signals, Systems and Computers
+  year: 2020
+  conference: true
+  abstract: Molecular dynamic (MD) simulations are used to probe molecular systems in regimes not accessible to physical experiments. A common goal of these simulations is to compute the power spectral density (PSD) of some component of the system such as particle velocity. In certain MD simulations, only a few time locations are observed, which makes it difficult to estimate the autocorrelation and PSD. This work develops a novel nuclear norm minimization-based method for this type of sub-sampled data, based on a parametric representation of the PSD as the sum of Lorentzians. We show results on both synthetic data and a test system of methanol.
+
+- arXiv: 2102.06759
+  title: Stochastic Gradient Langevin Dynamics with Variance Reduction
+  author: Zhishen Huang, Stephen Becker
+  venue: IJCNN2021 (International Joint Conference on Neural Networks)
+  year: 2021
+  conference: true
+  abstract: Stochastic gradient Langevin dynamics (SGLD) has gained the attention of optimization researchers due to its global optimization properties. This paper proves an improved convergence property to local minimizers of nonconvex objective functions using SGLD accelerated by variance reductions. Moreover, we prove an ergodicity property of the SGLD scheme, which gives insights on its potential to find global minimizers of nonconvex objectives.
+
+- title: |-
+    Computational super-resolution microscopy: leveraging noise model, regularization and sparsity to achieve highest resolution
+  author: Jian Xing, Simeng Chen, Stephen Becker, Jiun-Yann Yu and Carol Cogswell
+  year: 2020
+  venue: SPIE BiOS, San Francisco, CA
+  DOI: https://doi.org/10.1117/12.2551542
+  conference: true
+  abstract: We report progress in algorithm development for a computation-based super-resolution microscopy technique. Building upon previous results, we examine our recently implemented microscope system and construct alter- native processing algorithms. Based on numerical simulations results, we evaluate the performance of each algorithm and determine the one most suitable for our super-resolution microscope
+
+- title: One-Pass Sparsified Gaussian Mixtures
+  author: Eric Kightley and Stephen Becker
+  venue: Machine Learning workshop, at the <a href="http://bigdataieee.org/BigData2019/">2019 IEEE International Conference on Big Data (BigData 2019)</a>, Dec. 9-12, Los Angeles. 
+  arXiv: 1903.04056
+  year: 2019
+  conference: true
+  abstract: We present a one-pass sparsified Gaussian mixture model (SGMM). Given N data points in P dimensions, X, the model fits K Gaussian distributions to X and (softly) classifies each point to these clusters. After paying an up-front cost of (NPlogP) to precondition the data, we subsample Q entries of each data point and discard the full P-dimensional data. SGMM operates in (KNQ) time per iteration for diagonal or spherical covariances, independent of P, while estimating the model parameters in the full P-dimensional space, making it one-pass and hence suitable for streaming data. We derive the maximum likelihood estimators for the parameters in the sparsified regime, demonstrate clustering on synthetic and real data, and show that SGMM is faster than GMM while preserving accuracy.
+
+- arXiv: 1902.10842
+  title: Online Sparse Subspace Clustering
+  author: Liam Madden, Stephen Becker, Emiliano Dall'Anese
+  venue: 2nd <a href="https://2019.ieeedatascience.org">IEEE Data Science Workshop</a>, June 2019 Minneapolis
+  year: 2019
+  DOI: http://doi.org/10.1109/dsw.2019.8755556
+  conference: true
+  abstract: This paper focuses on the sparse subspace clustering problem, and develops an online algorithmic solution to cluster data points on-the-fly, without revisiting the whole dataset. The strategy involves an online solution of a sparse representation (SR) problem to build a (sparse) dictionary of similarities where points in the same subspace are considered "similar," followed by a spectral clustering based on the obtained similarity matrix. When the SR cost is strongly convex, the online solution converges to within a neighborhood of the optimal time-varying batch solution. A dynamic regret analysis is performed when the SR cost is not strongly convex.
+
+
+- arXiv: 1901.08958
+  title: Perturbed Proximal Descent to Escape Saddle Points for Non-convex and Non-smooth Objective Functions
+  author: Zhishen (Leo) Huang and Stephen Becker
+  venue: in <a href="https://innsbddl2019.org/">INNS Big Data and Deep Learning</a>  (Sestri Levante, Genova, Italy 16-18 April 2019)
+  year: 2019
+  other-link: Published version appears in <a href="https://www.springer.com/us/book/9783030168407">Recent Advances in Big Data and Deep Learning</a>
+  DOI: https://doi.org/10.1007/978-3-030-16841-4_7
+  conference: true
+  abstract: We consider the problem of finding local minimizers in non-convex and non-smooth optimization. Under the assumption of strict saddle points, positive results have been derived for first-order methods. We present the first known results for the non-smooth case, which requires different analysis and a different algorithm.
+
+- title: Low-rank Tucker decomposition of large tensors using TensorSketch
+  author: S. Becker and O. Malik
+  year: 2018
+  venue: NeurIPS
+  code: https://github.com/OsmanMalik/tucker-tensorsketch
+  other-link: <a href="https://papers.nips.cc/paper/8213-low-rank-tucker-decomposition-of-large-tensors-using-tensorsketch">paper</a>
+  conference: true
+  abstract: We propose two randomized algorithms for low-rank Tucker decomposition of tensors. The algorithms, which incorporate sketching, only require a single pass of the input tensor and can handle tensors whose elements are streamed in any order. To the best of our knowledge, ours are the only algorithms which can do this. We test our algorithms on sparse synthetic data and compare them to multiple other methods. We also apply one of our algorithms to a real dense 38 GB tensor representing a video and use the resulting decomposition to correctly classify frames containing disturbances.
+
+- other-link: |-
+    A preliminary, shorter version appears as <a href="https://arxiv.org/abs/1612.06470">Randomized Clustered Nystrom for Large-Scale Kernel Machines</a>
+  title: Randomized Clustered Nystrom for Large-Scale Kernel Machines
+  author: F. Pourkamali-Anaraki, S. Becker, M. Wakin
+  DOI: https://doi.org/10.1609/aaai.v32i1.11614
+  venue: Conference on Artificial Intelligence (<a href="https://aaai.org/Conferences/AAAI-18/">AAAI 2018</a>) San Francisco, Feb 2018
+  year: 2018
+  abstract: The Nystrom method is a popular technique for generating low-rank approximations of kernel matrices that arise in many machine learning problems. The approximation quality of the Nystrom method depends crucially on the number of selected landmark points and the selection procedure. In this paper, we introduce a randomized algorithm for generating landmark points that is scalable to large high-dimensional data sets. The proposed method performs K-means clustering on low-dimensional random projections of a data set and thus leads to significant savings for high-dimensional data sets. Our theoretical results characterize the tradeoffs between accuracy and efficiency of the proposed method. Moreover, numerical experiments on classification and regression tasks demonstrate the superior performance and efficiency of our proposed method compared with existing approaches.
+  conference: true
+
+- title: Estimating Active Subspaces with Randomized Gradient Sampling
+  author: S. Becker and F. Pourkamali-Anaraki
+  venue: SIAM Workshop on Dimension Reduction, Pittsburg, July 9-10
+  year: 2017
+  conference: true
+  abstract: In this work, we present an ecient method for estimating active subspaces using only random observations of gradient vectors. Our method is based on the bi-linear representation of low-rank gradient matrices with a novel initialization step for alternating minimization.
+  other-link: <a href="/assets/docs/ActiveSubspacesDR17_Final.pdf">link</a> or <a href="https://scholar.colorado.edu/appm_facpapers/17/">CU Scholar website</a>
+
+- arXiv: 1510.04905 
+  title: Robust Partially-Compressed Least-Squares
+  author: S. Becker, B. Kawas, M. Petrik, K. N. Ramamurthy
+  venue: <a href="http://www.aaai.org/Conferences/AAAI/aaai17.php">AAAI</a>
+  year: 2017
+  abstract: Randomized matrix compression techniques, such as the Johnson-Lindenstrauss transform, have emerged as an effective and practical way for solving large-scale problems efficiently. With a focus on computational efficiency, however, forsaking solutions quality and accuracy becomes the trade-off. In this paper, we investigate compressed least-squares problems and propose new models and algorithms that address the issue of error and noise introduced by compression. While maintaining computational efficiency, our models provide robust solutions that are more accurate--relative to solutions of uncompressed least-squares--than those of classical compressed variants. We introduce tools from robust optimization together with a form of partial compression to improve the error-time trade-offs of compressed least-squares solvers. We develop an efficient solution algorithm for our Robust Partially-Compressed (RPC) model based on a reduction to a one-dimensional search. We also derive the first approximation error bounds for Partially-Compressed least-squares solutions. Empirical results comparing numerous alternatives suggest that robust and partially compressed solutions are effectively insulated against aggressive randomized transforms.
+  conference: true
+
+- arXiv: 1608.07597
+  title: A Randomized Approach to Efficient Kernel Clustering
+  author: F. Pourkamali-Anaraki, S. Becker
+  year: 2016
+  venue: IEEE GlobalSIP (Global Conference on Signal and Information Processing
+  other-link: Also available via <a href="https://scholar.colorado.edu/appm_facpapers/16/">CU Scholar website</a>
+  abstract: Kernel-based K-means clustering has gained popularity due to its simplicity and the power of its implicit non-linear representation of the data. A dominant concern is the memory requirement since memory scales as the square of the number of data points. We provide a new analysis of a class of approximate kernel methods that have more modest memory requirements, and propose a specific one-pass randomized kernel approximation followed by standard K-means on the transformed data. The analysis and experiments suggest the method is accurate, while requiring drastically less memory than standard kernel K-means and significantly less memory than Nystrom based approximations.
+  conference: true
+
+- arXiv: 1504.01169
+  title: Efficient Dictionary Learning via Very Sparse Random Projections
+  author: F. Pourkamali-Anaraki, S. Becker, S. Hughes
+  venue: <a href="http://www.american.edu/cas/mathstat/sampta2015">SampTA</a>, May.
+  year: 2015
+  DOI: http://dx.doi.org/10.1109/SAMPTA.2015.7148937
+  abstract: Performing signal processing tasks on compressive measurements of data has received great attention in recent years. In this paper, we extend previous work on compressive dictionary learning by showing that more general random projections may be used, including sparse ones. More precisely, we examine compressive K-means clustering as a special case of compressive dictionary learning and give theoretical guarantees for its performance for a very general class of random projections. We then propose a memory and computation efficient dictionary learning algorithm, specifically designed for analyzing large volumes of high-dimensional data, which learns the dictionary from very sparse random projections. Experimental results demonstrate that our approach allows for reduction of computational complexity and memory/data access, with controllable loss in accuracy.
+  conference: true
+
+- arXiv: 1504.04677
+  title: General Optimization Framework for Robust and Regularized 3D FWI
+  author: S. Becker, L. Horesh, A. Aravkin, E. van den Berg, S. Zhuk
+  venue: as extended abstract at EAGE (Madrid, Spain, June)
+  year: 2015
+  abstract: Scarcity of hydrocarbon resources and high exploration risks motivate the development of high fidelity algorithms and computationally viable approaches to exploratory geophysics. Whereas early approaches considered least-squares minimization, recent developments have emphasized the importance of robust formulations, as well as formulations that allow disciplined encoding of prior information into the inverse problem formulation. The cost of a more flexible optimization framework is a greater computational complexity, as least-squares optimization can be performed using straightforward methods (e.g., steepest descent, Gauss-Newton, L-BFGS), whilst incorporation of robust (non-smooth) penalties requires custom changes that may be difficult to implement in the context of a general seismic inversion workflow. In this study, we propose a generic, flexible optimization framework capable of incorporating a broad range of noise models, forward models, regularizers, and reparametrization transforms. This framework covers seamlessly robust noise models (such as Huber and Student's t), as well as sparse regularizers, projected constraints, and Total Variation regularization. The proposed framework is also expandable --- we explain the adjustments that are required for any new formulation to be included. Lastly, we conclude with few numerical examples demonstrating the versatility of the formulation.
+  conference: true
+
+- title: Time--Data Tradeoffs by Aggressive Smoothing
+  other-link: <a href="http://papers.nips.cc/paper/5259-time-data-tradeoffs-by-aggressive-smoothing">link</a>
+  author: J. Bruer, J. A. Tropp, V. Cevher, S. Becker
+  venue: NIPS, Montreal
+  year: 2014
+  abstract: This paper proposes a tradeoff between sample complexity and computation time that applies to statistical estimators based on convex optimization. As the amount of data increases, we can smooth optimization problems more and more aggressively to achieve accurate estimates more quickly. This work provides theoretical and experimental evidence of this tradeoff for a class of regularized linear inverse problems.
+  conference: true
+
+- other-link: <a href="http://papers.nips.cc/paper/5578-quic-dirty-a-quadratic-approximation-approach-for-dirty-statistical-models">link</a>
+  title: |-
+    QUIC & DIRTY: A Quadratic Approximation Approach for Dirty Statistical Models
+  author: C-J. Hsieh, I. Dhillon, P. Ravikumar, S. Becker, P. Olsen
+  venue: NIPS
+  year: 2014
+  abstract: In this paper, we develop a family of algorithms for optimizing superposition-structured” or “dirty” statistical estimators for high-dimensional problems involving the minimization of the sum of a smooth loss function with a hybrid regularization. Most of the current approaches are first-order methods, including proximal gradient or Alternating Direction Method of Multipliers (ADMM). We propose a new family of second-order methods where we approximate the loss function using quadratic approximation. The superposition structured regularizer then leads to a subproblem that can be efficiently solved by alternating minimization. We propose a general active subspace selection approach to speed up the solver by utilizing the low-dimensional structure given by the regularizers, and provide convergence guarantees for our algorithm. Empirically, we show that our approach is more than 10 times faster than state-of-the-art first-order approaches for the latent variable graphical model selection problems and multi-task learning problems when there is more than one regularizer. For these problems, our approach appears to be the first algorithm that can extend active subspace ideas to multiple regularizers."
+  conference: true
+
+- title: A variational approach to stable principal component pursuit
+  author: A. Aravkin, S. Becker, V. Cevher, P. Olsen
+  venue: <a href="http://auai.org/uai2014/acceptedPapers.shtml">UAI</a>
+  year: 2014
+  arXiv: 1406.1089
+  abstract: We introduce a new convex formulation for stable principal component pursuit (SPCP) to decompose noisy signals into low-rank and sparse representations. For numerical solutions of our SPCP formulation, we first develop a convex variational framework and then accelerate it with quasi-Newton methods. We show, via synthetic and real data experiments, that our approach offers advantages over the classical SPCP formulations in scalability and practical parameter selection.
+  conference: true
+
+- title: Joint low-rank representation and matrix completion under a singular value thresholding framework
+  author: C. Tzagkarakis, S. Becker and A. Mouchtaris
+  venue: <a href="https://www.eurasip.org/Proceedings/Eusipco/Eusipco2014/EUSIPCO2014.html">EUSIPCO</a>
+  year: 2014
+  conference: true
+  abstract: Matrix completion is the process of estimating missing entries from a matrix using some prior knowledge. Typically, the prior knowledge is that the matrix is low-rank. In this paper, we present an extension of standard matrix completion that leverages prior knowledge that the matrix is low-rank and that the data samples can be efficiently represented by a fixed known dictionary. Specifically, we compute a low-rank representation of a data matrix with respect to a given dictionary using only a few observed entries. A novel modified version of the singular value thresholding (SVT) algorithm named joint low-rank representation and matrix completion SVT (J-SVT) is proposed. Experiments on simulated data show that the proposed J-SVT algorithm provides better reconstruction results compared to standard matrix completion
+  other-link: <a href="https://www.eurasip.org/Proceedings/Eusipco/Eusipco2014/HTML/papers/1569911147.pdf">link</a>
+
+
+- other-link: <a href="http://infoscience.epfl.ch/record/197471">link</a>
+  title: Metric learning with rank and sparsity constraints
+  author: B. Bah, S. Becker, V. Cevher and B. Gozcu
+  venue: ICASSP
+  year: 2014
+  DOI: https://doi.org/10.1109/ICASSP.2014.6853550
+  conferene: true
+  abstract: Choosing a distance preserving measure or metric is fundamental to many signal processing algorithms, such as k-means, nearest neighbor searches, hashing, and compressive sensing. In virtually all these applications, the efficiency of the signal processing algorithm depends on how fast we can evaluate the learned metric. Moreover, storing the chosen metric can create space bottlenecks in high dimensional signal processing problems. As a result, we consider data dependent metric learning with rank as well as sparsity constraints. We propose a new non-convex algorithm and empirically demonstrate its performance on various datasets; a side benefit is that it is also much faster than existing approaches. The added sparsity constraints significantly improve the speed of multiplying with the learned metrics without sacrificing their quality.
+
+- title: A proximal splitting method for inf-convolutive variational models in image recovery
+  author: S. Becker and P. L. Combettes
+  venue: accepted in <a href="http://www.ieeeicip.org">ICIP</a> Melbourne
+  year: 2013
+  conference: true
+
+- other-link: <a href="https://archiveweb.epfl.ch/spars2013.epfl.ch/data/_uploaded/flash/Paper%2096.pdf">link</a>
+  title: Scalable and accurate quantum tomography from fewer measurements
+  author: Stephen Becker and Volkan Cevher
+  venue: <a href="http://spars2013.epfl.ch">SPARS</a> Lausanne Switzerland
+  abstract: —Quantum tomography is a matrix recovery problem that is not amenable to nuclear-norm minimization. We review existing recovery strategies and propose new ones, with an emphasis on methods with provable guarantees. An outcome of this is a new method with guarantees that is more accurate and more scalable than previous methods.
+  year: 2013
+  conference: true
+
+- arXiv: 1303.0167
+  title: Randomized Singular Value Projection
+  author: Stephen Becker, Volkan Cevher, Anastasios Kyrillidis
+  venue: <a href="https://www.eurasip.org/Proceedings/Ext/SampTA2013/index.html">SampTA</a> Bremen Germany
+  year: 2013
+  conference: true
+  abstract: Affine rank minimization algorithms typically rely on calculating the gradient of a data error followed by a singular value decomposition at every iteration. Because these two steps are expensive, heuristic approximations are often used to reduce computational burden. To this end, we propose a recovery scheme that merges the two steps with randomized approximations, and as a result, operates on space proportional to the degrees of freedom in the problem. We theoretically establish the estimation guarantees of the algorithm as a function of approximation tolerance. While the theoretical approximation requirements are overly pessimistic, we demonstrate that in practice the algorithm performs well on the quantum tomography recovery problem.
+  misc: This arXiv version is an extended version (i.e., with proofs) of the 4 page SampTA proceedings version.
+
+- arXiv: 1206.1529
+  title: Sparse projections onto the simplex
+  author: Stephen Becker, Volkan Cevher, Christopher Koch, Anastasios Kyrillidis
+  misc: (the v3 on arXiv is our expanded version of our NIPS conference version)
+  year: 2013
+  conference: true
+  abstract: Most learning methods with rank or sparsity constraints use convex relaxations, which lead to optimization with the nuclear norm or the l1-norm. However, several important learning applications cannot benefit from this approach as they feature these convex norms as constraints in addition to the non-convex rank and sparsity constraints. In this setting, we derive efficient sparse projections onto the simplex and its extension, and illustrate how to use them to solve high-dimensional learning problems in quantum tomography, sparse density estimation and portfolio selection with non-convex constraints.
+  venue: ICML, Atlanta. For fun, see the <a href="http://icml.cc/discuss/2013/papers.html">ICML 2013 review boards</a>. There is an earlier version of this paper on the <a href="http://jmlr.org/proceedings/papers/v28/kyrillidis13.html">JMLR</a> website.
+
+- arXiv: 1206.1529
+  title: Sparse projections onto the simplex
+  author: Anastasios Kyrillidis, Stephen Becker, Volkan Cevher
+  venue: NIPS Workshop on Discrete Optimization in Machine Learning (<a href="http://las.ethz.ch/discml/discml12.html">DISCML</a>), December
+  year: 2012
+
+- arXiv: 1206.1156
+  title: A quasi-Newton proximal splitting method
+  author: Stephen Becker, M. Jalal Fadili
+  other-link: <a href="http://papers.nips.cc/paper/4523-a-quasi-newton-proximal-splitting-method">official link</a>
+  year: 2012
+  venue: NIPS (Lake Tahoe) (recieved a "spotlight presentation" as one of the top 5% of submissions)
+  conference: true
+  abstract: A new result in convex analysis on the calculation of proximity operators in certain scaled norms is derived. We describe efficient implementations of the proximity calculation for a useful class of functions; the implementations exploit the piece-wise linear nature of the dual problem. The second part of the paper applies the previous result to acceleration of convex minimization problems, and leads to an elegant quasi-Newton method. The optimization method compares favorably against state-of-the-art alternatives. The algorithm has extensive applications including signal processing, sparse recovery and machine learning and classification.
+
+- other-link: <a href="https://www.mics.caltech.edu/wp-content/uploads/2017/09/Yoo-rfic-2012.pdf">link</a>
+  title: A 100MHz-2GHz 12.5x sub-Nyquist Rate Receiver in 90nm CMOS
+  author: J. Yoo, S. Becker, M. Loh, M. Monge, E. Candès, A. Emami-Neyestanak
+  venue: RFIC, Montreal, Canada, June
+  abstract: A fully-integrated, high-speed, wideband receiver called the random modulation pre-integrator is realized in IBM 90nm digital CMOS. It achieves an effective instantaneous bandwidth of 2GHz, with >54dB dynamic range. Most notably, the aggregate digitization rate is fs =320MSPS, 12.5x below the Nyquist rate. Signal recovery can be accomplished for any signal with a concise representation. The system is validated using radarpulses and tones as the input and recovering the time-domain waveforms.
+  year: 2012
+  conference: true
+  DOI: http://dx.doi.org/10.1109/RFIC.2012.6242225
+
+- other-link: <a href="https://www.mics.caltech.edu/wp-content/uploads/2017/09/Yoo-A2I-icassp-2012.pdf">link</a>
+  title: Design and implementation of a fully integrated compressed-sensing signal acquisition system
+  author: J. Yoo, S. Becker, M. Monge, M. Loh, E. Candès, A. Emami-Neyestanak
+  venue: ICASSP (Kyoto, Japan, March 2012)
+  year: 2012
+  DOI: http://dx.doi.org/10.1109/ICASSP.2012.6289123
+  conference: true
+  abstract: Compressed sensing (CS) is a topic of tremendous interest because it provides theoretical guarantees and computationally tractable algorithms to fully recover signals sampled at a rate close to its information content. This paper presents the design of the first physically realized fully-integrated CS based Analog-to-Information (A2I) pre-processor known as the Random-Modulation Pre-Integrator (RMPI) [1]. The RMPI achieves 2GHz bandwidth while digitizing samples at a rate 12.5x lower than the Nyquist rate. The success of this implementation is due to a coherent theory/algorithm/hardware co-design approach. This paper addresses key aspects of the design, presents simulation and hardware measurements, and discusses limiting factors in performance.
