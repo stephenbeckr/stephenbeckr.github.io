@@ -28,6 +28,11 @@ description: Research website for Professor Stephen Becker at the University of 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://stephenbeckr.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
+
+# For deploying to CU's servers (NOT for github)
+# baseurl: "faculty/becker/test"
+# url: "https://amath.colorado.edu"
+
 github_username:  stephen.beckr
 
 # Build settings
@@ -36,6 +41,12 @@ theme: minima
 plugins:
   - jekyll-feed
 # - jekyll-remote-theme # SRB adding, following https://github.com/pages-themes/leap-day
+
+# SRB: shows excerpts from posts, https://github.com/jekyll/minima
+show_excerpts: true
+
+minima:
+  skin: auto
 
 # Exclude from processing.
 # The following items will not be processed, by default.
