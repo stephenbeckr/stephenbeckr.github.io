@@ -15,9 +15,10 @@ More information about us at [people](people); we also have the old (and infrequ
 
 ### Contact info
 
-<!-- <table class="imgtable"><tr><td id="mouse">&nbsp;</td></tr></table> -->
-
+<table class="imgtable"><tr><td id="mouse">&nbsp;</td></tr></table>
+<!--
 <img style="float: right;" src="/assets/img/Stephen_2018_1_shadow.jpg" class="funnyHover">
+-->
 - Email: `stephen.becker@colorado.edu`
 - Office telephone: +1 (303) 669 8379
 - Office: 338 ECOT (Engineering Center, office tower). For help finding your way to the office tower, see [engineering center map](https://www.colorado.edu/amath/faculty-staff/visiting).

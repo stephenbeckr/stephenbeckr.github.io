@@ -1,13 +1,52 @@
 ---
 ---
 
-@import "minima";
-/*
 @import
   "minima/skins/{{ site.minima.skin | default: 'classic' }}",
   "minima/initialize";
 
-.funnyHover:hover {
+/*
+@import "{{ site.theme }}";
+@import "minima";
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+*/
+
+
+
+// over-ride default (it was set to 800px, 30px padding)
+// (I'm basing this on what original css did, via 'inspect')
+// but it's similar to advice at
+// https://wordpress.org/support/topic/change-images-size-for-mobile-with-css/
+// and https://stackoverflow.com/a/56071711
+@media screen and (min-width: 1000px) {
+.wrapper {
+    max-width: calc(1000px - (20px * 2));
+    padding-right: 20px;
+    padding-left: 20px;
+}
+}
+@media screen and (min-width: 1400px) {
+  .wrapper {
+      max-width: calc(1400px - (20px * 2));
+      padding-right: 20px;
+      padding-left: 20px;
+  }
+  }
+
+// for papers page
+details.papers {
+  font-size: .8rem;
+}
+
+details.papers summary {
+  font-size: 1rem;
+}
+
+/* The stuff for the hover thing */
+
+img.funnyHover:hover {
   width: 150px;
   height: 185px;
   background: url(/assets/img/aiportrait.jpg) no-repeat center center;
@@ -15,7 +54,15 @@
   background-size: contain;
 }
 
+table.imgtable {
+  border: 0px;
+  float: right;
+  width: 150px;
+  padding: 0px;
+  border-collapse: collapse;
+}
 td#mouse {
+  padding: 0px;
   display:block;
   width: 150px;
   height: 185px;
@@ -24,11 +71,10 @@ td#mouse {
 }
 
 td#mouse:hover {
+  padding: 0px;
   width: 150px;
   height: 185px;
   background: url(/assets/img/aiportrait.jpg) no-repeat center center;
   background-image: url(/assets/img/aiportrait.jpg);
   background-size: contain;
 }
-
-*/

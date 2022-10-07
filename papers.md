@@ -33,7 +33,7 @@ Any nonexistent/nil value (like a missing publication of a hash) is false.
 <ul class="papers" id="preprints">
 {% for publication in site.data.papers %}
 {% if publication.unpublished == true %}
-   <details><summary>({{ publication.year }}) <b>{{ publication.title }}</b></summary><b>Abstract</b>: {{ publication.abstract }}</details>
+   <details class="papers"><summary>[{{ publication.year }}] <b>{{ publication.title }}</b></summary><b>Abstract</b>: {{ publication.abstract }}</details>
   <ul> <li>
   {{ publication.author }}. 
   <em>{{ publication.venue }}</em> {{ publication.misc }}
@@ -64,10 +64,14 @@ Any nonexistent/nil value (like a missing publication of a hash) is false.
 {% for publication in site.data.papers %}
 {% if publication.conference == null or publication.conference == false %}
 {% if publication.unpublished == null or publication.unpublished == false %}
-   <details><summary>({{ publication.year }}) <b>{{ publication.title }}</b></summary><b>Abstract</b>: {{ publication.abstract }}</details>
+   <details class="papers"><summary>[{{ publication.year }}] <b>{{ publication.title }}</b></summary><b>Abstract</b>: {{ publication.abstract }}</details>
   <ul> <li>
   {{ publication.author }}. 
-  <em>{{ publication.venue }}</em>, {{ publication.misc }}.
+  <em>{{ publication.venue }}</em><!-- test if fields exist, so that I don't get extra commas -->
+{% if publication.misc != null %}
+, {{ publication.misc }}.
+{% else %}.
+{% endif %}
     
     {% if publication.DOI != null %}
     [<a href="{{ publication.DOI }}">DOI</a>]
@@ -95,7 +99,7 @@ Any nonexistent/nil value (like a missing publication of a hash) is false.
 {% for publication in site.data.papers %}
 {% if publication.conference == true %}
 {% if publication.unpublished == null or publication.unpublished == false %}
- <details><summary>({{ publication.year }}) <b>{{ publication.title }}</b></summary><b>Abstract</b>: {{ publication.abstract }}</details>
+ <details class="papers"><summary>[{{ publication.year }}] <b>{{ publication.title }}</b></summary><b>Abstract</b>: {{ publication.abstract }}</details>
   <ul> <li>
   {{ publication.author }}. 
   <em>{{ publication.venue }}</em>{{ publication.misc }}.

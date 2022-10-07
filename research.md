@@ -15,7 +15,7 @@ Thanks to our sponsors:
 ![DOE](assets/img/DOE.png)
 
 ## Research interests
-Broadly speaking, our group is interested in /information extraction/ from various types of datasets. We are part of a hybrid field combining applied math with computer science and      signal processing techniques. Some specific topics we research are:
+Broadly speaking, our group is interested in *information extraction* from various types of datasets. We are part of a hybrid field combining applied math with computer science and      signal processing techniques. Some specific topics we research are:
 - Optimization: first-order methods, quasi-Newton methods, primal-dual algorithms, convex analysis
 - Numerical linear algebra: randomization and its interplay with optimization methods
 - Sampling theory: how to make the best use of your resources when confronted with big data
