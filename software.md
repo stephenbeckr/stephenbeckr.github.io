@@ -9,6 +9,9 @@ One of 640 (as of May 2020) Mathworks contributors to have a submission with [25
 ## Github software
 
 Most of our group's latest software is on github. These are github project or user pages for students who have been in our research group or collaborated with our group:
+
+<div class="twoColumn" markdown=1>
+
 - [Stephen](https://github.com/stephenbeckr) and [cvx/tfocs projects](https://github.com/cvxr)
 - James: [safe Non-Neg. Least Squares](https://github.com/jamesfolberth/safe_nnls)
 - Farhad: [RandomizedClusteredNystrom](https://github.com/FarhadPourkamali/RandomizedClusteredNystrom/)
@@ -17,18 +20,18 @@ Most of our group's latest software is on github. These are github project or us
   - [Tucker-TensorSketch](https://github.com/OsmanMalik/tucker-tensorsketch)
   - [quadrature-sampling](https://github.com/OsmanMalik/quadrature-sampling)
   - [Tensor-Ring ALS Sampled](https://github.com/OsmanMalik/tr-als-sampled)
-- [Angran]( https://github.com/truthlive/ASCR_DataReduction)
+- [Angran](https://github.com/truthlive/ASCR_DataReduction)
 - [Ibrohim](https://github.com/ib-nosirov/peeling_algorithm)
 - Noki: 
-  - [monotone-lower-set](https://github.com/CU-UQ/monotone-lower-set/)
-  - [BF-Boosted-Quadrature-Sampling](https://github.com/CU-UQ/BF-Boosted-Quadrature-Sampling)
+  - [monotone lower set](https://github.com/CU-UQ/monotone-lower-set/)
+  - [Boosted Quad. Sampling](https://github.com/CU-UQ/BF-Boosted-Quadrature-Sampling)
 - [Claudia](https://github.com/claudiachen1457/)
 - [Tzu-Chi](https://github.com/junipertcy/)
 - [Kevin](https://github.com/kvndhrty)
 - Jacob S: [optimal_ultrasound_encoding](https://github.com/jcs15c/optimal_ultrasound_encoding)
 - Liam: 
   - [sgd](https://github.com/liammadden/sgd)
-  - [time-varying optimization experiments](https://github.com/liammadden/time-varying-experiments)
+  - [time-varying opt.](https://github.com/liammadden/time-varying-experiments)
 - [Jaden](https://github.com/tholdem) 
 - Jacob T: [Capstone project on deep learning for genomic data](https://github.com/Jacob-Tie/GraduateSchoolCourseWork/tree/master/Capstone_Project)
 - Will Shand: [LSHFunctions.jl](https://github.com/kernelmethod/LSHFunctions.jl)
@@ -40,6 +43,8 @@ Most of our group's latest software is on github. These are github project or us
 - Richard: [SL REML](https://github.com/rborder/SL_REML)
 - Marc: [MDSpectralAnalysis](https://github.com/MarcThomson/MDSpectralAnalysis)
 - Jeff: [Hadamard Transform](https://github.com/jeffeverett/hadamard-transform)
+
+</div>
 
 ## A few specific software packages
 

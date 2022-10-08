@@ -35,13 +35,6 @@ url: "https://stephenbeckr.github.io" # the base hostname & protocol for your si
 
 github_username:  stephen.beckr
 
-# Build settings
-theme: minima
-#remote_theme: pages-themes/leap-day@v0.2.0
-plugins:
-  - jekyll-feed
-# - jekyll-remote-theme # SRB adding, following https://github.com/pages-themes/leap-day
-
 # Minima will auto-generate the links in the header, but I can hard-code them
 #  here if I want to control the order they appear
 #  See https://github.com/jekyll/minima#customize-navigation-links
@@ -53,6 +46,13 @@ header_pages:
   - teaching.md
   - software.md
   - K12.md
+
+# Build settings
+theme: minima
+#remote_theme: pages-themes/leap-day@v0.2.0
+plugins:
+  - jekyll-feed
+# - jekyll-remote-theme # SRB adding, following https://github.com/pages-themes/leap-day
 
 
 # SRB: shows excerpts from posts, https://github.com/jekyll/minima

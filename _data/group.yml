@@ -1,0 +1,267 @@
+- name: Stephen Becker
+  photo: Stephen.jpeg
+  short: Associate Professor
+  long: Head of lab. Joined CU 2014
+  google-scholar: https://scholar.google.com/citations?user=fUDbcnYAAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/stephenbecker/
+  orcid: https://orcid.org/0000-0002-1932-8159
+  github: https://github.com/stephenbeckr
+  website: https://amath.colorado.edu/faculty/becker
+
+
+
+
+# Postdocs
+
+- name: Jon Belcher
+  short: Postdoc
+  photo: Jon.jpeg
+  long: since 2021; PhD from CU Math dept
+  linkedin: https://www.linkedin.com/in/jonathan-belcher-a8314771/
+
+- name: Angran Li
+  short: Postdoc, joint with Alireza Doostan
+  photo: Unknown.png
+  long: since 2022; PhD CMU
+  photo: Angran.jpeg
+  github: https://github.com/truthlive
+  google-scholar: https://scholar.google.com/citations?hl=en&user=oWWmkZsAAAAJ
+  linkedin: https://www.linkedin.com/in/angran-li-83a0936a/
+
+
+
+
+
+
+# PhD students, approximately newest to oldest
+
+- name: Kevin Doherty
+  photo: Kevin.jpeg
+  short: PhD student
+  long: Started CU 2019
+  github: https://github.com/kvndhrty
+  linkedin: https://www.linkedin.com/in/kevin-doherty-9b1baab1/
+
+- name: Jacob Spainhour
+  short: PhD student
+  photo: Jacob.jpeg
+  long: Started CU 2020
+  github: https://github.com/jcs15c
+  linkedin: https://www.linkedin.com/in/jacob-spainhour/
+
+- name: Akshay Seshadri
+  short: PhD student (physics)
+  photo: Unknown.png
+  github: (https://github.com/akshayseshadri
+  long: Started CU 2018, jointly advised by Graeme Smith and Manny Knill
+
+
+- name: Richard (Richie) Clancy
+  short: PhD 2022
+  long: Now at Northrop Grumman
+  graduated: true
+  photo: Richie.jpeg
+  github: https://github.com/rclancyc
+  linkedin: https://www.linkedin.com/in/richard-j-clancy/
+
+- name: Liam Madden
+  short: PhD 2022 (co-advised with Emiliano Dall'Anese)
+  long: Now postdoc at UBC Vancouver
+  graduated: true
+  photo: liam_madden.jpg
+  github: https://github.com/liammadden
+  google-scholar: https://scholar.google.com/citations?user=BtX7-lgAAAAJ&hl=en
+
+- name: Osman Malik
+  short: PhD 2021
+  long: Now Alvarez postdoc at Lawrence Berkeley National Lab
+  graduated: true
+  photo: Osman.jpeg
+  github: https://github.com/OsmanMalik
+  orcid: https://orcid.org/0000-0003-4477-481X
+  website: https://osmanmalik.github.io/
+  linkedin: https://www.linkedin.com/in/osmanm/
+  google-scholar: https://scholar.google.com/citations?user=WAleKq0AAAAJ&hl=en
+
+- name: Erik Johnson
+  short: PhD 2021 (main advisor Dan Larremore)
+  long: Now working at Archer DX, Invitae
+  photo: Erik.jpeg
+  graduated: true
+  github: https://github.com/erikj540
+  linkedin: https://www.linkedin.com/in/erik-johnson-b993947a/
+
+
+- name: David Kozak
+  graduated: true
+  short: PhD 2020 (main advisor Luis Tenorio, Colorado School of Mines)
+  long: Now working at Solea Energy
+  photo: David.jpeg
+  linkedin: https://www.linkedin.com/in/dkozak06/
+
+- name: Zhishen (Leo) Huang
+  short: PhD 2020
+  long: Postdoc at Michigan State University then Applied Scientist at Amazon
+  graduated: true
+  photo: LeoHuang.jpg
+  linkedin: https://www.linkedin.com/in/zhishen-huang-2a0288109/
+
+
+- name: Eric Kightley
+  photo: Eric.jpeg
+  github: https://github.com/EricKightley
+  linkedin: https://www.linkedin.com/in/erickightley/
+  graduated: true
+  short: PhD 2019
+  long: Now working as data scientist at Amazon
+
+- name: Jessica Gronski
+  photo: Jessica.jpeg
+  graduated: true
+  short: PhD 2019
+  linkedin: https://www.linkedin.com/in/jessica-gronski/
+  long: Now working at Inspire11, formerly United Healthcare Group in Minneapolis
+
+
+- name: James Folberth
+  photo: James.jpeg
+  graduated: true
+  short: PhD 2018
+  long: Now working at ICR, Inc.
+  github: https://github.com/jamesfolberth/
+  linkedin: https://www.linkedin.com/in/james-folberth-8230663a/
+
+
+- name: Farhad Pourkamali-Anaraki
+  photo: Farhad.jpeg
+  graduated: true
+  short: PhD 2017
+  long: Now tenure-track professor at CU Denver
+  linkedin: https://www.linkedin.com/in/farhad-pourkamali/
+  google-scholar: https://scholar.google.com/citations?user=NB2B59cAAAAJ&hl=en
+  website: https://www.pourkamali.com/
+  github: https://github.com/FarhadPourkamali/
+
+
+# Masters students, approximately newest to oldest
+
+
+- name: Cooper Simpson
+  short: MS 2022
+  photo: Unknown.png
+  graduated: true
+  google-scholar: https://scholar.google.com/citations?hl=en&user=rHbpN-YAAAAJ
+
+
+- name: Jacob Tiede
+  short: Professional MS 2021
+  graduated: true
+  github: https://github.com/Jacob-Tie
+  linkedin: https://www.linkedin.com/in/jacob-tiede-4b6153133/
+
+- name: Matt Maierhofer
+  graduated: true
+  short: MS 2019 (main advisor Mike Mozer)
+  linkedin: https://www.linkedin.com/in/matthew-maierhofer-a88a18bb/
+  photo: Matt.jpeg
+
+- name: Marc Thomson
+  linkedin: https://www.linkedin.com/in/marcwthomson/
+  short: MS 2019
+  graduated: true
+  photo: Marc.jpeg
+  github: https://github.com/MarcThomson
+  long: Now working Monolith, formerly Exxon Mobil Research & Development. "Outstanding graduate of the college" (engineering college)
+
+- name: Richard Border
+  photo: Richard.jpeg
+  website: https://www.richardborder.com/
+  orcid: https://orcid.org/0000-0002-6293-2968
+  graduated: true
+  google-scholar: https://scholar.google.com/citations?hl=en&user=fQhvPM8AAAAJ
+  short: MS 2018 (concurrent with Phd at IBS '19')
+  github: https://github.com/rborder
+  long: Now postdoc at USF and Harvard
+  linkedin: https://www.linkedin.com/in/richard-border-313657203/
+
+
+- name: Derek Driggs
+  photo: Derek.jpeg
+  graduated: true
+  linkedin: https://www.linkedin.com/in/derek-driggs-bb660a199/
+  short: MS 2017
+  google-scholar: https://scholar.google.com/citations?hl=en&user=R39XcUUAAAAJ
+  long: Finished PhD at Cambridge 2021. Gates-Cambridge Scholarship. "Outstanding graduate in research" (engineering college)
+
+
+
+# Undergrads, approximately newest to oldest
+
+- name: Claudia Chen
+  short: Undergrad (2022; optimization placement for MEG sensors)
+  photo: Claudia.jpeg
+  github: https://github.com/claudiachen1457
+  linkedin: https://www.linkedin.com/in/claudiachen23/
+
+- name: Ibrohim Nosirov 
+  short: Summer student (2022; low-pass methods and HODLR decomposition for kernel matrices)
+  long: at Colorado School of Mines (co-advised w/ Mike Wakin)
+  photo: IbrohimNosirov.jpeg
+  github: https://github.com/ib-nosirov
+
+- name: Alexey Yermakov
+  short: Undergrad (2022; hyperparameter optimization)
+  photo: Alexey.jpeg
+  linkedin: https://www.linkedin.com/in/yyexela/
+
+- name: Zhuochen (Jaden) Wang
+  graduated: true
+  github: https://github.com/tholdem
+  short: Undergrad (2020 fast matrix multiplication; 2021 - 2022; geodesic convexity)
+  long: honors thesis. Now PhD in Math at Georgia Tech
+  linkedin: https://www.linkedin.com/in/zhuochen-wang-3828a764/
+
+- name: Will Shand
+  graduated: true
+  github: https://github.com/kernelmethod
+  short: Undergrad (2018-20; minimum volume ellipsoids, outlier detection, coresets, locality sensitive hashing)
+  long: Now PhD student at University of Virginia)
+
+- name: Samory Buford 
+  graduated: true
+  short: Summer student from Central Michigan University (2021; optimization placement for MEG sensors)
+
+
+- name: Benjamin van Court 
+  graduated: true
+  short: Undergrad (2015-2016, BS Electrical Engineering, BS Engineering Physics)
+  linkedin: https://www.linkedin.com/in/benjaminvancourt/
+  long: |-
+    Projects: fingerprint analysis using curvelets, formant-based speech editor (DLA program)
+
+- name: Jeff Everett 
+  graduated: true
+  short: Undergrad (2017-2018)
+  github: https://github.com/jeffeverett
+  linkedin: https://www.linkedin.com/in/jeff-everett-53b04665/
+  long: |-
+    Projects: perceptlearn.com, theoretical machine learning (DLA program). Now software engineer at Google
+
+
+
+- name: Cheryl Hansen
+  graduated: true
+  short: Undergrad (2017-2018; remote sensing of the Chesapeake Bay)
+  long: Now at Ball Aerospace
+
+- name: Abby Schmid 
+  graduated: true
+  short: Summer student from U. Chicago (2017; remote sensing of the Yucatan for archaeological ruins)
+  long: Now PhD student at CU Aerospace
+  linkedin: https://www.linkedin.com/in/abigailschmid/
+
+- name: Ashley Nelson 
+  graduated: true
+  short: Summer student (2017; remote sensing)
+
+

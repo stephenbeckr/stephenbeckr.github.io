@@ -6,16 +6,22 @@ layout: home
 title: Home
 ---
 
+<img src="/assets/img/CUBoulder.jpg" class="responsive" style="width: 50%; height: auto; margin-left: auto; margin-right: auto; margin: 16px 22px 6px 0;   border-radius: 3% / 10%;   box-shadow: 2px 2px 5px #888;">
+<!-- <img style="" src="/assets/img/CU_logo_matlab.jpg"> -->
+![CU logo](/assets/img/CU_logo_matlab.jpg){: .myClass style=""}
+
 # About us
 
-<img style="float: left;" src="/assets/img/CU_logo_matlab.jpg">
+<!-- <img style="float: left;" src="/assets/img/CU_logo_matlab.jpg"> -->
 Stephen Becker is an associate professor of [applied mathematics at the University of Colorado Boulder](https://www.colorado.edu/amath/). Previously he was a Herman Goldstine Postdoctoral fellow in Mathematical Sciences at IBM Research in Yorktown Heights, NY, and a postdoctoral fellow via the [Fondation Sciences Mathématiques de Paris](http://www.sciencesmaths-paris.fr/) at Paris 6. He received his PhD in 2011 from Caltech under [Emmanuel Candès](http://www-stat.stanford.edu/~candes/).
 
 More information about us at [people](people); we also have the old (and infrequently updated)  [google site member page](https://sites.google.com/colorado.edu/becker/members).
 
 ### Contact info
 
-<table class="imgtable"><tr><td id="mouse">&nbsp;</td></tr></table>
+<table class="imgtable" style="border: 0px; float: right; width: 150px;">
+<tr><td id="mouse">&nbsp;</td></tr>
+</table>
 <!--
 <img style="float: right;" src="/assets/img/Stephen_2018_1_shadow.jpg" class="funnyHover">
 -->

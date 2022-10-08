@@ -20,6 +20,7 @@
 // but it's similar to advice at
 // https://wordpress.org/support/topic/change-images-size-for-mobile-with-css/
 // and https://stackoverflow.com/a/56071711
+// TODO: only do this on the papers website?
 @media screen and (min-width: 1000px) {
 .wrapper {
     max-width: calc(1000px - (20px * 2));
@@ -36,16 +37,88 @@
   }
 
 // for papers page
+/*
 details.papers {
   font-size: .8rem;
 }
-
 details.papers summary {
   font-size: 1rem;
 }
+*/
+
+// For two-column lists, wrap in <div class="twoColumn" markdown=1>
+.twoColumn ul{
+  columns: 2;
+}
+.twoColumn ul li ul {
+  columns: 1; // don't want nested things to be two columns
+}
+
+// for team paper
+//Copied from allanlab.org/team
+
+
+img.img-responsive {
+  display: block;
+  //max-width: 100%;
+  max-width: 50%;
+  height: auto;
+  border: 0;
+  vertical-align: middle;
+  margin: 16px 22px 6px 0;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px #888;
+}
+
+img.shadow {
+  margin: 16px 22px 6px 0;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px #888;
+}
+
+/*
+div.row {
+  margin-bottom: 24px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+}
+.row:after {
+  clear: both;
+}
+.row:before, .row:after {
+  content: " ";
+  display: table;
+  box-sizing: border-box;
+}
+
+.row *:before{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.row *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+*/
+
+/* sidebar stuff 
+https://github.com/jwrr/minima-sidebar/blob/master/sidebar-fixed.markdown
+*/
+/*
+div.wrapper {max-width:960px;margin-left:5%;}
+div.post-content > p {width:65%;max-width:640;}
+nav.toc-fixed {position:fixed;top:50px;left:60%;max-width:320px}
+nav.toc-fixed ul {list-style:none;padding-left:0;margin-left:0;}
+table {width:65%;max-width:640;}
+*/
 
 /* The stuff for the hover thing */
 
+/*
 img.funnyHover:hover {
   width: 150px;
   height: 185px;
@@ -53,21 +126,30 @@ img.funnyHover:hover {
   background-image: url(/assets/img/aiportrait.jpg);
   background-size: contain;
 }
+*/
 
+// Hard-coding this in, so that I don't have in .scss file
+// (there were issues with local vs github-pages version looking
+//  for that file in different places)
+/*
 table.imgtable {
   border: 0px;
   float: right;
   width: 150px;
-  padding: 0px;
-  border-collapse: collapse;
+  // padding: 0px;
+  // border-collapse: collapse;
 }
+*/
 td#mouse {
   padding: 0px;
   display:block;
   width: 150px;
   height: 185px;
-  background: url(/assets/img/Stephen_2018_1_shadow.jpg) no-repeat center center; 
-  background-image: url(/assets/img/Stephen_2018_1_shadow.jpg); 
+  background: url(/assets/img/Stephen_2018_1_185.jpg) no-repeat center center; 
+  background-image: url(/assets/img/Stephen_2018_1_185.jpg); 
+  margin: 16px 22px 6px 0;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px #888;
 }
 
 td#mouse:hover {
@@ -77,4 +159,7 @@ td#mouse:hover {
   background: url(/assets/img/aiportrait.jpg) no-repeat center center;
   background-image: url(/assets/img/aiportrait.jpg);
   background-size: contain;
+  margin: 16px 22px 6px 0;
+  border-radius: 10%;
+  box-shadow: 2px 2px 5px #888;
 }

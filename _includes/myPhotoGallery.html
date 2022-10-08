@@ -1,0 +1,43 @@
+
+<!-- Photo if available -->
+{% if member.photo %}
+<li style = "clear: both; -webkit-column-break-inside: avoid;  page-break-inside: avoid; break-inside: avoid;"> 
+<img src="/assets/img-group/{{ member.photo }}" class="img-responsive" width="34%" style="float: left;" />
+{% else %}
+<!-- No photo. Add more spacing in the li list -->
+<li style = "margin: 1rem 0; -webkit-column-break-inside: avoid;  page-break-inside: avoid; break-inside: avoid;">
+{% endif %}
+
+
+  <!-- Person's name -->
+{% if member.website %}
+<a href="{{ member.website }}"><b>{{ member.name }}</b></a>
+{% else %}
+<b>{{ member.name }}</b>
+{% endif %}
+
+<!-- add social media links: -->
+<!-- Mostly copied from social.html in _includes for minima theme, but not making it gray icons -->
+{% if member.linkedin %}
+  <a rel="me" href="{{ member.linkedin }}" target="_blank" title="{{ member.linkedin | escape }}"><svg class="svg-icon">
+    <use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>
+{% endif %}
+{% if member.google-scholar %}
+  <!-- <a href="{{ member.google-scholar | cgi_escape | escape }}" target="_blank" title="Google Scholar"> -->
+  <a href="{{ member.google-scholar  }}" target="_blank" title="Google Scholar">    
+  <svg class="svg-icon">
+    <use xlink:href="{{ '/assets/minima-social-icons.svg#google_scholar' | relative_url }}"></use></svg></a>
+  <span style="clear: all;"></span>
+{% endif %}
+{% if member.github %}
+<!-- <a rel="me" href="{{ member.github | cgi_escape | escape }}" target="_blank" title="{{ member.github | escape }}"> -->
+<a rel="me" href="{{ member.github }}" target="_blank" title="{{ member.github | escape }}">  
+  <svg class="svg-icon">
+  <use xlink:href="{{ '/assets/minima-social-icons.svg#github' | relative_url }}"></use></svg></a>
+{% endif %}
+
+
+<br>
+  <i>{{ member.short }} </i><br>
+  {{ member.long }}
+  </li>
