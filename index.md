@@ -68,7 +68,7 @@ A similar list of announcements is at the [Announcements Page of our Google Site
   - Kevin... TBD
   - Erik and Osman will have graduated
 - August 2020, Leo defends his PhD thesis
-- Stephen will be speaking at the [AIMS South Africa Spring School on Mathematics of Data Science](https://www.aims.ac.za/2019/04/18/spring-school-on-mathematics-of-data-science/) in  September 2019 ([ SIAM article describing AIMS](https://sinews.siam.org/Details-Page/aims-advances-mathematics-education-in-africa-1))
+- Stephen will be speaking at the [AIMS South Africa Spring School on Mathematics of Data Science](https://aims.ac.za/event/spring-school-on-mathematics-of-data-science/) in  September 2019 ([ SIAM article describing AIMS](https://sinews.siam.org/Details-Page/aims-advances-mathematics-education-in-africa-1))
 - Summer internships for 2020
   - Liam is working for IBM Research Dublin
   - Osman is working for Fujitsu
@@ -97,7 +97,7 @@ A similar list of announcements is at the [Announcements Page of our Google Site
 - March 2016, [Alex Gittens](https://www.cs.rpi.edu/~gittea/) and [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/) visit
 - March 2016, students have summer internship offers from the following companies:
   - [Technicolor research (Bay Area)](http://www.technicolorbayarea.com/), Farhad Pourkamali-Anaraki
-  - [Sandia National Lab with Tamara Kolda](http://www.sandia.gov/~tgkolda/), Jessica Gronski
+  - [Sandia National Lab with Tamara Kolda](https://www.mathsci.ai/), Jessica Gronski
   - [ICR](http://icr-team.com/), James Folberth
 - July 12 2015, with Michael Grant and Emmanuel Candes, we have won the [Beale-Orchard-Hays prize](http://www.mathopt.org/?nav=boh) at ISMP 2015
 - June 24 2015, selected for 2015 ICML Reviewer award

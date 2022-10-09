@@ -46,8 +46,8 @@ Here is the [StatOptML seminar website](https://sites.google.com/colorado.edu/st
 - Cambridge, England, June 2018
   - CCIMI Distinguished Visitor at Cambridge, giving a [CCIMI short-course](http://www.talks.cam.ac.uk/show/index/86806)
 
-[![Stephen teaching](/assets/img/AIMS1_small.jpg)](assets/img/AIMS1_med.jpg)
-[![Group photo](/assets/img/AIMS2_small.jpg)](assets/img/AIMS2_med.jpg)
+[![Stephen teaching](/assets/img/AIMS1_small.jpg)](../assets/img/AIMS1_med.jpg)
+[![Group photo](/assets/img/AIMS2_small.jpg)](../assets/img/AIMS2_med.jpg)
 
 
 ## Projects created for my classes
