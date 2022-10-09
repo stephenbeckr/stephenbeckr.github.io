@@ -1,0 +1,27 @@
+---
+layout: page
+---
+
+<!-- see https://github.com/allejo/jekyll-toc -->
+
+<!--
+<nav class="site-nav" style="margin-top: 5rem; position: fixed;">
+<div class="trigger">    
+{% include toc_no_ul.html skip_no_ids=true h_max=2 id="my_toc" anchorAttributes="page-link" class="trigger" html=content  %}
+</div>
+</nav>
+-->
+<nav class="site-nav" style="margin-top: 4rem; position: fixed; opacity: 0.6;">
+     <!-- <input type="checkbox" id="nav-trigger_IGNORE" class="nav-trigger">  -->
+    <div class="trigger">
+        <span style="float: left;">Jump to...</span><br>
+        <a class="page-link" href="#preprints">Preprints</a>
+        <a class="page-link" href="#journals">Journal papers</a>
+        <a class="page-link" href="#conference">Conf papers</a>
+        <a class="page-link" href="#talks">Talks</a>
+        <a class="page-link" href="#techReports">Tech Reports</a>
+        <a class="page-link" href="#theses">Theses</a>
+    </div>
+</nav>
+
+{{ content }}
