@@ -62,8 +62,9 @@ show_excerpts: true
 sass:
     sass_dir: _sass
 
-minima:
-  skin: auto
+# Github version of minima cannot find 'auto' skin
+# minima:
+#   skin: auto
 
 # Exclude from processing.
 # The following items will not be processed, by default.

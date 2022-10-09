@@ -6,7 +6,7 @@ layout: home
 title: Home
 ---
 
-<img src="/assets/img/CUBoulder.jpg" class="responsive" style="width: 50%; height: auto; margin-left: auto; margin-right: auto; margin: 16px 22px 6px 0;   border-radius: 3% / 10%;   box-shadow: 2px 2px 5px #888;">
+![CU picture](/assets/img/CUBoulder.jpg){: .responsive style="width: 50%; height: auto; margin-left: auto; margin-right: auto; margin: 16px 22px 6px 0;   border-radius: 3% / 10%;   box-shadow: 2px 2px 5px #888;"}
 <!-- <img style="" src="/assets/img/CU_logo_matlab.jpg"> -->
 ![CU logo](/assets/img/CU_logo_matlab.jpg){: .myClass style=""}
 
