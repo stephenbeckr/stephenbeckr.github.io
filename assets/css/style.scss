@@ -145,7 +145,7 @@ td#mouse {
   display: block;
   width: 150px;
   height: 185px;
-  background: url({{ "/assets/img/Stephen_2018_1_185.jpg" | absolute_url }}) no-repeat center center; 
+  background: url( {{ "/assets/img/Stephen_2018_1_185.jpg" | absolute_url }} ) no-repeat center center; 
   // background-image: url(/assets/img/Stephen_2018_1_185.jpg); 
   margin: 16px 22px 6px 0;
   border-radius: 10%;
