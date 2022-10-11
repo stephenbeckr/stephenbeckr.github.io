@@ -5,6 +5,27 @@
   year: 2022
   unpublished: true
 
+- arXiv: 2209.05705
+  title: Quadrature Sampling of Parametric Models with Bi-fidelity Boosting
+  author: Nuojin Cheng, Osman Malik, Yiming Xu, Stephen Becker, Alireza Doostan, Akil Narayan
+  year: 2022
+  unpublished: true
+  id: bifidelity-boosting
+  code: https://github.com/CU-UQ/BF-Boosted-Quadrature-Sampling
+  abstract: Least squares regression is a ubiquitous tool for building emulators (a.k.a. surrogate models) of problems across science and engineering for purposes such as design space exploration and uncertainty quantification. When the regression data are generated using an experimental design process (e.g., a quadrature grid) involving computationally expensive models, or when the data size is large, sketching techniques have shown promise to reduce the cost of the construction of the regression model while ensuring accuracy comparable to that of the full data. However, random sketching strategies, such as those based on leverage scores, lead to regression errors that are random and may exhibit large variability. To mitigate this issue, we present a novel boosting approach that leverages cheaper, lower-fidelity data of the problem at hand to identify the best sketch among a set of candidate sketches. This in turn specifies the sketch of the intended high-fidelity model and the associated data. We provide theoretical analyses of this bi-fidelity boosting (BFB) approach and discuss the conditions the low- and high-fidelity data must satisfy for a successful boosting. In doing so, we derive a bound on the residual norm of the BFB sketched solution relating it to its ideal, but computationally expensive, high-fidelity boosted counterpart. Empirical results on both manufactured and PDE data corroborate the theoretical analyses and illustrate the efficacy of the BFB solution in reducing the regression error, as compared to the non-boosted solution
+# Submitted to SIAM JUQ, aka SIAM/ASA J on UQ
+
+
+- arXiv: 2209.05662
+  title: Fast Algorithms for Monotone Lower Subsets of Kronecker Least Squares Problems
+  author: Osman Malik, Yiming Xu, Nuojin Cheng, Stephen Becker, Alireza Doostan, Akil Narayan
+  unpublished: true
+  year: 2022
+  code: https://github.com/CU-UQ/monotone-lower-set/
+  id: monotone-sampling
+  abstract: Approximate solutions to large least squares problems can be computed efficiently using leverage score-based row-sketches, but directly computing the leverage scores, or sampling according to them with naive methods, still requires an expensive manipulation and processing of the design matrix. In this paper we develop efficient leverage score-based sampling methods for matrices with certain Kronecker product-type structure; in particular we consider matrices that are monotone lower column subsets of Kronecker product matrices. Our discussion is general, encompassing least squares problems on infinite domains, in which case matrices formally have infinitely many rows. We briefly survey leverage score-based sampling guarantees from the numerical linear algebra and approximation theory communities, and follow this with efficient algorithms for sampling when the design matrix has Kronecker-type structure. Our numerical examples confirm that sketches based on exact leverage score sampling for our class of structured matrices achieve superior residual compared to approximate leverage score sampling methods.
+# Submitted to SISC, Oct 11 2022
+
 - arXiv: 2112.07925 
   title: Versatile fidelity estimation with confidence
   author: Akshay Seshadri, Martin Ringbauer, Rainer Blatt, Thomas Monz, Stephen Becker
@@ -403,8 +424,13 @@
 
 
 
+# CONFERENCES ====================
 
-
+- title: A Strategy for Synthetic Aperture Sequence Design Using Numerical Optimization
+  author: Jacob Spainhour, Stephen Becker, Nicholas Bottenus
+  venue: IEEE International Ultrasonics Symposium, Oct 10-13 Venice
+  year: 2022
+  conference: true
 
 
 - arXiv: 2105.03809 

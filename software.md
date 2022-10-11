@@ -24,8 +24,8 @@ Most of our group's latest software is on github. These are github project or us
 - [Angran](https://github.com/truthlive/ASCR_DataReduction)
 - [Ibrohim](https://github.com/ib-nosirov/peeling_algorithm)
 - Noki: 
-  - [monotone lower set](https://github.com/CU-UQ/monotone-lower-set/)
-  - [Boosted Quad. Sampling](https://github.com/CU-UQ/BF-Boosted-Quadrature-Sampling)
+  - [monotone lower set](https://github.com/CU-UQ/monotone-lower-set/) for [paper](/papers#monotone-sampling)
+  - [Boosted Quad. Sampling](https://github.com/CU-UQ/BF-Boosted-Quadrature-Sampling) for [paper](/papers#bifidelity-boosting)
 - [Claudia](https://github.com/claudiachen1457/)
 - [Tzu-Chi](https://github.com/junipertcy/)
 - [Kevin](https://github.com/kvndhrty)
