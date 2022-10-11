@@ -173,7 +173,7 @@ Here I list a few talks that have video or slides or websites
 - [Tensor Robust Principal Component Analysis: Better recovery with atomic norm regularization](https://arxiv.org/abs/1901.10991), Derek Driggs, Stephen Becker and Jordan Boyd-Graber, 2019
 - [URV Factorization with Random Orthogonal System Mixing](https://arxiv.org/abs/1703.02499), Stephen Becker, James Folberth, Laura Grigori, 2017
 - [The Chen-Teboulle algorithm is the proximal point algorithm](https://arxiv.org/abs/1908.03633), from 2011 but posted 2019, shows the Chen-Teboulle algorithm admits a more aggressive stepsize than via the original analysis.
-- [Exact linesearch for LASSO](exactLinesearchL1.pdf) discusses exact step-size selection for piecewise quadratic objective functions, with [code](https://github.com/stephenbeckr/exactLASSOlinesearch). 2016.
+- [Exact linesearch for LASSO](/assets/docs/exactLinesearchL1.pdf) discusses exact step-size selection for piecewise quadratic objective functions, with [code](https://github.com/stephenbeckr/exactLASSOlinesearch). 2016.
 
 
 ## Theses {#theses}
