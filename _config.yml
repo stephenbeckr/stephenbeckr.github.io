@@ -47,12 +47,23 @@ header_pages:
   - software.md
   - K12.md
 
-# Build settings
-theme: minima
-#remote_theme: pages-themes/leap-day@v0.2.0
 plugins:
   - jekyll-feed
-# - jekyll-remote-theme # SRB adding, following https://github.com/pages-themes/leap-day
+  - jekyll-remote-theme # SRB adding, following https://github.com/pages-themes/leap-day
+# This issue also recommends using -jekyll-remote-theme
+# https://github.com/jekyll/minima/issues/472
+# For public GitHub, remote themes must be in the form of OWNER/REPOSITORY
+# You may also optionally specify a branch, tag, or commit to use by appending an @ and 
+#  the Git ref (e.g., benbalter/retlab@v1.0.0 or benbalter/retlab@develop)
+
+# Build settings
+#theme: minima
+# For minima, can also use the 2.5-stable branch: https://github.com/jekyll/minima/tree/2.5-stable
+remote_theme: jekyll/minima@master
+
+
+#remote_theme: pages-themes/leap-day@v0.2.0
+
 
 
 # SRB: shows excerpts from posts, https://github.com/jekyll/minima
@@ -63,6 +74,9 @@ sass:
     sass_dir: _sass
 
 # Github version of minima cannot find 'auto' skin
+# Even comment this out doesn't fix since it cannot find 'classic'
+# Manually copy cp $(bundle show minima)/_sass/minima/skins/* to local directory:w
+
 # minima:
 #   skin: auto
 

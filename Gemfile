@@ -23,6 +23,8 @@ source "https://rubygems.org"
 gem "minima", github: "jekyll/minima"
 # That fixes it! (other version of minima 2.5.1 looks for scss in a different
 #  location and wasn't working the same)
+# See https://github.com/jekyll/minima/issues/472
+# (somewhat fixces it... still won't include CSS)
 
 #gem "jekyll-theme-leap-day"
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
