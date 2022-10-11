@@ -54,21 +54,21 @@ Here is the [StatOptML seminar website](https://sites.google.com/colorado.edu/st
 (Click the image for full-resolution PDF)
 ### APPM 5650 Randomized Algorithms, Fall 2021
 
-[![Fall 21](/assets/img/SlideshowAllPresentations_5650_Fall21.jpg)](/assets/docs/SlideshowAllPresentations_5650_Fall21.pdf)
+[![Fall 21](/assets/img/SlideshowAllPresentations_5650_Fall21.jpg)](../assets/docs/SlideshowAllPresentations_5650_Fall21.pdf)
 
 
 ### APPM 5630 Convex Optimization, Spring 2021
-[![Spring 21](/assets/img/SlideshowAllPresentations_5630_Spring21.jpg)](/assets/docs/SlideshowAllPresentations_5630_Spring21.pdf)
+[![Spring 21](/assets/img/SlideshowAllPresentations_5630_Spring21.jpg)](../assets/docs/SlideshowAllPresentations_5630_Spring21.pdf)
 
 ### APPM 7400 ML Theory, Spring 2020
-[![Spring 20](/assets/img/SlideshowAllPresentations_7400Spr20_MLTheory.jpg)](/assets/docs/SlideshowAllPresentations_7400Spr20_MLTheory.pdf)
+[![Spring 20](/assets/img/SlideshowAllPresentations_7400Spr20_MLTheory.jpg)](../assets/docs/SlideshowAllPresentations_7400Spr20_MLTheory.pdf)
 
 ### APPM 4720 Randomized Algorithms, Spring 2019
-[![Spring 19](/assets/img/SlideshowAllPresentations_4720Spr19_Randomized.jpg)](/assets/docs/SlideshowAllPresentations_4720Spr19_Randomized.pdf)
+[![Spring 19](/assets/img/SlideshowAllPresentations_4720Spr19_Randomized.jpg)](../assets/docs/SlideshowAllPresentations_4720Spr19_Randomized.pdf)
 
 ### APPM 4720 Convex Optimization, Fall 2018
-[![Fall 18](/assets/img/SlideshowAllPresentations_4720Fall18.jpg)](/assets/docs/SlideshowAllPresentations_4720Fall18.pdf)
+[![Fall 18](/assets/img/SlideshowAllPresentations_4720Fall18.jpg)](../assets/docs/SlideshowAllPresentations_4720Fall18.pdf)
 
 
 ### APPM 4720 Convex Optimization, Spring 2017
-[![Spring 17](/assets/img/SlideshowAllPresentations_4720Spr17.jpg)](/assets/docs/SlideshowAllPresentations_4720Spr17.pdf)
+[![Spring 17](/assets/img/SlideshowAllPresentations_4720Spr17.jpg)](../assets/docs/SlideshowAllPresentations_4720Spr17.pdf)
