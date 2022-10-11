@@ -57,6 +57,37 @@ To give you an idea of what we're up to in 2018:
 - Remote sensing of the Chesapeake bay (Cheryl)
 - Behavior genetics (Richard, Farhad)
 
+### Presentations
+Mostly student presentations from 2019 and earlier
+
+<!-- used this: https://euangoddard.github.io/clipboard2markdown/ -->
+
+-   **David Kozak**
+    -   [Stochastic subspace approach to optimization in high dimensions](https://drive.google.com/file/d/1kFQDEcFovJ8BzfjEKKw8TTwhPyya2Hhn/view?usp=sharing), INFORMS 2019
+    -   [Scaling up gradient free minimization](https://drive.google.com/file/d/1FyYo0d7exYy4tkjuEIuhUkc2A4qkTP8c/view?usp=sharing), SIAM sectional meeting 2019
+-   **Farhad Pourkamali-Anaraki**, Randomized Algorithms for Large-Scale Data Analysis
+    -   March 22, 2017, Ph.D. Thesis Defense Presentation
+    -   [slides](https://docs.google.com/a/colorado.edu/viewer?a=v&pid=sites&srcid=Y29sb3JhZG8uZWR1fGJlY2tlcnxneDo3YTM5Nzg4MGY2ZTA4ZmRm)
+-   **Farhad Pourkamali-Anaraki**, A Randomized Approach to Efficient Kernel Clustering
+    -   [slides](https://docs.google.com/a/colorado.edu/viewer?a=v&pid=sites&srcid=Y29sb3JhZG8uZWR1fGJlY2tlcnxneDo3MzYyZTUwMjY3MTQzYzI3), IEEE GlobalSIP 2016
+-   **Farhad Pourkamali-Anaraki**, Randomized Dimension Reduction for Large-Scale Data Analysis
+    -   SIGAI Career Network and Conference, Northeastern University, October 20, 2016
+    -   [slides](https://docs.google.com/a/colorado.edu/viewer?a=v&pid=sites&srcid=Y29sb3JhZG8uZWR1fGJlY2tlcnxneDo3MTAxNTg0MWU5M2I2YzE1)
+-   **Stephen Becker**, Sampling large datasets via random mixing.
+    -   Colorado School of Mines, Applied Math and Statistics colloquium, Sept. 2 2016
+    -   [slides](https://docs.google.com/a/colorado.edu/viewer?a=v&pid=sites&srcid=Y29sb3JhZG8uZWR1fGJlY2tlcnxneDoyZTc2M2QwYzkwMGZmNWQ5)
+-   **Derek Driggs**, Parallelizing Stable Principal Component Pursuit
+    -   [poster](https://docs.google.com/a/colorado.edu/viewer?a=v&pid=sites&srcid=Y29sb3JhZG8uZWR1fGJlY2tlcnxneDpjMGRhZTRjM2I3MmYwMzc), [MMDS](https://www.google.com/url?q=https%3A%2F%2Fmmds-data.org%2F&sa=D&sntz=1&usg=AOvVaw30lKSspRTsdqGIMrKBKHFs) June 2016
+-   **Farhad Pourkamali-Anaraki**, [Preconditioned Data Sparsification for Big Data with Applications to PCA and K-Means](https://docs.google.com/a/colorado.edu/viewer?a=v&pid=sites&srcid=Y29sb3JhZG8uZWR1fGJlY2tlcnxneDo0YWNkZTE5YWNiMjM0YTk1)
+    -   2016 SIAM Front Range Conference
+        <details> <summary>Abstract: (click to expand)</summary> We analyze a compression scheme for large data sets that randomly keeps a small percentage of the components of each data sample. The benefit is that the output is a sparse matrix and therefore subsequent processing, such as PCA or K-means, is significantly faster, especially in a distributed-data setting. Furthermore, the sampling is single-pass and applicable to streaming data. The sampling mechanism is a variant of previous methods proposed in the literature combined with a randomized preconditioning to smooth the data. We provide guarantees for PCA in terms of the covariance matrix, and guarantees for K-means in terms of the error in the center estimators at a given step. We present numerical evidence to show both that our bounds are nearly tight and that our algorithms provide a real benefit when applied to standard test data sets, as well as providing certain benefits over related sampling approaches.</details>
+-   **James Folberth**, Application of Adjoint Operators in Gradient Computations
+    -   2016 SIAM Front Range Conference
+        <details> <summary>Abstract: (click to expand)</summary> When using first-order optimization algorithms, it is often the case that the user must supply the gradient of the differentiable terms in the objective function. We consider two example problems that have a Euclidean error term involving a linear operation on the problem variables. The gradient of the Euclidean error term involves both the linear operator and its adjoint, which, in our examples, is not known in the literature. The first example is an image deblurring problem, where the linear operation is multi-stage wavelet synthesis. Our formulation of the adjoint holds for a variety of boundary conditions, which allows the formulation to generalize to a larger class of problems. The second example is a blind channel estimation problem taken from the convex optimization literature; the linear operation is convolution, but with a slight twist. In each example, we show how the adjoint operator can be applied efficiently.</details>
+
+-   **Derek Driggs**, [Stable Principal Component Pursuit](https://docs.google.com/a/colorado.edu/viewer?a=v&pid=sites&srcid=Y29sb3JhZG8uZWR1fGJlY2tlcnxneDo1ZjNjYjQwMGZiZjU0NDFl)
+    -   2016 SIAM Front Range Conference
+
 ### Old summary of topics, 2014
 #### Optimization
 *Topics*: first-order methods, quasi-Newton methods, primal-dual algorithms

@@ -12,6 +12,8 @@
     See also the companion paper (an extended version): <a href="https://arxiv.org/abs/2112.07947">Theory of versatile fidelity estimation with confidence</a> 
   year: 2021
   unpublished: true
+  code: https://github.com/akshayseshadri/minimax-fidelity-estimation
+  id: versatilefidelity
   abstract: As quantum devices become more complex and the requirements on these devices become more demanding, it is crucial to be able to verify the performance of such devices in a scalable and reliable fashion. A cornerstone task in this challenge is quantifying how close an experimentally prepared quantum state is to the desired one. Here we present a method to construct an estimator for the quantum state fidelity that is compatible with any measurement protocol. Our method provides a confidence interval on this estimator that is guaranteed to be nearly minimax optimal for the specified measurement protocol. For a well-chosen measurement scheme, our method is competitive in the number of measurement outcomes required for estimation. We demonstrate our method using simulations and experimental data from a trapped-ion quantum computer and compare the results to state-of-the-art techniques. Our method can be easily extended to estimate the expectation value of any observable, such as entanglement witnesses.
 
 - arXiv: '2112.03390'
@@ -43,6 +45,8 @@
   abstract: |-
     Stochastic gradient descent is one of the most common iterative algorithms used in machine learning. While being computationally cheap to implement, recent literature suggests it may have implicit regularization properties that prevent over-fitting. This paper analyzes the properties of stochastic gradient descent from a theoretical standpoint to help bridge the gap between theoretical and empirical results. Most theoretical results either assume convexity or only provide convergence results in mean, while this paper proves convergence bounds in high probability without assuming convexity. Assuming strong smoothness, we prove high probability convergence bounds in two settings: (1) assuming the Polyak-Łojasiewicz inequality and norm sub-Gaussian gradient noise and (2) assuming norm sub-Weibull gradient noise. In the first setting, we combine our convergence bounds with existing generalization bounds in order to bound the true risk and show that for a certain number of epochs, convergence and generalization balance in such a way that the true risk goes to the empirical minimum as the number of samples goes to infinity. In the second setting, as an intermediate step to proving convergence, we prove a probability result of independent interest. The probability result extends Freedman-type concentration beyond the sub-exponential threshold to heavier-tailed martingale difference sequences.
   unpublished: true
+  code: https://github.com/liammadden/sgd
+  id: liamSGD
 
 
 
@@ -84,6 +88,7 @@
   DOI: https://doi.org/10.1007/s10957-021-01836-9
   other-link: <a href="https://rdcu.be/cgTlW">Free final version</a>
   code: https://github.com/liammadden/time-varying-experiments
+  id: time-varying
   venue: Journal of Optimization Theory and Applications (JOTA)
   year: 2021
   abstract: This paper investigates online algorithms for smooth time-varying optimization problems, focusing first on methods with constant step-size, momentum, and extrapolation-length. Assuming strong convexity, precise results for the tracking iterate error (the limit supremum of the norm of the difference between the optimal solution and the iterates) for online gradient descent are derived. The paper then considers a general first-order framework, where a universal lower bound on the tracking iterate error is established. Furthermore, a method using "long-steps" is proposed and shown to achieve the lower bound up to a fixed constant. This method is then compared with online gradient descent for specific examples. Finally, the paper analyzes the effect of regularization when the cost is not strongly convex. With regularization, it is possible to achieve a non-regret bound. The paper ends by testing the accelerated and regularized methods on synthetic time-varying least-squares and logistic regression problems, respectively.
@@ -129,6 +134,7 @@
   arXiv: 1901.10559 
   author: Osman Asif Malik and Stephen Becker
   code: https://github.com/OsmanMalik/countsketch-matrix-tensor-id
+  id: tensorid
   venue: Advances in Computational Mathematics
   misc: vol  46 (76) 
   other-link: <a href="https://rdcu.be/b9eFU">Free final version</a>
@@ -191,6 +197,8 @@
   author: James Folberth, Stephen Becker
   venue: J. Optimization Theory and Applications (JOTA)
   year:  2019
+  code: https://github.com/jamesfolberth/safe_nnls
+  id: nnls
   other-link: <a href="https://rdcu.be/b1pCR">Free final version</a>, or <a href="/assets/docs/safe_for_nonneg_final.pdf">locally hosted</a>
   DOI: https://dx.doi.org/10.1007/s10957-019-01612-w
   abstract: Inspired by recent work on safe feature elimination for 1-norm regularized least-squares, we develop strategies to eliminate features from convex optimization problems with non-negativity constraints. Our strategy is safe in the sense that it will only remove features/coordinates from the problem when they are guaranteed to be zero at a solution. To perform feature elimination we use an accurate, but not optimal, primal-dual feasible pair, making our methods robust and able to be used on ill-conditioned problems. We supplement our feature elimination problem with a method to construct an accurate dual feasible point from an accurate primal feasible point; this allows us to use a first-order method to find an accurate primal feasible point, then use that point to construct an accurate dual feasible point and perform feature elimination. Under reasonable conditions, our feature elimination strategy will eventually eliminate all zero features from the problem. As an application of our methods we show how safe feature elimination can be used to robustly certify the uniqueness of non-negative least-squares (NNLS) problems. We give numerical examples on a well-conditioned synthetic NNLS problem and a on set of 40000 extremely ill-conditioned NNLS problems arising in a microscopy application.
@@ -209,6 +217,8 @@
 - title:  Stochastic Lanczos estimation of genomic variance components for linear mixed-effects models
   other-link: <a href="https://www.biorxiv.org/content/10.1101/607168v1">BiorXiv</a>; or  <a href="https://rdcu.be/bMwR2">final (open access) version</a>
   author: Richard Border and Stephen Becker
+  code: https://github.com/rborder/SL_REML
+  id: REML
   journal: BMC Bioinformatics
   year: 2019
   abstract: |-
@@ -333,6 +343,7 @@
   venue: Mathematical Programming Computation
   misc: vol 3 no 3 165--218
   year: 2011
+  id: tfocs
   DOI: https://link.springer.com/article/10.1007/s12532-011-0029-5
   code: http://cvxr.com/tfocs/
   other-link: |-
@@ -349,6 +360,7 @@
   venue: SIAM J. on Imaging Sciences (SIIMS)
   misc: vol 4 no. 1
   year: 2011
+  id: nesta
   DOI: https://doi.org/10.1137/090756855
   arXiv: "0904.3367"
   code: http://www-stat.stanford.edu/~candes/nesta/
@@ -438,6 +450,8 @@
 
 - title: One-Pass Sparsified Gaussian Mixtures
   author: Eric Kightley and Stephen Becker
+  code: https://github.com/EricKightley/sparsekmeans
+  id: sparsegmm
   venue: Machine Learning workshop, at the <a href="http://bigdataieee.org/BigData2019/">2019 IEEE International Conference on Big Data (BigData 2019)</a>, Dec. 9-12, Los Angeles. 
   arXiv: 1903.04056
   year: 2019
@@ -468,6 +482,7 @@
   author: S. Becker and O. Malik
   year: 2018
   venue: NeurIPS
+  id: tensorsketch
   code: https://github.com/OsmanMalik/tucker-tensorsketch
   other-link: <a href="https://papers.nips.cc/paper/8213-low-rank-tucker-decomposition-of-large-tensors-using-tensorsketch">paper</a>
   conference: true

@@ -30,9 +30,9 @@ Thanks to CU Office of Outreach and Northrop Grumman for supporting this
 In 2020, we also have [TCP website](https://www.colorado.edu/program/tcp/CU-SVVSD-NG-summer-camps-2020) and [St Vrain 5-Day Superstem camps](https://innovation.svvsd.org/superstemcamps)
 - Pictures from 2017, 2018 and 2019 (no picture taken in 2020 since camp is online due to COVID-19)
 
-![2017 camp](/assets/img/STEM_CAMP_smallest.jpg)
-![2018 camp](/assets/img/STEM2018.jpg)
-![2019 camp](/assets/img/STEM2019.jpg)
+![2017 camp](/assets/img/STEM_CAMP_smallest.jpg){: .shadow .wide-rounded}
+![2018 camp](/assets/img/STEM2018.jpg){: .shadow .rounded}
+![2019 camp](/assets/img/STEM2019.jpg){: .shadow .wide-rounded}
 
 
 ## Statistics, Optimization, Machine Learning seminar
@@ -46,29 +46,29 @@ Here is the [StatOptML seminar website](https://sites.google.com/colorado.edu/st
 - Cambridge, England, June 2018
   - CCIMI Distinguished Visitor at Cambridge, giving a [CCIMI short-course](http://www.talks.cam.ac.uk/show/index/86806)
 
-[![Stephen teaching](/assets/img/AIMS1_small.jpg)](../assets/img/AIMS1_med.jpg)
-[![Group photo](/assets/img/AIMS2_small.jpg)](../assets/img/AIMS2_med.jpg)
+[![Stephen teaching](/assets/img/AIMS1_small.jpg){: .shadow .wide-rounded}](../assets/img/AIMS1_med.jpg)
+[![Group photo](/assets/img/AIMS2_small.jpg){: .shadow .wide-rounded}](../assets/img/AIMS2_med.jpg)
 
 
 ## Projects created for my classes
 (Click the image for full-resolution PDF)
 ### APPM 5650 Randomized Algorithms, Fall 2021
 
-[![Fall 21](/assets/img/SlideshowAllPresentations_5650_Fall21.jpg)](../assets/docs/SlideshowAllPresentations_5650_Fall21.pdf)
+[![Fall 21](/assets/img/SlideshowAllPresentations_5650_Fall21.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_5650_Fall21.pdf)
 
 
 ### APPM 5630 Convex Optimization, Spring 2021
-[![Spring 21](/assets/img/SlideshowAllPresentations_5630_Spring21.jpg)](../assets/docs/SlideshowAllPresentations_5630_Spring21.pdf)
+[![Spring 21](/assets/img/SlideshowAllPresentations_5630_Spring21.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_5630_Spring21.pdf)
 
 ### APPM 7400 ML Theory, Spring 2020
-[![Spring 20](/assets/img/SlideshowAllPresentations_7400Spr20_MLTheory.jpg)](../assets/docs/SlideshowAllPresentations_7400Spr20_MLTheory.pdf)
+[![Spring 20](/assets/img/SlideshowAllPresentations_7400Spr20_MLTheory.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_7400Spr20_MLTheory.pdf)
 
 ### APPM 4720 Randomized Algorithms, Spring 2019
-[![Spring 19](/assets/img/SlideshowAllPresentations_4720Spr19_Randomized.jpg)](../assets/docs/SlideshowAllPresentations_4720Spr19_Randomized.pdf)
+[![Spring 19](/assets/img/SlideshowAllPresentations_4720Spr19_Randomized.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_4720Spr19_Randomized.pdf)
 
 ### APPM 4720 Convex Optimization, Fall 2018
-[![Fall 18](/assets/img/SlideshowAllPresentations_4720Fall18.jpg)](../assets/docs/SlideshowAllPresentations_4720Fall18.pdf)
+[![Fall 18](/assets/img/SlideshowAllPresentations_4720Fall18.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_4720Fall18.pdf)
 
 
 ### APPM 4720 Convex Optimization, Spring 2017
-[![Spring 17](/assets/img/SlideshowAllPresentations_4720Spr17.jpg)](../assets/docs/SlideshowAllPresentations_4720Spr17.pdf)
+[![Spring 17](/assets/img/SlideshowAllPresentations_4720Spr17.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_4720Spr17.pdf)

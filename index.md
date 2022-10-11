@@ -10,16 +10,17 @@ title: Home
 <!-- <img style="" src="/assets/img/CU_logo_matlab.jpg"> -->
 ![CU logo](/assets/img/CU_logo_matlab.jpg){: .myClass style=""}
 
-# About us
+<!-- # About us -->
 
 <!-- <img style="float: left;" src="/assets/img/CU_logo_matlab.jpg"> -->
 Stephen Becker is an associate professor of [applied mathematics at the University of Colorado Boulder](https://www.colorado.edu/amath/). Previously he was a Herman Goldstine Postdoctoral fellow in Mathematical Sciences at IBM Research in Yorktown Heights, NY, and a postdoctoral fellow via the [Fondation Sciences Mathématiques de Paris](http://www.sciencesmaths-paris.fr/) at Paris 6. He received his PhD in 2011 from Caltech under [Emmanuel Candès](http://www-stat.stanford.edu/~candes/).
 
-More information about us at [people](people); we also have the old (and infrequently updated)  [google site member page](https://sites.google.com/colorado.edu/becker/members).
+More information about us at [people](people).
+ <!-- we also have the old (and infrequently updated)  [google site member page](https://sites.google.com/colorado.edu/becker/members). -->
 
 ### Contact info
 
-<table class="imgtable" style="border: 0px; float: right; width: 150px;">
+<table class="imgtable" style="border: 0px; float: right; width: 150px; clear=all;">
 <tr><td id="mouse">&nbsp;</td></tr>
 </table>
 <!--
@@ -30,26 +31,26 @@ More information about us at [people](people); we also have the old (and infrequ
 - Office: 338 ECOT (Engineering Center, office tower). For help finding your way to the office tower, see [engineering center map](https://www.colorado.edu/amath/faculty-staff/visiting).
 
 
-<div style="clear: all;"></div>
 
-## Group Research site
+<!-- ## Group Research site -->
 
-Please note: this website `amath.colorado.edu/faculty/becker` (also mirrored via github pages) is being (slowly) deprecated in favor of a more homogenous [faculty website](https://www.colorado.edu/amath/becker).
+Please note: this website [`amath.colorado.edu/faculty/becker`](https://amath.colorado.edu/faculty/becker) (also mirrored via [github pages](https://stephenbeckr.github.io/)) may eventually be deprecated in favor of a more homogenous [faculty website](https://www.colorado.edu/amath/becker), but for now this is the website that is updated most often.
 
-Yet another website is our
-[research group website](https://sites.google.com/colorado.edu/becker/) with public information about our research activities as well as our group's internal collaboration tools.
+<!-- Yet another website is our
+[research group website](https://sites.google.com/colorado.edu/becker/) with public information about our research activities as well as our group's internal collaboration tools. -->
 
 My CV is on my [CU Experts Profile page](https://experts.colorado.edu/display/fisid_154263).
 
 
 ## Quick links
-<img style="float: right;" src="assets/img/MathAlliance_small.jpg">
+<!-- <img style="float: right;" src="assets/img/MathAlliance_small.jpg"> -->
+![Math Alliance logo](/assets/img/MathAlliance_small.jpg){: .shadow .rounded style="float:right;"}
 Proud member of the [Math Alliance](https://www.mathalliance.org/)
 - Interested in undergrad research with our group? Here are some programs you can use to get funding (typical ones I've worked with in the past: UROP, SMART, DLA)
   - For CU A&S students, see [A&S student funding opportunities](https://www.colorado.edu/artsandsciences/research/student-resources/undergraduate-student-resources/student-funding-opportunities)
   - For CU engineering students, see [CEAS student funding opportunities](https://www.colorado.edu/engineering/students/research)
 - Our new page on [optimization classes and resources at CU](https://sites.google.com/colorado.edu/optimization)
-- The [RCDS](http://ecee.colorado.edu/~pao/rcds/) seminar website (for Robotics, Controls, and Dynamical Systems)
+- The [RCDS](https://sites.google.com/colorado.edu/rcds/home/seminar-series?authuser=0) seminar website (for Robotics, Controls, and Dynamical Systems)
 - [Statistics, Optimization, Machine Learning seminar](https://sites.google.com/colorado.edu/statoptml/) usually at 3:30 PM every Tuesday in Newton Lab (on pause Fall '22 for  sabbatical)
 
 ## News updates
@@ -96,7 +97,7 @@ A similar list of announcements is at the [Announcements Page of our Google Site
 - May 2016, our group awarded a gift from the Bloomberg data science program
 - March 2016, [Alex Gittens](https://www.cs.rpi.edu/~gittea/) and [Michael Mahoney](https://www.stat.berkeley.edu/~mmahoney/) visit
 - March 2016, students have summer internship offers from the following companies:
-  - [Technicolor research (Bay Area)](http://www.technicolorbayarea.com/), Farhad Pourkamali-Anaraki
+  - Technicolor research (Bay Area), Farhad Pourkamali-Anaraki
   - [Sandia National Lab with Tamara Kolda](https://www.mathsci.ai/), Jessica Gronski
   - [ICR](http://icr-team.com/), James Folberth
 - July 12 2015, with Michael Grant and Emmanuel Candes, we have won the [Beale-Orchard-Hays prize](http://www.mathopt.org/?nav=boh) at ISMP 2015

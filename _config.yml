@@ -20,7 +20,7 @@
 
 title: Becker research group
 email: stephen.becker@colorado.edu
-description: Research website for Professor Stephen Becker at the University of Colorado Boulder
+description: Becker research group at the University of Colorado Boulder
 #description: >- # this means to ignore newlines until "baseurl:"
 # Write an awesome description for your new site here. You can edit this
 # line in _config.yml. It will appear in your document head meta (for
@@ -77,8 +77,8 @@ sass:
 # Even comment this out doesn't fix since it cannot find 'classic'
 # Manually copy cp $(bundle show minima)/_sass/minima/skins/* to local directory:w
 
-# minima:
-#   skin: auto
+minima:
+  skin: auto
 
 # Exclude from processing.
 # The following items will not be processed, by default.

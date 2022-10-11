@@ -20,16 +20,16 @@
 // but it's similar to advice at
 // https://wordpress.org/support/topic/change-images-size-for-mobile-with-css/
 // and https://stackoverflow.com/a/56071711
-// TODO: only do this on the papers website?
+// TODO: only do this on the papers website? Yes. Wrap that in .extrawide
 @media screen and (min-width: 1000px) {
-.wrapper {
+ main.extrawide .wrapper {
     max-width: calc(1000px - (20px * 2));
     padding-right: 20px;
     padding-left: 20px;
 }
 }
 @media screen and (min-width: 1400px) {
-  .wrapper {
+  main.extrawide  .wrapper {
       max-width: calc(1400px - (20px * 2));
       padding-right: 20px;
       padding-left: 20px;
@@ -72,8 +72,25 @@ img.img-responsive {
 
 img.shadow {
   margin: 16px 22px 6px 0;
-  border-radius: 10%;
   box-shadow: 2px 2px 5px #888;
+}
+img.rounded {
+  border-radius: 10%;
+}
+img.wide-rounded {
+  border-radius: 3% / 10%;
+}
+img.landscape-rounded {
+  border-radius: 6% / 8%;
+}
+img.portrait-rounded {
+  border-radius: 8% / 6%;
+}
+
+
+body#papers {
+  // Trying like https://github.com/mmistakes/minimal-mistakes/issues/490
+  // padding: 85px 0 0;
 }
 
 /*

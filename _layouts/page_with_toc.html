@@ -1,6 +1,16 @@
----
-layout: page
----
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  <body id="papers">
+
+    {%- include doubleheader.html -%}
+
+    <!-- SRB: copied from default but adding the extrawide class -->
+    <main class="page-content extrawide" aria-label="Content">
+      <div class="wrapper">
+
 
 <!-- see https://github.com/allejo/jekyll-toc -->
 
@@ -11,17 +21,45 @@ layout: page
 </div>
 </nav>
 -->
-<nav class="site-nav" style="margin-top: 4rem; position: fixed; opacity: 0.6;">
-     <!-- <input type="checkbox" id="nav-trigger_IGNORE" class="nav-trigger">  -->
-    <div class="trigger">
-        <span style="float: left;">Jump to...</span><br>
-        <a class="page-link" href="#preprints">Preprints</a>
-        <a class="page-link" href="#journals">Journal papers</a>
-        <a class="page-link" href="#conference">Conf papers</a>
-        <a class="page-link" href="#talks">Talks</a>
-        <a class="page-link" href="#techReports">Tech Reports</a>
-        <a class="page-link" href="#theses">Theses</a>
-    </div>
-</nav>
 
+<!--
+  Now putting these in doubleheader.html (copied & modified from header.html, in _includes/)
+  
+  <nav class="site-nav" style="margin-top: 4rem; position: fixed; opacity: 0.6;">
+   <div class="trigger">
+       <span style="float: left;">Jump to...</span><br>
+       <a class="page-link" href="#preprints">Preprints</a>
+       <a class="page-link" href="#journals">Journal papers</a>
+       <a class="page-link" href="#conference">Conf papers</a>
+       <a class="page-link" href="#talks">Talks</a>
+       <a class="page-link" href="#techReports">Tech Reports</a>
+       <a class="page-link" href="#theses">Theses</a>
+   </div>
+</nav> -->
+
+<article class="post">
+
+   <header class="post-header">
+     <h1 class="post-title">{{ page.title | escape }}</h1>
+   </header>
+ 
+   <div class="post-content">
+     {{ content }}
+   </div>
+ 
+</article>
+
+      </div>
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>
+
+
+
+<!-- <div class="extrawide">
 {{ content }}
+</div> -->
