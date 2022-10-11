@@ -87,6 +87,13 @@ img.portrait-rounded {
   border-radius: 8% / 6%;
 }
 
+@media screen and (max-width: 600px) {
+svg.svg-icon {
+  // Default was 1.25
+  width: .75rem;
+  height: .75rem;
+}
+}
 
 body#papers {
   // Trying like https://github.com/mmistakes/minimal-mistakes/issues/490
