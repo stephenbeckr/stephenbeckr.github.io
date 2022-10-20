@@ -69,9 +69,9 @@ Existing approaches would solve the update via a slow iterative method, or smoot
 This is also actively maintained on github under the BSD license.
 
 - [TFOCS](http://cvxr.com/tfocs/)   *Templates for First-Order Conic Solvers* (2010)  
-A Matlab software package designed to solve all compressed sensing (and low-rank recovery) problems, but in fact it goes much farther and solves all conic programming problems. Joint work with [Michael Grant](http://cvxr.com/) and [Emmanuel Candès](http://www-stat.stanford.edu/~candes). This is actively maintained, and under the BSD license. [Paper](/papers#tfocs)
+A Matlab software package designed to solve all compressed sensing (and low-rank recovery) problems, but in fact it goes much farther and solves all conic programming problems. Joint work with [Michael Grant](http://cvxr.com/) and [Emmanuel Candès](https://candes.su.domains/). This is actively maintained, and under the BSD license. [Paper](/papers#tfocs)
 
-- [NESTA](https://statweb.stanford.edu/~candes/software/nesta/) *Nesterov's Algorithm* (2009)  
+- [NESTA](https://candes.su.domains/software/nesta/)*Nesterov's Algorithm* (2009)  
 A Matlab software package designed to solve some constrained compressed sensing problems, when the measurement matrix is a partial isometry or not too large (however, the analysis dictionary may be very large). Joint work with Jerome Bobin and [Emmanuel Candès](http://www-stat.stanford.edu/~candes). [Paper](/papers#nesta)
 
 - [SVD](https://candes.su.domains/software/svt/) *Singular Value Thresholding* (2009)  

@@ -13,7 +13,7 @@ title: Home
 <!-- # About us -->
 
 <!-- <img style="float: left;" src="/assets/img/CU_logo_matlab.jpg"> -->
-Stephen Becker is an associate professor of [applied mathematics at the University of Colorado Boulder](https://www.colorado.edu/amath/). Previously he was a Herman Goldstine Postdoctoral fellow in Mathematical Sciences at IBM Research in Yorktown Heights, NY, and a postdoctoral fellow via the [Fondation Sciences Mathématiques de Paris](http://www.sciencesmaths-paris.fr/) at Paris 6. He received his PhD in 2011 from Caltech under [Emmanuel Candès](http://www-stat.stanford.edu/~candes/).
+Stephen Becker is an associate professor of [applied mathematics at the University of Colorado Boulder](https://www.colorado.edu/amath/). Previously he was a Herman Goldstine Postdoctoral fellow in Mathematical Sciences at IBM Research in Yorktown Heights, NY, and a postdoctoral fellow via the [Fondation Sciences Mathématiques de Paris](http://www.sciencesmaths-paris.fr/) at Paris 6. He received his PhD in 2011 from Caltech under [Emmanuel Candès]https://candes.su.domains/).
 
 More information about us at [people](people).
  <!-- we also have the old (and infrequently updated)  [google site member page](https://sites.google.com/colorado.edu/becker/members). -->
