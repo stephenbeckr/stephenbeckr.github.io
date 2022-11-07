@@ -42,6 +42,20 @@ Please note: this website [`amath.colorado.edu/faculty/becker`](https://amath.co
 My CV is on my [CU Experts Profile page](https://experts.colorado.edu/display/fisid_154263).
 
 
+## News! Now hiring for a postdoc position
+
+As part of the new DOE-funded [CHaRMNET](https://charmnet-mmicc.github.io/) center for plasma modeling, Professors David Bortz and Stephen Becker are hiring a postdoc to start as early as January 2023. We're looking for an applicant with expertise in one or more of the following areas:
+- data-driven modeling
+- equation learning
+- reduced order modeling
+- sparse regression
+- experimental design
+- random sampling
+- computational plasma physics.
+
+
+Details at the [official job posting](https://jobs.colorado.edu/jobs/JobDetail/PostDoctoral-Research-Associate/44188).
+
 ## Quick links
 <!-- <img style="float: right;" src="assets/img/MathAlliance_small.jpg"> -->
 ![Math Alliance logo](/assets/img/MathAlliance_small.jpg){: .shadow .rounded style="float:right;"}
