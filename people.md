@@ -29,7 +29,7 @@ permalink: /people/
 
 -------------
 
-Our lab also works with many PhD students from other groups (e.g., Noki Cheng, Liz Strong, Tzu-Chi Yen, Killian Wood, Minah Yang)
+Our lab also works with many PhD students from other groups (e.g., Liz Strong -- see [ch 4 of her thesis](https://www.proquest.com/pagepdf/2670031200), Tzu-Chi Yen, Killian Wood, Minah Yang)
 
 -------------
 

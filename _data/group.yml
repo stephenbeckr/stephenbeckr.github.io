@@ -52,8 +52,20 @@
 - name: Akshay Seshadri
   short: PhD student (physics)
   photo: Unknown.png
-  github: (https://github.com/akshayseshadri
+  github: https://github.com/akshayseshadri
   long: Started CU 2018, jointly advised by Graeme Smith and Manny Knill
+
+- name: Nuojin (Noki) Cheng
+  short: PhD student, co-advised
+  photo: Noki.webp
+  github: https://github.com/NUOJIN
+  long: |-
+    Started CU 2020, main advisor is Alireza Doostan (Aerospace)
+
+- name: Alex McManus
+  short: PhD student, co-advised
+  photo: Alex.jpeg
+  long: Started CU 2020, main advisor is Nicholas Dwork (CU Anschutz)
 
 
 - name: Richard (Richie) Clancy
@@ -205,8 +217,8 @@
   linkedin: https://www.linkedin.com/in/claudiachen23/
 
 - name: Ibrohim Nosirov 
-  short: Summer student (2022; low-pass methods and HODLR decomposition for kernel matrices)
-  long: at Colorado School of Mines (co-advised w/ Mike Wakin)
+  short: Summer student (2022) 
+  long: at Colorado School of Mines (co-advised w/ Mike Wakin), low-pass methods and HODLR decomposition for kernel matrices)
   photo: IbrohimNosirov.jpeg
   github: https://github.com/ib-nosirov
 
