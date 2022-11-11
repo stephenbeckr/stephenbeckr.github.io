@@ -5,6 +5,16 @@
   year: 2022
   unpublished: true
 
+- arXiv: 2211.05151 
+  title: |-
+    QCNN: Quadrature Convolutional Neural Network with Application to Unstructured Data Compression
+  author: Kevin Doherty, Cooper Simpson, Stephen Becker, Alireza Doostan
+  year: 2022
+  unpublished: true
+  id: quadConv
+  abstract: We present a new convolution layer for deep learning architectures which we call QuadConv -- an approximation to continuous convolution via quadrature. Our operator is developed explicitly for use on unstructured data, and accomplishes this by learning a continuous kernel that can be sampled at arbitrary locations. In the setting of neural compression, we show that a QuadConv-based autoencoder, resulting in a Quadrature Convolutional Neural Network (QCNN), can match the performance of standard discrete convolutions on structured uniform data, as in CNNs, and maintain this accuracy on unstructured data.
+  # To be submitted to JCP
+
 - arXiv: 2209.05705
   title: Quadrature Sampling of Parametric Models with Bi-fidelity Boosting
   author: Nuojin Cheng, Osman Malik, Yiming Xu, Stephen Becker, Alireza Doostan, Akil Narayan
@@ -261,8 +271,10 @@
 - arXiv: 1702.02241
   title: Adapting Regularized Low Rank Models for Parallel Architectures
   author: Derek Driggs, Stephen Becker, Aleksandr Aravkin
+  id: RPCA_SISC
   venue: SIAM J. Sci. Computing
   year: 2019
+  code: https://github.com/derekdriggs/fastRPCA
   DOI: https://doi.org/10.1137/17M1147342
   abstract: We introduce a reformulation of regularized low-rank recovery models to take advantage of GPU, multiple CPU, and hybridized architectures. Low-rank recovery often involves nuclear-norm minimization through iterative thresholding of singular values. These models are slow to fit and difficult to parallelize because of their dependence on computing a singular value decomposition at each iteration. Regularized low-rank recovery models also incorporate non-smooth terms to separate structured components (e.g. sparse outliers) from the low-rank component, making these problems more difficult. Using Burer-Monteiro splitting and marginalization, we develop a smooth, non-convex formulation of regularized low-rank recovery models that can be fit with first-order solvers. We develop a computable certificate of convergence for this non-convex program, and use it to establish bounds on the suboptimality of any point. Using robust principal component analysis (RPCA) as an example, we include numerical experiments showing that this approach is an order-of-magnitude faster than existing RPCA solvers on the GPU. We also show that this acceleration allows new applications for RPCA, including real-time background subtraction and MR image analysis.
 
@@ -431,6 +443,7 @@
   venue: IEEE International Ultrasonics Symposium, Oct 10-13 Venice
   year: 2022
   conference: true
+  abstract: In a transmit encoding model for imaging, even small modifications to parameters can lead to meaningfully improved images. Our ML approach finds time delays and weights that optimize a loss function based on image quality. When applied to out-of-sample data, these parameters substantially improve contrast and field-of-view in lesion images, as well as suppress off-axis artifacts in point targets. Importantly, this strategy produces a transmission sequence that cannot be replicated through selecting parameters via purely geometric principles.
 
 
 - arXiv: 2105.03809 
