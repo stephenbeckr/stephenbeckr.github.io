@@ -60,8 +60,10 @@ Details at the [official job posting](https://jobs.colorado.edu/jobs/JobDetail/P
 
 ## Quick links
 <!-- <img style="float: right;" src="assets/img/MathAlliance_small.jpg"> -->
-![Math Alliance logo](/assets/img/MathAlliance_small.jpg){: .shadow .rounded style="float:right;"}
+![Math Alliance logo](/assets/img/MathAlliance_small.jpg){: .shadow .rounded style="float:right; height: 100px;"}
+![Spectra logo](/assets/img/spectra_100x100.png){: .shadow .rounded style="float:right;"}
 Proud member of the [Math Alliance](https://www.mathalliance.org/)
+and pround ally of [Spectra](http://lgbtmath.org/)
 - Interested in undergrad research with our group? Here are some programs you can use to get funding (typical ones I've worked with in the past: UROP, SMART, DLA)
   - For CU A&S students, see [A&S student funding opportunities](https://www.colorado.edu/artsandsciences/research/student-resources/undergraduate-student-resources/student-funding-opportunities)
   - For CU engineering students, see [CEAS student funding opportunities](https://www.colorado.edu/engineering/students/research)
