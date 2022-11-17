@@ -57,6 +57,7 @@ As part of the new DOE-funded [CHaRMNET](https://charmnet-mmicc.github.io/) cent
 Details at the [official job posting](https://jobs.colorado.edu/jobs/JobDetail/PostDoctoral-Research-Associate/44188).
 
 [CU press release](https://www.colorado.edu/asmagazine/2022/10/19/cu-boulder-joins-national-effort-advance-nuclear-fusion-research) on the plasma project.
+[MSU press release](https://msutoday.msu.edu/news/2022/msu-helms-project-to-help-make-fusion-energy-reality) as well.
 
 ## Quick links
 <!-- <img style="float: right;" src="assets/img/MathAlliance_small.jpg"> -->
