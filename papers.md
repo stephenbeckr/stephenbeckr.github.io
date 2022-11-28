@@ -188,7 +188,7 @@ Theses of my students (after 2019, CU stopped posting these online, so I'm posti
   - Akshay Seshadri (PhD, CU Physics) 2023?
   - Kevin Doherty (PhD), 2023-4?
   - Jacob Spainhour (PhD), 2024?
-  - Cooper Simpson (MS), 2022 summer
+- [Regularized Saddle-Free Newton: Saddle Avoidance and Efficient Implementation](/assets/docs/CooperSimpson_Summer2022_MAthesis.pdf), Cooper Simpson, 2022, MS
 - [A Generalization of S-Divergence to Symmetric Cone Programming via Euclidean Jordan Algebra (local copy)](/assets/docs/Jaden_Wang_2022_thesis.pdf), Zhuochen (Jaden) Wang, 2022, BS
 - [Mathematical Formulations with Uncertain Data in
 Optimization and Inverse Problems](https://www.rjclancy.com/assets/documents/dissertation.pdf) Richard Clancy, 2022, PhD

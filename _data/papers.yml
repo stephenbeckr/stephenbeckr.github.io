@@ -5,6 +5,21 @@
   year: 2022
   unpublished: true
 
+
+
+- title: Versatile fidelity estimation with confidence
+  author: AkshaySeshadri, Martin Ringbauer, Rainer Blatt, Thomas Monz and Stephen Becker
+  year: 2023
+  venue: QIP (Quantum Information Processing), as poster, Ghent, February 6--10
+  conference: true
+
+
+- title: Broadband Spectroscopic Imaging Using Dual Frequency Comb Spectroscopy and Compressive Sensing
+  author: E. Strong, S. Coburn, A. Anderson, R. Cole, J. Gopinath, S. Becker, G. Rieker
+  year: 2022
+  venue: CLEO
+  conference: true
+
 - arXiv: 2211.05151 
   title: |-
     QCNN: Quadrature Convolutional Neural Network with Application to Unstructured Data Compression
