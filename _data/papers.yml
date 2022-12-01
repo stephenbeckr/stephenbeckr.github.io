@@ -634,7 +634,7 @@
   venue: ICASSP
   year: 2014
   DOI: https://doi.org/10.1109/ICASSP.2014.6853550
-  conferene: true
+  conference: true
   abstract: Choosing a distance preserving measure or metric is fundamental to many signal processing algorithms, such as k-means, nearest neighbor searches, hashing, and compressive sensing. In virtually all these applications, the efficiency of the signal processing algorithm depends on how fast we can evaluate the learned metric. Moreover, storing the chosen metric can create space bottlenecks in high dimensional signal processing problems. As a result, we consider data dependent metric learning with rank as well as sparsity constraints. We propose a new non-convex algorithm and empirically demonstrate its performance on various datasets; a side benefit is that it is also much faster than existing approaches. The added sparsity constraints significantly improve the speed of multiplying with the learned metrics without sacrificing their quality.
 
 - title: A proximal splitting method for inf-convolutive variational models in image recovery
