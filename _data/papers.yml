@@ -457,8 +457,9 @@
   author: Jacob Spainhour, Stephen Becker, Nicholas Bottenus
   venue: IEEE International Ultrasonics Symposium, Oct 10-13 Venice
   year: 2022
+  DOI: https://doi.org/10.1109/IUS54386.2022.9958070
   conference: true
-  abstract: In a transmit encoding model for imaging, even small modifications to parameters can lead to meaningfully improved images. Our ML approach finds time delays and weights that optimize a loss function based on image quality. When applied to out-of-sample data, these parameters substantially improve contrast and field-of-view in lesion images, as well as suppress off-axis artifacts in point targets. Importantly, this strategy produces a transmission sequence that cannot be replicated through selecting parameters via purely geometric principles.
+  abstract: Modifying acoustic transmission represents one way of improving image quality for ultrasound imaging. This has been demonstrated in the transmit encoding model for synthetic aperture imaging [1], which allows for great flexibility in apodization and time delay of each array element. After decoding these recorded echoes, geometric focusing can be applied to produce an image whose quality depends highly on the specific encoding used. Commonly used encoding schemes, such as those which produce focused beams or planewaves, are often motivated from geometric principles. We note that these geometrically intuitive schemes represent only a narrow subset of all possible encoding schemes, and demonstrate that even small modification to transmit parameters can lead to meaningfully improved resolution, field of view, and contrast in images. These modified encodings often cannot be derived through application of fundamental geometric principles. In response to these challenges, we propose a machine learning (ML) framework for sequence design that identifies a set of optimal transmit parameters, in the sense that they minimize some loss metric on beamformed images. Additionally, we describe critical implementation details that make backpropagation in our approach computationally feasible.
 
 
 - arXiv: 2105.03809 
@@ -489,6 +490,7 @@
   title: Stochastic Gradient Langevin Dynamics with Variance Reduction
   author: Zhishen Huang, Stephen Becker
   venue: IJCNN2021 (International Joint Conference on Neural Networks)
+  DOI: https://doi.org/10.1109/IJCNN52387.2021.9533646
   year: 2021
   conference: true
   abstract: Stochastic gradient Langevin dynamics (SGLD) has gained the attention of optimization researchers due to its global optimization properties. This paper proves an improved convergence property to local minimizers of nonconvex objective functions using SGLD accelerated by variance reductions. Moreover, we prove an ergodicity property of the SGLD scheme, which gives insights on its potential to find global minimizers of nonconvex objectives.
