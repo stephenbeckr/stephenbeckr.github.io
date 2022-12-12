@@ -182,27 +182,37 @@ Here I list a few talks that have video or slides or websites
 
 ### Student theses
 Theses of my students (after 2019, CU stopped posting these online, so I'm posting local copies when I haven them):
-- In the pipeline
-  - Akshay Seshadri (PhD, CU Physics) 2023?
-  - Kevin Doherty (PhD), 2023-4?
-  - Jacob Spainhour (PhD), 2024?
-- [Regularized Saddle-Free Newton: Saddle Avoidance and Efficient Implementation](/assets/docs/CooperSimpson_Summer2022_MAthesis.pdf), Cooper Simpson, 2022, MS
-- [A Generalization of S-Divergence to Symmetric Cone Programming via Euclidean Jordan Algebra (local copy)](/assets/docs/Jaden_Wang_2022_thesis.pdf), Zhuochen (Jaden) Wang, 2022, BS
+
+In the pipeline
+- Akshay Seshadri (PhD, CU Physics) 2023?
+- Kevin Doherty (PhD), 2023-4?
+- Jacob Spainhour (PhD), 2024?
+
+PhD theses
 - [Mathematical Formulations with Uncertain Data in
 Optimization and Inverse Problems](https://www.rjclancy.com/assets/documents/dissertation.pdf) Richard Clancy, 2022, PhD
 - Liam Madden, 2022, PhD (co-advised with Emiliano Dall'Anese, CU ECEE)
 - [Measuring Image Resolution in Super-Resolution Microscopy and Bayesian Estimation of Population Size and Overlap and Vaccine Effectiveness](https://www.proquest.com/docview/2572564388/3313CC654D214068PQ) Erik Johnson, 2021, PhD (main advisor Dan Larremore, CU CS)
 - [Topics in Matrix and Tensor Computations](https://www.proquest.com/docview/2572559828/2D96D8173E184A7CPQ/) Osman Malik, 2021, PhD. [local PDF copy](/assets/docs/OsmanMalik_thesis2021.pdf)
-- Jacob Tiede, 2021, Professional Masters, [culminating experience](https://github.com/Jacob-Tie/GraduateSchoolCourseWork/blob/master/Capstone_Project/Article.md)
 - [Randomization in Statistical Machine Learning](https://www.proquest.com/docview/2447014909/80A21D291D8B4D9BPQ) Zhishen (Leo) Huang, 2020, PhD. [local PDF copy](/assets/docs/ZhishenHuang_thesis2020.pdf)
 - [Iterative stochastic optimization for large-scale machine learning and statistical inverse problems](https://repository.mines.edu/handle/11124/174167), David Kozak, 2020, PhD (main advisor: Luis Tenorio, Colorado School of Mines, Applied Math & Stat)
-- [A comparison of spectral estimation techniques](https://scholar.colorado.edu/appm_gradetds/147/), Marc Thomson, 2019, Masters; code at [github](https://github.com/MarcThomson/MDSpectralAnalysis).
 - [Stokes, Gauss, and Bayes walk into a bar...](https://scholar.colorado.edu/appm_gradetds/144/), Eric Kightley, 2019, PhD
 - [Non-Convex Optimization and Applications to Bilinear Programming and Super-Resolution Imaging](https://scholar.colorado.edu/appm_gradetds/142/), Jessica Gronski, 2019, PhD
-- [Stochastic Lanczos Likelihood Estimation of Genomic Variance Components](https://scholar.colorado.edu/appm_gradetds/120/), Richard Border, 2018, Masters
 - [Fast and Reliable Methods in Numerical Linear Algebra, Signal Processing, and Image Processing](https://scholar.colorado.edu/appm_gradetds/134/), James Folberth, 2018, PhD
 - [Randomized Algorithms for Large-Scale Data Analysis](https://scholar.colorado.edu/ecen_gradetds/141/), Farhad Pourkamali Anaraki, 2017, PhD
+
+Masters theses
+- [Regularized Saddle-Free Newton: Saddle Avoidance and Efficient Implementation](/assets/docs/CooperSimpson_Summer2022_MAthesis.pdf), Cooper Simpson, 2022, Masters
+- [Stochastic Lanczos Likelihood Estimation of Genomic Variance Components](https://scholar.colorado.edu/appm_gradetds/120/), Richard Border, 2018, Masters
+- [A comparison of spectral estimation techniques](https://scholar.colorado.edu/appm_gradetds/147/), Marc Thomson, 2019, Masters; code at [github](https://github.com/MarcThomson/MDSpectralAnalysis).
 - [Optimization for High-Dimensional Data Analysis](https://scholar.colorado.edu/appm_gradetds/86/), Derek Driggs, 2017, Masters
+
+Undergraduate theses
+- [A Generalization of S-Divergence to Symmetric Cone Programming via Euclidean Jordan Algebra (local copy)](/assets/docs/Jaden_Wang_2022_thesis.pdf), Zhuochen (Jaden) Wang, 2022, BS
+
+Professional Masters "culminating experience"
+- Austin Wagenknecht, 2022, Digital Signal Processing Methods in Music Information Retrieval
+- Jacob Tiede, 2021, [culminating experience](https://github.com/Jacob-Tie/GraduateSchoolCourseWork/blob/master/Capstone_Project/Article.md)
 
 ## Miscellany
 
