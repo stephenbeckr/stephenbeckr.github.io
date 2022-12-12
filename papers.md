@@ -46,10 +46,9 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
    <details class="papers" style="font-size: .8rem;" id="{{ publication.id }}"><summary style="font-size: 1rem;">{{ publication.year }} <b>{{ publication.title }}</b></summary><b>Abstract</b>: {{ publication.abstract }}</details>
   <ul> <li>
   {{ publication.author }}. 
-  <em>{{ publication.venue }}</em> {{ publication.misc }}
-    
-    {% if publication.DOI != null %}
-    [<a href="{{ publication.DOI }}">DOI</a>]
+  <em>{{ publication.venue }}</em>{{ publication.misc }}
+{% if publication.DOI != null %}
+[<a href="{{ publication.DOI }}">DOI</a>]
     {% endif %}
 
     {% if publication.arXiv != null %}
@@ -92,13 +91,12 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
    <details class="papers" style="font-size: .8rem;" id="{{ publication.id }}"><summary style="font-size: 1rem;">[J{{current_paper}}] {{ publication.year }} <b>{{ publication.title }}</b></summary><b>Abstract</b>: {{ publication.abstract }}</details>
   <ul> <li>
   {{ publication.author }}. 
-  <em>{{ publication.venue -}}</em><!-- test if fields exist, so that I don't get extra commas -->
-{% if publication.misc != null %}
-, {{ publication.misc -}}.
+<em>{{- publication.venue -}}</em>{% if publication.misc != null %}, {{ publication.misc -}}.
+<!-- <em>{{ publication.venue -}}</em> -->
+<!-- test if fields exist, so that I don't get extra commas -->
 {%- else -%}.
 {% endif %}
-    {% assign current_paper = current_paper | minus: 1 %}
-
+{% assign current_paper = current_paper | minus: 1 %}
     {% if publication.DOI != null %}
     [<a href="{{ publication.DOI }}">DOI</a>]
     {% endif %}
