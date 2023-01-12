@@ -43,10 +43,10 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
 <ul class="papers" id="preprints">
 {% for publication in site.data.papers %}
 {% if publication.unpublished == true %}
-   <details class="papers" style="font-size: .8rem;" id="{{ publication.id }}"><summary style="font-size: 1rem;">{{ publication.year }} <b>{{ publication.title }}</b></summary><b>Abstract</b>: {{ publication.abstract }}</details>
+  <div class="selection"> <details class="papers" id="{{ publication.id }}"><summary>{{ publication.year }} <span class="title">{{ publication.title }}</span></summary><b>Abstract</b>: {{ publication.abstract }}</details>
   <ul> <li>
-  {{ publication.author }}. 
-  <em>{{ publication.venue }}</em>{{ publication.misc }}
+<span class="author">  {{ publication.author }}.</span> 
+<span class="venue">{{ publication.venue }}</span><span class="pubMisc">{{ publication.misc }}</span>
 {% if publication.DOI != null %}
 [<a href="{{ publication.DOI }}">DOI</a>]
     {% endif %}
@@ -63,7 +63,7 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
     {{ publication.other-link }}
     {% endif %}
 
-    </li></ul>
+    </li></ul></div>
 {% endif %}
 {% endfor %}
 </ul>
@@ -88,14 +88,14 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
 {% for publication in site.data.papers %}
 {% if publication.conference == null or publication.conference == false %}
 {% if publication.unpublished == null or publication.unpublished == false %}
-   <details class="papers" style="font-size: .8rem;" id="{{ publication.id }}"><summary style="font-size: 1rem;">[J{{current_paper}}] {{ publication.year }} <b>{{ publication.title }}</b></summary><b>Abstract</b>: {{ publication.abstract }}</details>
+   <div class="selection"><details class="papers" id="{{ publication.id }}"><summary>[J{{current_paper}}] {{ publication.year }} <span class="title">{{ publication.title }}</span></summary><b>Abstract</b>: {{ publication.abstract }}</details>
   <ul> <li>
-  {{ publication.author }}. 
-<em>{{- publication.venue -}}</em>{% if publication.misc != null %}, {{ publication.misc -}}.
+<span class="author">  {{ publication.author }}.</span> 
+<span class="venue">{{- publication.venue -}}</span><span class="pubMisc">{% if publication.misc != null %}, {{ publication.misc -}}.
 <!-- <em>{{ publication.venue -}}</em> -->
 <!-- test if fields exist, so that I don't get extra commas -->
 {%- else -%}.
-{% endif %}
+{% endif %}</span>
 {% assign current_paper = current_paper | minus: 1 %}
     {% if publication.DOI != null %}
     [<a href="{{ publication.DOI }}">DOI</a>]
@@ -112,7 +112,7 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
     {% if publication.other-link != null %}
     {{ publication.other-link }}
     {% endif %}
-    </li></ul>
+    </li></ul></div>
 {% endif %}
 {% endif %}
 {% endfor %}
@@ -124,10 +124,11 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
 {% for publication in site.data.papers %}
 {% if publication.conference == true %}
 {% if publication.unpublished == null or publication.unpublished == false %}
- <details class="papers" style="font-size: .8rem;" id="{{ publication.id }}"><summary style="font-size: 1rem;">[C{{current_paper }}] {{ publication.year }} <b>{{ publication.title }}</b></summary><b>Abstract</b>: {{ publication.abstract }}</details>
+   <div class="selection"><details class="papers" id="{{ publication.id }}"><summary>[C{{current_paper}}] {{ publication.year }} <span class="title">{{ publication.title }}</span></summary><b>Abstract</b>: {{ publication.abstract }}</details>
   <ul> <li >
-  {{ publication.author }}. 
-  <em>{{ publication.venue }}</em>{{ publication.misc }}.
+<span class="author">  {{ publication.author }}.</span> 
+<span class="venue">{{- publication.venue -}}</span><span class="pubMisc">{% if publication.misc != null %}, {{ publication.misc -}}.{%- else -%}.
+{% endif %}</span>
         {% assign current_paper = current_paper | minus: 1 %}
 
     {% if publication.DOI != null %}
@@ -145,7 +146,7 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
     {% if publication.other-link != null %}
     {{ publication.other-link }}
     {% endif %}
-    </li></ul>
+    </li></ul></div>
 {% endif %}
 {% endif %}
 {% endfor %}

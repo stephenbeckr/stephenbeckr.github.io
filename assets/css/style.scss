@@ -187,3 +187,37 @@ td#mouse:hover {
   border-radius: 10%;
   box-shadow: 2px 2px 5px #888;
 }
+
+// Stuff for my papers page
+ul.papers .venue, .pubMisc {
+    color: Silver;
+    font-weight: 200;
+}
+ul.papers .venue {
+    font-style: italic;
+}
+ul.papers .venue a{
+    color: Gray;
+}
+ul.papers .author {
+    color: #404040;
+}
+details.papers {
+    font-size: .8rem;
+}
+details.papers summary {
+    color: Silver;
+    font-size: 1rem;
+}
+details.papers summary span.title{
+    color: Black;
+    //font-weight: bold;
+    //font-weight: 400; /* normal */
+    //font-weight: 500;
+    font-weight: 630;
+    //font-weight: 700; /* bold */
+}
+
+ul.papers div.selection:hover {
+    background-color: #E8E8E8;
+}

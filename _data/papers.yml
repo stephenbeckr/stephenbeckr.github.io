@@ -104,7 +104,11 @@
   author: Nick Bottenus, Jacob Spainhour, Stephen Becker
   venue: IEEE Transactions on Ultrasonics, Ferroelectrics, and Frequency Control
   year: 2023
-  misc: Cover artwork for this journal issue features our article
+  DOI: https://doi.org/10.1109/TUFFC.2022.3228218
+  misc: 70(1) pp 52--63
+  other-link: Cover artwork for this journal issue features our article
+  abstract: |-
+    Ultrasound pulse sequencing and receive signal focusing work hand-in-hand to determine image quality. These are commonly linked by geometry, for example, using focused beams or plane waves in transmission paired with appropriate time-of-flight calculations for focusing. Spatial encoding allows a broader class of array transmissions but requires decoding of the recorded echoes before geometric focusing can be applied. Recent work has expanded spatial encoding to include not only element apodizations, but also element time delays. This powerful technique allows for a unified beamforming strategy across different pulse sequences and increased flexibility in array signal processing giving access to estimates of individual transmit element signals, but tradeoffs in image quality between these encodings have not been previously studied. We evaluate in simulation several commonly used time delay and amplitude encodings and investigate the optimization of the parameter space for each. Using the signal-to-noise ratio (SNR), point resolution, and lesion detectability, we found tradeoffs between focused beams, plane waves, and Hadamard weight encodings. Beams with broader geometries maintained a wider field of view after decoding at the cost of the SNR and lesion detectability. Focused beams and plane waves showed slightly reduced resolution compared to Hadamard weights in some cases, especially close to the array. We also found overall degraded image quality using random weight or random delay encodings. We validate these findings with experimental phantom imaging for select cases. We believe that these findings provide a starting point for sequence optimization and improved image quality using the spatial encoding approach for imaging.
 
 
 - title: A study of scalar optically-pumped magnetometers for use in magnetoencephalography without shielding
@@ -207,7 +211,7 @@
   author: Mitchell Krock, William Kleiber, Stephen Becker
   venue: Journal of Computational and Graphical Statistics
   DOI: https://doi.org/10.1080/10618600.2020.1811103
-  misc: Previous arXiv version under the name "Penalized basis models for very large spatial datasets"
+  other-link: Previous arXiv version under the name "Penalized basis models for very large spatial datasets"
   abstract: Many modern spatial models express the stochastic variation component as a basis expansion with random coefficients. Low rank models, approximate spectral decompositions, multiresolution representations, stochastic partial differential equations and empirical orthogonal functions all fall within this basic framework. Given a particular basis, stochastic dependence relies on flexible modeling of the coefficients. Under a Gaussianity assumption, we propose a graphical model family for the stochastic coefficients by parameterizing the precision matrix. Sparsity in the precision matrix is encouraged using a penalized likelihood framework. Computations follow from a majorization-minimization approach, a byproduct of which is a connection to the graphical lasso. The result is a flexible nonstationary spatial model that is adaptable to very large datasets. We apply the model to two large and heterogeneous spatial datasets in statistical climatology and recover physically sensible graphical structures. Moreover, the model performs competitively against the popular LatticeKrig model in predictive cross-validation, but substantially improves the Akaike information criterion score
 
 - title: Analyzing the super-resolution characteristics of focused-spot illumination approaches
@@ -664,7 +668,7 @@
   year: 2013
   conference: true
   abstract: Affine rank minimization algorithms typically rely on calculating the gradient of a data error followed by a singular value decomposition at every iteration. Because these two steps are expensive, heuristic approximations are often used to reduce computational burden. To this end, we propose a recovery scheme that merges the two steps with randomized approximations, and as a result, operates on space proportional to the degrees of freedom in the problem. We theoretically establish the estimation guarantees of the algorithm as a function of approximation tolerance. While the theoretical approximation requirements are overly pessimistic, we demonstrate that in practice the algorithm performs well on the quantum tomography recovery problem.
-  misc: This arXiv version is an extended version (i.e., with proofs) of the 4 page SampTA proceedings version.
+  other-link: This arXiv version is an extended version (i.e., with proofs) of the 4 page SampTA proceedings version.
 
 - arXiv: 1206.1529
   title: Sparse projections onto the simplex
@@ -673,7 +677,8 @@
   year: 2013
   conference: true
   abstract: Most learning methods with rank or sparsity constraints use convex relaxations, which lead to optimization with the nuclear norm or the l1-norm. However, several important learning applications cannot benefit from this approach as they feature these convex norms as constraints in addition to the non-convex rank and sparsity constraints. In this setting, we derive efficient sparse projections onto the simplex and its extension, and illustrate how to use them to solve high-dimensional learning problems in quantum tomography, sparse density estimation and portfolio selection with non-convex constraints.
-  venue: ICML, Atlanta. For fun, see the <a href="http://icml.cc/discuss/2013/papers.html">ICML 2013 review boards</a>. There is an earlier version of this paper on the <a href="http://jmlr.org/proceedings/papers/v28/kyrillidis13.html">JMLR</a> website.
+  venue: ICML, Atlanta
+  other-link: For fun, see the <a href="http://icml.cc/discuss/2013/papers.html">ICML 2013 review boards</a>. There is an earlier version of this paper on the <a href="http://jmlr.org/proceedings/papers/v28/kyrillidis13.html">JMLR</a> website.
 
 - arXiv: 1206.1529
   title: Sparse projections onto the simplex
