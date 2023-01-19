@@ -5,6 +5,12 @@
   year: 2022
   unpublished: true
 
+- title: The Dependence of Parallel Imaging with Linear Predictability on the Undersampling Direction
+  author: Alex McManus, Stephen Becker, Nicholas Dwork
+  year: 2023
+  abstract: Parallel imaging with linear predictability takes advantage of information present in multiple receive coils to accurately reconstruct the image with fewer samples. Commonly used algorithms based on linear predictability include GRAPPA and SPIRiT. We present a sufficient condition for reconstruction based on the direction of undersampling and the arrangement of the sensing coils. This condition is justified theoretically and examples are shown using real data. We also propose a metric based on the fully-sampled auto-calibration region which can show which direction(s) of undersampling will allow for a good quality image reconstruction.
+  unpublished: true
+  arXiv: 2301.07256
 
 
 - title: Versatile fidelity estimation with confidence
