@@ -473,6 +473,8 @@
   year: 2022
   DOI: https://doi.org/10.1109/IUS54386.2022.9958070
   conference: true
+  id: ultrasound2022
+  code: https://github.com/jcs15c/optimal_ultrasound_encoding
   abstract: Modifying acoustic transmission represents one way of improving image quality for ultrasound imaging. This has been demonstrated in the transmit encoding model for synthetic aperture imaging [1], which allows for great flexibility in apodization and time delay of each array element. After decoding these recorded echoes, geometric focusing can be applied to produce an image whose quality depends highly on the specific encoding used. Commonly used encoding schemes, such as those which produce focused beams or planewaves, are often motivated from geometric principles. We note that these geometrically intuitive schemes represent only a narrow subset of all possible encoding schemes, and demonstrate that even small modification to transmit parameters can lead to meaningfully improved resolution, field of view, and contrast in images. These modified encodings often cannot be derived through application of fundamental geometric principles. In response to these challenges, we propose a machine learning (ML) framework for sequence design that identifies a set of optimal transmit parameters, in the sense that they minimize some loss metric on beamformed images. Additionally, we describe critical implementation details that make backpropagation in our approach computationally feasible.
 
 

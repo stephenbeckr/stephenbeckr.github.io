@@ -158,6 +158,12 @@
 
 # Masters students, approximately newest to oldest
 
+- name: Spencer Shortt
+  short: MS 2023
+  long: Math dept; randomized a posteriori error estimates
+  linkedin: https://www.linkedin.com/in/spencer-shortt/
+  photo: Spencer.jpeg
+
 
 - name: Cooper Simpson
   short: MS 2022
@@ -276,5 +282,3 @@
 - name: Ashley Nelson 
   graduated: true
   short: Summer student (2017; remote sensing)
-
-
