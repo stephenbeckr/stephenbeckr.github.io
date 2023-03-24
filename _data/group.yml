@@ -198,7 +198,7 @@
   orcid: https://orcid.org/0000-0002-6293-2968
   graduated: true
   google-scholar: https://scholar.google.com/citations?hl=en&user=fQhvPM8AAAAJ
-  short: MS 2018 (concurrent with Phd at IBS 2019)
+  short: MS 2018 (concurrent with PhD at IBS 2019)
   github: https://github.com/rborder
   long: Now postdoc at UCLA
   linkedin: https://www.linkedin.com/in/richard-border-313657203/
@@ -232,6 +232,7 @@
   short: Undergrad (2022; hyperparameter optimization)
   photo: Alexey.jpeg
   linkedin: https://www.linkedin.com/in/yyexela/
+  github: https://github.com/yyexela
 
 - name: Zhuochen (Jaden) Wang
   graduated: true

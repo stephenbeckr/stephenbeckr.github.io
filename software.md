@@ -13,7 +13,7 @@ Most of our group's latest software is on github. These are github project or us
 <div class="twoColumn" markdown=1>
 
 - [Stephen](https://github.com/stephenbeckr) and [cvx/tfocs projects](https://github.com/cvxr) ([paper](../papers#tfocs))
-- James: [safe Non-Neg. Least Squares](https://github.com/jamesfolberth/safe_nnls) [paper](../papers#nnls)
+- James: [safe Non-Neg. Least Squares](https://github.com/jamesfolberth/safe_nnls) ([paper](../papers#nnls))
 - Farhad: [RandomizedClusteredNystrom](https://github.com/FarhadPourkamali/RandomizedClusteredNystrom/)
 - Eric: [SparseKMeans](https://github.com/EricKightley/sparsekmeans) ([paper](../papers#sparsegmm))
 - Osman
