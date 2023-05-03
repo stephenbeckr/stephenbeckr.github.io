@@ -76,6 +76,11 @@ and pround ally of [Spectra](http://lgbtmath.org/)
 As of October 2022, the website is built with Jekyll and we'll have blog-post style news updates. Here's a summary of old updates
 
 A similar list of announcements is at the [Announcements Page of our Google Site](https://sites.google.com/colorado.edu/becker/announcements)
+- Summer internships for 2023
+  - Kevin at [Institute for Defense Analyses](https://en.wikipedia.org/wiki/Institute_for_Defense_Analyses) (La Jolla, CA)
+  - Jacob returning to [LLNL](https://www.llnl.gov/)
+  - Akshay at [NTT Research](https://ntt-research.com/about/) (Sunnyvale, CA)
+  - Ibrohim at Courant Institute (NYC)
 - Fall 2022, Stephen is on **sabbatical** at [Institut Montpellierain Alexander Grothendieck (IMAG)](https://imag.umontpellier.fr/) in Montpellier France. He will return to Boulder by January 2023.
 - [Call for papers: special issue on Big Scientific Data and Machine Learning in Science  and Engineering](https://home.liebertpub.com/cfp/big-scientific-data-and-machine-learning-in-science-and-engi/344/), submission deadline Feb 1 2022
 - Summer internships for 2022

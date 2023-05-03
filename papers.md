@@ -203,12 +203,14 @@ Optimization and Inverse Problems](https://www.rjclancy.com/assets/documents/dis
 - [Randomized Algorithms for Large-Scale Data Analysis](https://scholar.colorado.edu/ecen_gradetds/141/), Farhad Pourkamali Anaraki, 2017, PhD
 
 Masters theses
+- [A simple randomized algorithm for approximating the spectral norm of streaming data](/assets/docs/SpencerShortt_Masters2023.pdf), Spencer Shortt, 2023 (Math dept, MS presentation)
 - [Regularized Saddle-Free Newton: Saddle Avoidance and Efficient Implementation](/assets/docs/CooperSimpson_Summer2022_MAthesis.pdf), Cooper Simpson, 2022, Masters
 - [Stochastic Lanczos Likelihood Estimation of Genomic Variance Components](https://scholar.colorado.edu/appm_gradetds/120/), Richard Border, 2018, Masters
 - [A comparison of spectral estimation techniques](https://scholar.colorado.edu/appm_gradetds/147/), Marc Thomson, 2019, Masters; code at [github](https://github.com/MarcThomson/MDSpectralAnalysis).
 - [Optimization for High-Dimensional Data Analysis](https://scholar.colorado.edu/appm_gradetds/86/), Derek Driggs, 2017, Masters
 
 Undergraduate theses
+- [Improving Existing Bayesian Optimization Software by Incorporating Gradient Information](), Alexey Yermakov (CS and APPM), CS Capstone senior thesis, 2023
 - [A Generalization of S-Divergence to Symmetric Cone Programming via Euclidean Jordan Algebra (local copy)](/assets/docs/Jaden_Wang_2022_thesis.pdf), Zhuochen (Jaden) Wang, 2022, BS
 
 Professional Masters "culminating experience"
