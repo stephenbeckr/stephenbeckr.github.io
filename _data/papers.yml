@@ -336,6 +336,7 @@
   title: Preconditioned Data Sparsification for Big Data with Applications to PCA and K-means
   author: F. Pourkamali-Anaraki, S. Becker
   venue: IEEE Trans. Info Theory
+  code: https://github.com/stephenbeckr/SparsifiedKMeans
   year: 2017
   DOI: http://ieeexplore.ieee.org/document/7862251/
   other-link: <a href="https://scholar.colorado.edu/appm_facpapers/15/">CU Scholar website</a>
