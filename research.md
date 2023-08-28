@@ -22,7 +22,7 @@ Broadly speaking, our group is interested in *information extraction* from vario
 - Mathematical applications: compressed sensing and variants, matrix completion and variants (robust PCA...), non-negative matrix factorization and end-member detection, sparse SVM
 - Physical applications: radar ADC using compressed sensing, quantum tomography, MRI, medical imaging, IMRT, renewable      energy, big-data
 
-Students interested in working with our group: If you are not currently a student, please apply to our [undergraduate](http://amath.colorado.edu/content/undergraduate-program) or [graduate program](http://amath.colorado.edu/content/graduate-program) and your application will receive full consideration.
+Students interested in working with our group: If you are not currently a student, please apply to our [undergraduate](https://www.colorado.edu/amath/academics/undergraduate-students) or [PhD program](https://www.colorado.edu/amath/academics/doctoral-program) and your application will receive full consideration. We also have a professional [Masters Degree](https://www.colorado.edu/amath/academics/ms-applied-mathematics) in applied math, as well as being a core part of the [MS in Data Science](https://www.colorado.edu/program/data-science/).
 
 
 Here's a somewhat more cohesive summary of our research:
