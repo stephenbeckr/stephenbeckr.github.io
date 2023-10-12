@@ -75,7 +75,14 @@ sass:
 
 # Github version of minima cannot find 'auto' skin
 # Even comment this out doesn't fix since it cannot find 'classic'
+#
 # Manually copy cp $(bundle show minima)/_sass/minima/skins/* to local directory:w
+#    Oct 2023, changing skin from 'auto' to 'classic' since
+#    in auto (which means use dark mode if user has OS in dark mode)
+#    then my fonts don't work so well.   Or, maybe I can fix???
+#    See aliases used in _sass/minima/skins/auto.scss
+#    Hmm, I think those variables only work in .scss files (SAS files that generate CSS files)
+#     so probably won't help without a major change.
 
 minima:
   skin: auto

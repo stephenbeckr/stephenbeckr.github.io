@@ -6,6 +6,18 @@
   "minima/initialize";
 
 /*
+@import
+  "minima/skins/{{ site.minima.skin | default: 'classic' }}",
+  "minima/initialize";
+*/
+
+  /* Question: I had @import, but could do @use
+  see https://stackoverflow.com/q/62757419
+
+  @use:  only imports file once.  variables starting with _ or - are p[rivate and not imported
+  */
+
+/*
 @import "{{ site.theme }}";
 @import "minima";
 @import
@@ -200,17 +212,74 @@ ul.papers .venue a{
     color: Gray;
 }
 ul.papers .author {
+
+    //color: $text-color;
+    
+//
+    //// THIS ISN"T WORKING: I think fundamental issue is that
+    ////    we don't have the runtime info at compile time
+//
+    ////@if $text-color == #111111 { 
+    //@if ( lightness($text-color) > 80% ) {
+    ////@if #{$text-color} == #111111 {  // doesn't do what we want, it's ALWAYS TRUE. Don't interpolate in "if": https://stackoverflow.com/a/34770696
+    ////@if unquote("#{$text-color} == #{$lm-text-color}") {
+    ////@if unquote("#{$text-color} == #111111") {
+        ////$lm-text-color {
+    ////@if var(--minima-text-color) == #111111 {
+        //// assume we're in light mode
+        ////color: #404040;
+        //color: Black;
+        //color: White;
+    //} @else {
+        ////color: #d1d1d1;
+        ////color: White;
+        //color: Red;
+        //@debug $text-color; // use @debug with type-of, ec.
+        ////color: darken($text-color, 15%); // doesn't work, need to interpolate with #{ } ?
+        ////color: lighten($dm-text-color, 15%); // works
+        ////color: darken(#{$text-color}, 15%); // doesn't work either
+        ////color: darken(#{$lm-text-color}, 15%); // doesn't work either
+        ////color: $text-color;
+        ////color: var(--minima-text-color);
+        ////color: $dm-text-color;  // by default this is #bbbbbb
+//
+        ////   text-color: var(--minima-text-color);
+//
+        //// use transparentize(), darken(), lighten()...
+    //}
+
+    // Let's do it this way:
     color: #404040;
+    @media (prefers-color-scheme: dark) {
+        color: #949494;
+
+    }
+
 }
 details.papers {
     font-size: .8rem;
 }
 details.papers summary {
+    // This affects the year of the papers
+
     color: Silver;
+    // ligthgray, silver, darkgray, gray
+
+    @media (prefers-color-scheme: dark) {
+        color: lightgray;
+    }
+
     font-size: 1rem;
 }
 details.papers summary span.title{
+    //color: Black;
+
+    // Oct 2023, trying this:
     color: Black;
+    @media (prefers-color-scheme: dark) {
+        color: White;
+    }
+
     //font-weight: bold;
     //font-weight: 400; /* normal */
     //font-weight: 500;
@@ -218,6 +287,16 @@ details.papers summary span.title{
     //font-weight: 700; /* bold */
 }
 
+/* Oct 2023, in dark mode, the span.title is too dark! Need to fix.  Saw this in a .scss file*/
+/* Not sure how to do this. Let's just disable dark mode (i.e., the "Auto" mode)
+/* @if $color-scheme-dark { */
+/* } */
+
+
 ul.papers div.selection:hover {
+
     background-color: #E8E8E8;
+    @media (prefers-color-scheme: dark) {
+        background-color: Black;
+    }
 }
