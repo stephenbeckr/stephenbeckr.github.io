@@ -87,9 +87,10 @@
 - arXiv: 2101.02404
   title: Modeling massive multivariate spatial data with the basis graphical lasso
   author: Mitchell Krock, William Kleiber, Dorit Hammerling, Stephen Becker
-  year: 2021
+  year: 2023
   abstract: We propose a new modeling framework for highly-multivariate spatial processes that synthesizes ideas from recent multiscale and spectral approaches with graphical models. The basis graphical lasso writes a univariate Gaussian process as a linear combination of basis functions weighted with entries of a Gaussian graphical vector whose graph is estimated from optimizing an ℓ1 penalized likelihood. This paper extends the setting to a multivariate Gaussian process where the basis functions are weighted with Gaussian graphical vectors. We motivate a model where the basis functions represent different levels of resolution and the graphical vectors for each level are assumed to be independent. Using an orthogonal basis grants linear complexity and memory usage in the number of spatial locations, the number of basis functions, and the number of realizations. An additional fusion penalty encourages a parsimonious conditional independence structure in the multilevel graphical model. We illustrate our method on a large climate ensemble from the National Center for Atmospheric Research's Community Atmosphere Model that involves 40 spatial processes.
   unpublished: false
+  venue: Journal of Computational and Graphical Statistics
   DOI: https://doi.org/10.1080/10618600.2023.2174126
 
 - arXiv: 2104.03307
