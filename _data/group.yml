@@ -16,8 +16,9 @@
 - name: Jon Belcher
   short: Postdoc
   photo: Jon.jpeg
-  long: since 2021; PhD from CU Math dept
+  long: 2021--2023; PhD from CU Math dept
   linkedin: https://www.linkedin.com/in/jonathan-belcher-a8314771/
+  graduated: true
 
 - name: Angran Li
   short: Postdoc, joint with Alireza Doostan
@@ -35,17 +36,30 @@
 
 # PhD students, approximately newest to oldest
 
+- name: Drona Khurana
+  photo: Drona.jpeg
+  linkedin: https://www.linkedin.com/in/drona-khurana-35bb2499/
+  google-scholar: https://scholar.google.com/citations?user=WJrZvbkAAAAJ
+  short: PhD student (computer science)
+  long: joined CU in 2023, co-advised with Raf Frongillo (CS)
+
+- name: K Aditi
+  photo: Aditi.jpeg
+  linkedin: https://www.linkedin.com/in/k-aditi-972187190/
+  short: PhD student, ECEE dept
+  long: Started CU 2022. Optimization and quantum tomography
+
 - name: Kevin Doherty
   photo: Kevin.jpeg
   short: PhD student
-  long: Started CU 2019
+  long: Started CU 2019; DFO; scientific compression; non-uniform convolution for ML
   github: https://github.com/kvndhrty
   linkedin: https://www.linkedin.com/in/kevin-doherty-9b1baab1/
 
 - name: Jacob Spainhour
   short: PhD student
   photo: Jacob.jpeg
-  long: Started CU 2020
+  long: Started CU 2020. Ultrasound, experimental design
   github: https://github.com/jcs15c
   linkedin: https://www.linkedin.com/in/jacob-spainhour/
 
@@ -59,13 +73,15 @@
   short: PhD student, co-advised
   photo: Noki.webp
   github: https://github.com/NUOJIN
+  linkedin: https://www.linkedin.com/in/nuojincheng/
   long: |-
-    Started CU 2020, main advisor is Alireza Doostan (Aerospace)
+    Started CU 2020, main advisor is Alireza Doostan (Aerospace). UQ
 
 - name: Alex McManus
+  linkedin: https://www.linkedin.com/in/alex-mcmanus-78113a127/
   short: PhD student, co-advised
   photo: Alex.jpeg
-  long: Started CU 2020, main advisor is Nicholas Dwork (CU Anschutz)
+  long: Started CU 2020, main advisor is Nicholas Dwork (CU Anschutz). MRI
 
 
 - name: Richard (Richie) Clancy
@@ -158,17 +174,36 @@
 
 # Masters students, approximately newest to oldest
 
+- name: Tyler Jensen
+  short: MS 2024
+  long: TBD
+  linkedin: https://www.linkedin.com/in/tyler-jensen-28890815a/
+  photo: Unknown.png
+
+- name: Dominic Rudakevych
+  linkedin: https://www.linkedin.com/in/dominic-rudakevych-666411262/
+  photo: Dom.jpeg
+  short: Professional Masters
+  long: Draper scholar, working on ML for aerocapture for NASA missions to Uranus
+
+- name: Bhavana Jonnalagadda
+  linkedin: https://www.linkedin.com/in/bhavanajonn/
+  photo: Bhav.jpeg
+  short: MS in Data Science
+  long: Low-rank methods to accelerate PDE solvers for plasma
+
 - name: Spencer Shortt
   short: MS 2023
   long: Math dept; randomized a posteriori error estimates
   linkedin: https://www.linkedin.com/in/spencer-shortt/
   photo: Spencer.jpeg
+  graduated: true
 
 
 - name: Cooper Simpson
   short: MS 2022
+  long: research assistant 2023/2024; 2nd order methods for optimization; non-uniform convolutions for neural nets
   photo: Unknown.png
-  graduated: true
   google-scholar: https://scholar.google.com/citations?hl=en&user=rHbpN-YAAAAJ
 
 
@@ -217,7 +252,7 @@
 # Undergrads, approximately newest to oldest
 
 - name: Claudia Chen
-  short: Undergrad (2022; optimization placement for MEG sensors)
+  short: Undergrad (2022; optimization placement for MEG sensors); MS 2023 (ultrasound)
   photo: Claudia.jpeg
   github: https://github.com/claudiachen1457
   linkedin: https://www.linkedin.com/in/claudiachen23/
@@ -227,12 +262,14 @@
   long: at Colorado School of Mines (main advisor Mike Wakin), low-pass methods and HODLR decomposition for kernel matrices)
   photo: IbrohimNosirov.jpeg
   github: https://github.com/ib-nosirov
+  linkedin: https://www.linkedin.com/in/ibrohim-nosirov-74b893269/
 
 - name: Alexey Yermakov
   short: Undergrad (2022; hyperparameter optimization)
   photo: Alexey.jpeg
   linkedin: https://www.linkedin.com/in/yyexela/
   github: https://github.com/yyexela
+  graduated: true
 
 - name: Zhuochen (Jaden) Wang
   graduated: true
