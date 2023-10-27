@@ -5,6 +5,12 @@ permalink: /teaching/
 ---
 
 ## Teaching at CU
+- 2023 Fall, taching:
+  - COEN 1830 First-year seminar
+  - APPM 4440 Real Analysis
+- 2023 Spring, teaching:
+  - APPM 5450 Applied Analysis 2
+  - [APPM 5630 Advanced Convex Optimization](https://github.com/stephenbeckr/convex-optimization-class)
 - 2022 Fall, on **sabbatical** and not teaching
 - 2022 Spring, teaching:
   - [APPM 4490/5490 Theory of Machine Learning](https://github.com/stephenbeckr/ML-theory-class) (previously taught as a special topics course)
@@ -22,7 +28,7 @@ permalink: /teaching/
 
 ## Summer STEM camp (Aurora and Longmont Colorado)
 Thanks to CU Office of Outreach and Northrop Grumman for supporting this
-- We did this again in July 2022; this year, I didn't help with teaching but organized a visit to CU to see research groups
+- We did this again in July 2022 and 2023; these years, I didn't help with teaching but organized a visit to CU to see research groups
 - Happening again in July 2021 (but only in Longmont/online): see [Innovation Center Super STEM camps](https://innovation.svvsd.org/summercamps) website to register. 
   - [Github repo](https://github.com/cu-applied-math/stem-camp-notebooks) with our materials
   - [2021 promo video](https://drive.google.com/file/d/19b1qO9498OsLW2q96yyKDlqdSSpZHmsC/view?usp=sharing) and the [end-of-week summary video](https://drive.google.com/file/d/1GwUIAFdbVicUUwjaP-1u-ROMvqrGcu04/view?usp=sharing) professionally produced by the St Vrain Valley School District
@@ -52,7 +58,7 @@ Here is the [StatOptML seminar website](https://sites.google.com/colorado.edu/st
 
 ## Projects created for my classes
 (Click the image for full-resolution PDF)
-### APPM rr90/5490 Randomized Algorithms, Spring 2022
+### APPM 4490/5490 Randomized Algorithms, Spring 2022
 [![Spring 22](/assets/img/SlideshowAllPresentations_4490_Spring22.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_4490_Spring22.pdf)
 
 ### APPM 5650 Randomized Algorithms, Fall 2021
