@@ -41,6 +41,8 @@ Please note: this website [`amath.colorado.edu/faculty/becker`](https://amath.co
 
 My CV is on my [CU Experts Profile page](https://experts.colorado.edu/display/fisid_154263).
 
+## News! Our department is hiring fall 2023 for tenure-track positions
+Full details at the [job posting](https://jobs.colorado.edu/jobs/JobDetail/?jobId=52135).
 
 ## News! Now hiring for a postdoc position
 
