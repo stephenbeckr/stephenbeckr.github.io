@@ -49,6 +49,10 @@ Most of our group's latest software is on github. These are github project or us
 
 ## A few specific software packages
 
+- [Misc Python optimization routines](https://github.com/stephenbeckr/convex-optimization-class/tree/master/utilities) for classic first and second order methods, as part of the optimization class I teach. I think there may be a bug in the one of the linesearch options, but otherwise it should work well.
+
+- [Random sketching operators](https://github.com/stephenbeckr/randomized-algorithm-class/tree/master/Code) in Matlab and Python, as part of the class I teach. This has Gaussian sketch, Fast Johnson Lindenstrauss (with FFT or a fast Hadamard), and count sketch. The Hadamard and count sketch have C functions to make them extra fast.  (For the tensor product sketches, which is more complicated, see [Osman's github page](https://github.com/OsmanMalik/) ).
+
 - [Exact linesearch for LASSO](https://github.com/stephenbeckr/exactLASSOlinesearch)  
 Simple Matlab code for exact step-size selection for LASSO objectives, and [Exact linesearch for LASSO Tech. Report](exactLinesearchL1.pdf) which describes the method.
 
