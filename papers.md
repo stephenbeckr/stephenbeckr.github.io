@@ -159,6 +159,7 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
 
 Here I list a few talks that have video or slides or websites
 
+- "Randomization methods for big-data", at CU CS Dept colloquium Oct 26 2023, and Purdue Math dept Applied Math seminar Oct 23 2023.  [Slides](/assets/docs/2023_10_CU_CS_RandomMethods.pdf).
 - "High-Probability convergence and algorithmic stability for stochastic gradient descent", [ML-MTP: Machine Learning in Montpellier: Theory and Practice](https://groupes.renater.fr/wiki/ml-mtp/index) seminar, September 2022. [Slides](/assets/docs/2022_Sept_IMAG.pdf).  Similar versions given in Arcachon (Curves and Surfaces, June 2022) and Nice (October 2022)
 - "Stochastic Subspace Descent: Stochastic gradient-free optimization, with applications to PDE-constrained optimization"   [Slides (2.7 MB pdf](/assets/docs/2022_ICCOPT_Lehigh_SSD_Becker.pdf), at ICCOPT, Lehigh University July 2022.  Similar version given January 2020 in Denver (joint MAA meetings).
 - "Optimization for statistical estimators: Applications to quantum fidelity estimation" [Slides (3.7 MB pdf)](/assets/docs/2022_Stockhom_Becker_midRes.pdf), at Conference on the Mathematics of Complex Data, KTH Royal Institute of Technology, Stockholm. June 13-16 2022
