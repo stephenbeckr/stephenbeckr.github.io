@@ -36,24 +36,29 @@
 
 - arXiv: 2211.05151 
   title: |-
-    QCNN: Quadrature Convolutional Neural Network with Application to Unstructured Data Compression
+     QuadConv: Quadrature-Based Convolutions with Applications to Non-Uniform PDE Data Compression
   author: Kevin Doherty, Cooper Simpson, Stephen Becker, Alireza Doostan
   year: 2022
-  unpublished: true
+  unpublished: false
+  venue: Journal of Computational Physics, to appear
   id: quadConv
   abstract: We present a new convolution layer for deep learning architectures which we call QuadConv -- an approximation to continuous convolution via quadrature. Our operator is developed explicitly for use on unstructured data, and accomplishes this by learning a continuous kernel that can be sampled at arbitrary locations. In the setting of neural compression, we show that a QuadConv-based autoencoder, resulting in a Quadrature Convolutional Neural Network (QCNN), can match the performance of standard discrete convolutions on structured uniform data, as in CNNs, and maintain this accuracy on unstructured data.
   # To be submitted to JCP
+  # Accepted Nov 10 2023. Od title was:     QCNN: Quadrature Convolutional Neural Network with Application to Unstructured Data Compression
 
 - arXiv: 2209.05705
-  title: Quadrature Sampling of Parametric Models with Bi-fidelity Boosting
+  title: Subsampling of Parametric Models with Bi-fidelity Boosting
   author: Nuojin Cheng, Osman Malik, Yiming Xu, Stephen Becker, Alireza Doostan, Akil Narayan
   year: 2022
-  unpublished: true
+  unpublished: false
+  venue: SIAM/ASA Journal on Uncertainty Quantification (to appear)
   id: bifidelity-boosting
   code: https://github.com/CU-UQ/BF-Boosted-Quadrature-Sampling
   abstract: Least squares regression is a ubiquitous tool for building emulators (a.k.a. surrogate models) of problems across science and engineering for purposes such as design space exploration and uncertainty quantification. When the regression data are generated using an experimental design process (e.g., a quadrature grid) involving computationally expensive models, or when the data size is large, sketching techniques have shown promise to reduce the cost of the construction of the regression model while ensuring accuracy comparable to that of the full data. However, random sketching strategies, such as those based on leverage scores, lead to regression errors that are random and may exhibit large variability. To mitigate this issue, we present a novel boosting approach that leverages cheaper, lower-fidelity data of the problem at hand to identify the best sketch among a set of candidate sketches. This in turn specifies the sketch of the intended high-fidelity model and the associated data. We provide theoretical analyses of this bi-fidelity boosting (BFB) approach and discuss the conditions the low- and high-fidelity data must satisfy for a successful boosting. In doing so, we derive a bound on the residual norm of the BFB sketched solution relating it to its ideal, but computationally expensive, high-fidelity boosted counterpart. Empirical results on both manufactured and PDE data corroborate the theoretical analyses and illustrate the efficacy of the BFB solution in reducing the regression error, as compared to the non-boosted solution
 # Submitted to SIAM JUQ, aka SIAM/ASA J on UQ
-
+# Accepted Nov 13 2023, new title Subsampling of Parametric Models with Bi-fidelity Boosting
+# # Old title was:
+# title: Quadrature Sampling of Parametric Models with Bi-fidelity Boosting
 
 - arXiv: 2209.05662
   title: Fast Algorithms for Monotone Lower Subsets of Kronecker Least Squares Problems
