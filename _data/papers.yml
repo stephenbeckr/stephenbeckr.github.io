@@ -11,6 +11,7 @@
   arXiv: 2305.16530
   unpublished: true
   abstract: Quantifying the uncertainty of quantities of interest (QoIs) from physical systems is a primary objective in model validation. However, achieving this goal entails balancing the need for computational efficiency with the requirement for numerical accuracy. To address this trade-off, we propose a novel bi-fidelity formulation of variational auto-encoders (BF-VAE) designed to estimate the uncertainty associated with a QoI from low-fidelity (LF) and high-fidelity (HF) samples of the QoI. This model allows for the approximation of the statistics of the HF QoI by leveraging information derived from its LF counterpart. Specifically, we design a bi-fidelity auto-regressive model in the latent space that is integrated within the VAE's probabilistic encoder-decoder structure. An effective algorithm is proposed to maximize the variational lower bound of the HF log-likelihood in the presence of limited HF data, resulting in the synthesis of HF realizations with a reduced computational cost. Additionally, we introduce the concept of the bi-fidelity information bottleneck (BF-IB) to provide an information-theoretic interpretation of the proposed BF-VAE model. Our numerical results demonstrate that BF-VAE leads to considerably improved accuracy, as compared to a VAE trained using only HF data when limited HF data is available.
+  code: https://github.com/CU-UQ/Bi-fidelity-VAE
 
 
 - title: The Dependence of Parallel Imaging with Linear Predictability on the Undersampling Direction
@@ -40,6 +41,8 @@
   author: Kevin Doherty, Cooper Simpson, Stephen Becker, Alireza Doostan
   year: 2022
   unpublished: false
+  code: https://github.com/AlgorithmicDataReduction/PyTorch-QuadConv
+  DOI: https://doi.org/10.1016/j.jcp.2023.112636
   venue: Journal of Computational Physics, to appear
   id: quadConv
   abstract: We present a new convolution layer for deep learning architectures which we call QuadConv -- an approximation to continuous convolution via quadrature. Our operator is developed explicitly for use on unstructured data, and accomplishes this by learning a continuous kernel that can be sampled at arbitrary locations. In the setting of neural compression, we show that a QuadConv-based autoencoder, resulting in a Quadrature Convolutional Neural Network (QCNN), can match the performance of standard discrete convolutions on structured uniform data, as in CNNs, and maintain this accuracy on unstructured data.
