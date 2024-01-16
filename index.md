@@ -15,6 +15,10 @@ title: Home
 <!-- <img style="float: left;" src="/assets/img/CU_logo_matlab.jpg"> -->
 Stephen Becker is an associate professor of [applied mathematics at the University of Colorado Boulder](https://www.colorado.edu/amath/), with courtesy appointments in the [Electrical, Computer and Energy Engineering](https://www.colorado.edu/ecee/) and [Computer Science](https://www.colorado.edu/cs/) departments. Previously he was a Herman Goldstine Postdoctoral fellow in Mathematical Sciences at IBM Research in Yorktown Heights, NY, and a postdoctoral fellow via the [Fondation Sciences Mathématiques de Paris](http://www.sciencesmaths-paris.fr/) at Paris 6. He received his PhD in 2011 from Caltech under [Emmanuel Candès](https://candes.su.domains/), and bachelor's degrees in math and physics from Wesleyan University.
 
+Our group's work has been recognized with the [Beale Orchard-Hays prize](https://www.mathopt.org/?nav=boh#winners) given out every 3 years by the Mathematical Optimization Society.  We are graciously funded by the [DOE Office of Science's ASCR](https://science.osti.gov/ascr), by a DOE funded MMICC center [CHaRMNET](https://charmnet-mmicc.github.io/), and by the [National Science Foundation (NSF)](https://www.nsf.gov/); and have previously been supported by [Northrop Grumman](https://www.northropgrumman.com/), [Bloomberg](https://www.bloomberg.com/company/values/tech-at-bloomberg/data-science/academic-engagement-programs/data-science-ph-d-fellowship/) and by [NVIDIA hardware grants](https://nvidia.my.site.com/HardwareGrant/s/Application).
+
+Stephen is on the editorial boards at [Transactions on Machine Learning Research](https://jmlr.org/tmlr/) and the [SIAM Journal on Mathematics of Data Science (SIMODS)](https://www.siam.org/publications/journals/siam-journal-on-mathematics-of-data-science-simods); a technical editor for [Mathematical Programming Computation](https://link.springer.com/journal/12532); and a frequent meta-reviewer for [NeurIPS](https://nips.cc/), [ICML](https://icml.cc/), [ICLR](https://iclr.cc/) and [AISTATS](https://aistats.org/).
+
 More information about us at [people](people).
  <!-- we also have the old (and infrequently updated)  [google site member page](https://sites.google.com/colorado.edu/becker/members). -->
 
@@ -44,6 +48,7 @@ My CV is on my [CU Experts Profile page](https://experts.colorado.edu/display/fi
 ## News! Our department is hiring fall 2023 for tenure-track positions
 Full details at the [job posting](https://jobs.colorado.edu/jobs/JobDetail/?jobId=52135).
 
+<!--
 ## News! Now hiring for a postdoc position
 
 As part of the new DOE-funded [CHaRMNET](https://charmnet-mmicc.github.io/) center for plasma modeling, Professors David Bortz and Stephen Becker are hiring a postdoc to start as early as January 2023. We're looking for an applicant with expertise in one or more of the following areas:
@@ -57,7 +62,9 @@ As part of the new DOE-funded [CHaRMNET](https://charmnet-mmicc.github.io/) cent
 
 
 Details at the [official job posting](https://jobs.colorado.edu/jobs/JobDetail/PostDoctoral-Research-Associate/44188).
+-->
 
+## News! We're part of the CHaRMNET plasma modeling center
 [CU press release](https://www.colorado.edu/asmagazine/2022/10/19/cu-boulder-joins-national-effort-advance-nuclear-fusion-research) on the plasma project.
 [MSU press release](https://msutoday.msu.edu/news/2022/msu-helms-project-to-help-make-fusion-energy-reality) as well.
 
