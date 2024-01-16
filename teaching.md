@@ -5,26 +5,37 @@ permalink: /teaching/
 ---
 
 ## Teaching at CU
-- 2023 Fall, taching:
+- 2024 Spring
+  - [APPM 4490/5490 Theory of Machine Learning](https://github.com/stephenbeckr/ML-theory-class)
+- 2023 Fall
   - COEN 1830 First-year seminar
   - APPM 4440 Real Analysis
-- 2023 Spring, teaching:
+- 2023 Spring
   - APPM 5450 Applied Analysis 2
   - [APPM 5630 Advanced Convex Optimization](https://github.com/stephenbeckr/convex-optimization-class)
 - 2022 Fall, on **sabbatical** and not teaching
-- 2022 Spring, teaching:
+- 2022 Spring
   - [APPM 4490/5490 Theory of Machine Learning](https://github.com/stephenbeckr/ML-theory-class) (previously taught as a special topics course)
   - [MATH/STAT 4540/5540 Introduction to Time Series](https://github.com/stephenbeckr/time-series-class)
-- 2021 Fall, teaching [APPM/STAT 5650 Randomized Algorithms](https://github.com/stephenbeckr/randomized-algorithm-class) (previously taught as a special topics course)
-- 2021 Spring [APPM 5630 Advanced Convex Optimization](https://github.com/stephenbeckr/convex-optimization-class) (previously taught as a special topics course)
-- 2020 Fall,  [APPM 4650 Numerical Analysis](https://github.com/stephenbeckr/numerical-analysis-class)
-- 2020 Spring, [Theory of Machine Learning](https://github.com/stephenbeckr/ML-theory-class) special topics PhD class
-- 2019 Fall, APPM 5440 Applied Analysis
-- 2019 Spring, teaching [APPM 4720/5720 Special Topics: Randomized Algorithms](https://www.colorado.edu/amath/appm-47205720-open-topicsrandomized-algorithms-spring-2019) (see also the permanent [github site](https://github.com/stephenbeckr/randomized-algorithm-class))
-- 2018 Fall APPM 4720/5720 Special Topics: Advanced Topics in Convex Optimization (see the permanent [github site](https://github.com/stephenbeckr/convex-optimization-class))
+- 2021 Fall
+  - [APPM/STAT 5650 Randomized Algorithms](https://github.com/stephenbeckr/randomized-algorithm-class) (previously taught as a special topics course)
+- 2021 Spring
+  - [APPM 5630 Advanced Convex Optimization](https://github.com/stephenbeckr/convex-optimization-class) (previously taught as a special topics course)
+- 2020 Fall
+  - [APPM 4650 Numerical Analysis](https://github.com/stephenbeckr/numerical-analysis-class)
+- 2020 Spring 
+  - [Theory of Machine Learning](https://github.com/stephenbeckr/ML-theory-class) special topics PhD class
+- 2019 Fall 
+  - APPM 5440 Applied Analysis
+- 2019 Spring 
+  - [APPM 4720/5720 Special Topics: Randomized Algorithms](https://github.com/stephenbeckr/randomized-algorithm-class)
+- 2018 Fall 
+  - [APPM 4720/5720 Special Topics: Advanced Topics in Convex Optimization](https://github.com/stephenbeckr/convex-optimization-class))
   - Also taught Spring 2016
-- 2015 Spring [Applied Analysis 2](http://amath.colorado.edu/content/appm-5450-applied-analysis-2-spring-2015), APPM 5450 graduate level
-- 2014 Fall [Applied Analysis 1](http://amath.colorado.edu/content/appm-5440-applied-analysis-1-fall-2014), APPM 5440 graduate level
+- 2015 Spring
+  - APPM 5450 Applied Analysis 2
+- 2014 Fall
+  - APPM 5440 Applied Analysis 1
 
 ## Summer STEM camp (Aurora and Longmont Colorado)
 Thanks to CU Office of Outreach and Northrop Grumman for supporting this
