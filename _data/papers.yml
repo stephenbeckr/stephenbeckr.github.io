@@ -9,7 +9,8 @@
   author: Nuojin Cheng, Osman Asif Malik, Stephen Becker, Alireza Doostan
   year: 2023
   arXiv: 2305.16530
-  unpublished: true
+  unpublished: false
+  venue: Computer Methods in Applied Mechanics and Engineering, to appear
   abstract: Quantifying the uncertainty of quantities of interest (QoIs) from physical systems is a primary objective in model validation. However, achieving this goal entails balancing the need for computational efficiency with the requirement for numerical accuracy. To address this trade-off, we propose a novel bi-fidelity formulation of variational auto-encoders (BF-VAE) designed to estimate the uncertainty associated with a QoI from low-fidelity (LF) and high-fidelity (HF) samples of the QoI. This model allows for the approximation of the statistics of the HF QoI by leveraging information derived from its LF counterpart. Specifically, we design a bi-fidelity auto-regressive model in the latent space that is integrated within the VAE's probabilistic encoder-decoder structure. An effective algorithm is proposed to maximize the variational lower bound of the HF log-likelihood in the presence of limited HF data, resulting in the synthesis of HF realizations with a reduced computational cost. Additionally, we introduce the concept of the bi-fidelity information bottleneck (BF-IB) to provide an information-theoretic interpretation of the proposed BF-VAE model. Our numerical results demonstrate that BF-VAE leads to considerably improved accuracy, as compared to a VAE trained using only HF data when limited HF data is available.
   code: https://github.com/CU-UQ/Bi-fidelity-VAE
 
