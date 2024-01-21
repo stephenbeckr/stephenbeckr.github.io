@@ -7,7 +7,7 @@
 
 - title: Bi-fidelity Variational Auto-encoder for Uncertainty Quantification
   author: Nuojin Cheng, Osman Asif Malik, Stephen Becker, Alireza Doostan
-  year: 2023
+  year: 2024
   arXiv: 2305.16530
   unpublished: false
   venue: Computer Methods in Applied Mechanics and Engineering, to appear
@@ -40,7 +40,7 @@
   title: |-
      QuadConv: Quadrature-Based Convolutions with Applications to Non-Uniform PDE Data Compression
   author: Kevin Doherty, Cooper Simpson, Stephen Becker, Alireza Doostan
-  year: 2022
+  year: 2023
   unpublished: false
   code: https://github.com/AlgorithmicDataReduction/PyTorch-QuadConv
   DOI: https://doi.org/10.1016/j.jcp.2023.112636
@@ -53,7 +53,7 @@
 - arXiv: 2209.05705
   title: Subsampling of Parametric Models with Bi-fidelity Boosting
   author: Nuojin Cheng, Osman Malik, Yiming Xu, Stephen Becker, Alireza Doostan, Akil Narayan
-  year: 2022
+  year: 2023
   unpublished: false
   venue: SIAM/ASA Journal on Uncertainty Quantification (to appear)
   id: bifidelity-boosting
