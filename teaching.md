@@ -69,7 +69,7 @@ Here is the [StatOptML seminar website](https://sites.google.com/colorado.edu/st
 
 ## Projects created for my classes
 (Click the image for full-resolution PDF)
-### APPM 4490/5490 Randomized Algorithms, Spring 2022
+### APPM 4490/5490 ML Theory, Spring 2022
 [![Spring 22](/assets/img/SlideshowAllPresentations_4490_Spring22.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_4490_Spring22.pdf)
 
 ### APPM 5650 Randomized Algorithms, Fall 2021
