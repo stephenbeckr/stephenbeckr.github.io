@@ -1,8 +1,8 @@
 - other-link: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">preprint</a>
   title: Global solutions in deep learning in sub-linear time
   author: Stephen Becker
-  venue: NeurIPS 2022 (best paper award)
-  year: 2022
+  venue: NeurIPS 2023 (best paper award)
+  year: 2023
   unpublished: true
 
 - title: Bi-fidelity Variational Auto-encoder for Uncertainty Quantification
@@ -17,6 +17,12 @@
   other-link: https://authors.elsevier.com/c/1ibEYAQEJ57Zl
 
 
+- title: In Situ Framework for Coupling Simulation and Machine Learning with Application to CFD
+  author: Riccardo Balin, Filippo Simini, Cooper Simpson, Andrew Shao, Alessandro Rigazzi, Matthew Ellis, Stephen Becker, Alireza Doostan, John A. Evans, Kenneth E. Jansen
+  year: 2023
+  abstract: Recent years have seen many successful applications of machine learning (ML) to facilitate fluid dynamic computations. As simulations grow, generating new training datasets for traditional offline learning creates I/O and storage bottlenecks. Additionally, performing inference at runtime requires non-trivial coupling of ML framework libraries with simulation codes. This work offers a solution to both limitations by simplifying this coupling and enabling in situ training and inference workflows on heterogeneous clusters. Leveraging SmartSim, the presented framework deploys a database to store data and ML models in memory, thus circumventing the file system. On the Polaris supercomputer, we demonstrate perfect scaling efficiency to the full machine size of the data transfer and inference costs thanks to a novel co-located deployment of the database. Moreover, we train an autoencoder in situ from a turbulent flow simulation, showing that the framework overhead is negligible relative to a solver time step and training epoch.
+  unpublished: true
+  arXiv: '2306.12900'
 
 
 - title: The Dependence of Parallel Imaging with Linear Predictability on the Undersampling Direction
