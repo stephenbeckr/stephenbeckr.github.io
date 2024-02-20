@@ -5,6 +5,12 @@
   year: 2023
   unpublished: true
 
+- title: Variational Entropy Search for Adjusting Expected Improvement
+  author: Nuojin Cheng, Stephen Becker
+  arXiv: 2402.11345
+  unpublished: true
+  abstract: Bayesian optimization is a widely used technique for optimizing black-box functions, with Expected Improvement (EI) being the most commonly utilized acquisition function in this domain. While EI is often viewed as distinct from other information-theoretic acquisition functions, such as entropy search (ES) and max-value entropy search (MES), our work reveals that EI can be considered a special case of MES when approached through variational inference (VI). In this context, we have developed the Variational Entropy Search (VES) methodology and the VES-Gamma algorithm, which adapts EI by incorporating principles from information-theoretic concepts. The efficacy of VES-Gamma is demonstrated across a variety of test functions and read datasets, highlighting its theoretical and practical utilities in Bayesian optimization scenarios.
+
 - title: Bi-fidelity Variational Auto-encoder for Uncertainty Quantification
   author: Nuojin Cheng, Osman Asif Malik, Subjayan De, Stephen Becker, Alireza Doostan
   year: 2024
