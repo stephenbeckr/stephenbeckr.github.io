@@ -105,7 +105,7 @@
   author: Akshay Seshadri, Martin Ringbauer, Jacob Spainhour, Rainer Blatt, Thomas Monz, Stephen Becker
   other-link: |-
     See also the companion paper (an extended version): <a href="https://arxiv.org/abs/2112.07947">Theory of versatile fidelity estimation with confidence</a> 
-  year: 2021
+  year: 2024
   unpublished: false
   venue: Physical Review Letters
   code: https://github.com/akshayseshadri/minimax-fidelity-estimation
@@ -117,7 +117,7 @@
   author: Akshay Seshadri, Martin Ringbauer, Jacob Spainhour, Thomas Monz, Stephen Becker
   other-link: |-
     See also the companion paper (an extended version): <a href="https://arxiv.org/abs/2112.07925">Versatile fidelity estimation with confidence</a> 
-  year: 2021
+  year: 2024
   unpublished: false
   venue: Physical Review A
   code: https://github.com/akshayseshadri/minimax-fidelity-estimation
