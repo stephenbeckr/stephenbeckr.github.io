@@ -81,6 +81,7 @@
   author: Nuojin Cheng, Osman Malik, Yiming Xu, Stephen Becker, Alireza Doostan, Akil Narayan
   year: 2023
   unpublished: false
+  DOI: https://doi.org/10.1137/22M1524989
   venue: SIAM/ASA Journal on Uncertainty Quantification (to appear)
   id: bifidelity-boosting
   code: https://github.com/CU-UQ/BF-Boosted-Quadrature-Sampling
@@ -122,7 +123,8 @@
   venue: Physical Review A
   code: https://github.com/akshayseshadri/minimax-fidelity-estimation
   id: versatilefidelity_PRA
-  abstract: Estimating the fidelity with a target state is important in quantum information tasks. Many fidelity estimation techniques present a suitable measurement scheme to perform the estimation. In contrast, we present techniques that allow the experimentalist to choose a convenient measurement setting. Our primary focus lies on a method that constructs an estimator with nearly minimax optimal confidence interval for any specified measurement setting. We demonstrate, through a combination of theoretical and numerical results, various desirable properties for the method: robustness against experimental imperfections, competitive sample complexity, and accurate estimates in practice. We compare this method with Maximum Likelihood Estimation and the associated Profile Likelihood method, a Semi-Definite Programming based approach, as well as a popular direct fidelity estimation technique.
+  abstract: |-
+    Estimating the fidelity with a target state is important in quantum information tasks. Many fidelity estimation techniques present a suitable measurement scheme to perform the estimation. In contrast, we present techniques that allow the experimentalist to choose a convenient measurement setting. Our primary focus lies on a method that constructs an estimator with nearly minimax optimal confidence interval for any specified measurement setting. We demonstrate, through a combination of theoretical and numerical results, various desirable properties for the method -- robustness against experimental imperfections, competitive sample complexity, and accurate estimates in practice. We compare this method with Maximum Likelihood Estimation and the associated Profile Likelihood method, a Semi-Definite Programming based approach, as well as a popular direct fidelity estimation technique.
 
 - arXiv: '2112.03390'
   title: On the computation of a non-parametric estimator by convex optimization
