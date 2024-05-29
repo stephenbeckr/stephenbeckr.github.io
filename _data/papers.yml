@@ -5,6 +5,13 @@
   year: 2023
   unpublished: true
 
+- title: Online randomized interpolative decomposition with a posteriori error estimator for temporal PDE data reduction
+  year: 2024
+  arXiv: 2405.16076
+  unpublished: true
+  author: Angran Li, Stephen Becker, Alireza Doostan
+  abstract: Traditional low-rank approximation is a powerful tool to compress the huge data matrices that arise in simulations of partial differential equations (PDE), but suffers from high computational cost and requires several passes over the PDE data. The compressed data may also lack interpretability thus making it difficult to identify feature patterns from the original data. To address this issue, we present an online randomized algorithm to compute the interpolative decomposition (ID) of large-scale data matrices in situ. Compared to previous randomized IDs that used the QR decomposition to determine the column basis, we adopt a streaming ridge leverage score-based column subset selection algorithm that dynamically selects proper basis columns from the data and thus avoids an extra pass over the data to compute the coefficient matrix of the ID. In particular, we adopt a single-pass error estimator based on the non-adaptive Hutch++ algorithm to provide real-time error approximation for determining the best coefficients. As a result, our approach only needs a single pass over the original data and thus is suitable for large and high-dimensional matrices stored outside of core memory or generated in PDE simulations. We also provide numerical experiments on turbulent channel flow and ignition simulations, and on the NSTX Gas Puff Image dataset, comparing our algorithm with the offline ID algorithm to demonstrate its utility in real-world applications.
+
 - title: Optimization of Array Encoding for Ultrasound Imaging
   year: 2024
   author: Jacob Spainhour, Korben Smart, Stephen Becker, Nick Bottenus
