@@ -16,9 +16,11 @@
   year: 2024
   author: Jacob Spainhour, Korben Smart, Stephen Becker, Nick Bottenus
   abstract: Objective; The transmit encoding model for synthetic aperture imaging is a robust and flexible framework for understanding the effect of acoustic transmission on ultrasound image reconstruction. Our objective is to use machine learning (ML) to construct scanning sequences, parameterized by time delays and apodization weights, that produce high quality B-mode images. Approach; We use an ML model in PyTorch and simulated RF data from Field II to probe the space of possible encoding sequences for those that minimize a loss function that describes image quality. This approach is made computationally feasible by a novel formulation of the derivative for delay-and-sum beamforming. We demonstrate these results experimentally on wire targets and a tissue-mimicking phantom. Main Results; When trained according to a given set of imaging parameters (imaging domain, hardware restrictions), our ML imaging model produces optimized encoding sequences that improve a number of standard quality metrics including resolution, field of view, and contrast, over conventional sequences. Significance; This work demonstrates that the set of encoding schemes that are commonly used represent only a narrow subset of those available. Additionally, it demonstrates the value for ML tasks in synthetic transmit aperture imaging to consider the beamformer within the model, instead of as purely post-processing.
-  unpublished: true
+  unpublished: false
+  venue: Physics in Medicine and Biology
   arXiv: 2403.00289
   code: https://github.com/jcs15c/optimal_ultrasound_encoding
+  DOI: https://iopscience.iop.org/article/10.1088/1361-6560/ad5249
   
 
 - title: Variational Entropy Search for Adjusting Expected Improvement
