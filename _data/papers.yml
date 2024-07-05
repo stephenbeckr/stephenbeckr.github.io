@@ -5,6 +5,17 @@
   year: 2023
   unpublished: true
 
+
+- title: Compressed Sensing with Homodyne Detection
+  year: 2024
+  conference: true
+  unpublished: false
+  venue: 2024 IEEE Conference on Computational Imaging Using Synthetic Apertures (CISA)
+  DOI: https://doi.org/10.1109/CISA60639.2024.10576485
+  author: Alex McManus, Stephen Becker, Daniel O'Connor, Nicholas Dwork
+  abstract: Compressed sensing and partial Fourier sampling are two methods for accelerating MRI scans. Compressed sensing relies on the sparsity of the image in a separate domain to reduce the sampling burden and partial Fourier sampling relies on an inherent Hermitian symmetry for the same purpose. Partial Fourier with homodyne detection explicitly takes advantage of the fact that the phase of the image is low-bandwidth. Conventional combinations of these methods do not use homodyne detection; instead, the image is reconstructed by solving the same optimization algorithm as that of compressed sensing; the only difference is that a significant portion (approximately 3/8) of the samples are eliminated. In this manuscript, we reconstruct the image by solving a convex optimization problem that explicitly incorporates the low-bandwidth phase estimate of homodyne detection. We show that this method improves image quality for a given sampling burden.
+
+
 - title: Online randomized interpolative decomposition with a posteriori error estimator for temporal PDE data reduction
   year: 2024
   arXiv: 2405.16076
