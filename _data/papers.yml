@@ -79,7 +79,7 @@
   unpublished: false
   code: https://github.com/AlgorithmicDataReduction/PyTorch-QuadConv
   DOI: https://doi.org/10.1016/j.jcp.2023.112636
-  venue: Journal of Computational Physics, to appear
+  venue: Journal of Computational Physics
   id: quadConv
   abstract: We present a new convolution layer for deep learning architectures which we call QuadConv -- an approximation to continuous convolution via quadrature. Our operator is developed explicitly for use on unstructured data, and accomplishes this by learning a continuous kernel that can be sampled at arbitrary locations. In the setting of neural compression, we show that a QuadConv-based autoencoder, resulting in a Quadrature Convolutional Neural Network (QCNN), can match the performance of standard discrete convolutions on structured uniform data, as in CNNs, and maintain this accuracy on unstructured data.
   # To be submitted to JCP
@@ -162,10 +162,11 @@
 - arXiv: '2006.05610'
   title: High probability convergence and uniform stability bounds for nonconvex stochastic gradient descent
   author: Liam Madden, Emiliano Dall'Anese, Stephen Becker
-  year: 2021
+  year: 2024
   abstract: |-
     Stochastic gradient descent is one of the most common iterative algorithms used in machine learning. While being computationally cheap to implement, recent literature suggests it may have implicit regularization properties that prevent over-fitting. This paper analyzes the properties of stochastic gradient descent from a theoretical standpoint to help bridge the gap between theoretical and empirical results. Most theoretical results either assume convexity or only provide convergence results in mean, while this paper proves convergence bounds in high probability without assuming convexity. Assuming strong smoothness, we prove high probability convergence bounds in two settings: (1) assuming the Polyak-Łojasiewicz inequality and norm sub-Gaussian gradient noise and (2) assuming norm sub-Weibull gradient noise. In the first setting, we combine our convergence bounds with existing generalization bounds in order to bound the true risk and show that for a certain number of epochs, convergence and generalization balance in such a way that the true risk goes to the empirical minimum as the number of samples goes to infinity. In the second setting, as an intermediate step to proving convergence, we prove a probability result of independent interest. The probability result extends Freedman-type concentration beyond the sub-exponential threshold to heavier-tailed martingale difference sequences.
-  unpublished: true
+  unpublished: false
+  venue: Transactions of Machine Learning Research (to appear)
   code: https://github.com/liammadden/sgd
   id: liamSGD
 
@@ -552,6 +553,7 @@
 - arXiv: 2105.03809 
   title: Superresolution photoacoustic tomography using random speckle illumination and second order moments
   author: Osman Asif Malik, Venkatalakshmi Vyjayanthi Narumanchi, Stephen Becker, Todd W. Murray
+  DOI: https://doi.org/10.1109/WASPAA52581.2021.9632758
   venue: WASPAA conference
   year: 2021
   conference: true
@@ -599,7 +601,8 @@
   arXiv: 1903.04056
   year: 2019
   conference: true
-  abstract: We present a one-pass sparsified Gaussian mixture model (SGMM). Given N data points in P dimensions, X, the model fits K Gaussian distributions to X and (softly) classifies each point to these clusters. After paying an up-front cost of (NPlogP) to precondition the data, we subsample Q entries of each data point and discard the full P-dimensional data. SGMM operates in (KNQ) time per iteration for diagonal or spherical covariances, independent of P, while estimating the model parameters in the full P-dimensional space, making it one-pass and hence suitable for streaming data. We derive the maximum likelihood estimators for the parameters in the sparsified regime, demonstrate clustering on synthetic and real data, and show that SGMM is faster than GMM while preserving accuracy.
+  DOI: https://doi.org/10.1109/BigData47090.2019.9006543
+  abstract: We present a one-pass sparsified Gaussian mixture model (SGMM). Given N data points in P dimensions, X, the model fits K Gaussian distributions to X and (softly) classifies each point to these clusters. After paying an up-front cost of O(NPlogP) to precondition the data, we subsample Q entries of each data point and discard the full P-dimensional data. SGMM operates in O(KNQ) time per iteration for diagonal or spherical covariances, independent of P, while estimating the model parameters in the full P-dimensional space, making it one-pass and hence suitable for streaming data. We derive the maximum likelihood estimators for the parameters in the sparsified regime, demonstrate clustering on synthetic and real data, and show that SGMM is faster than GMM while preserving accuracy.
 
 - arXiv: 1902.10842
   title: Online Sparse Subspace Clustering
