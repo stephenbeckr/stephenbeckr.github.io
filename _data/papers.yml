@@ -129,6 +129,7 @@
   year: 2024
   unpublished: false
   venue: Physical Review Letters
+  DOI: https://doi.org/10.1103/PhysRevLett.133.020402
   code: https://github.com/akshayseshadri/minimax-fidelity-estimation
   id: versatilefidelity
   abstract: As quantum devices become more complex and the requirements on these devices become more demanding, it is crucial to be able to verify the performance of such devices in a scalable and reliable fashion. A cornerstone task in this challenge is quantifying how close an experimentally prepared quantum state is to the desired one. Here we present a method to construct an estimator for the quantum state fidelity that is compatible with any measurement protocol. Our method provides a confidence interval on this estimator that is guaranteed to be nearly minimax optimal for the specified measurement protocol. For a well-chosen measurement scheme, our method is competitive in the number of measurement outcomes required for estimation. We demonstrate our method using simulations and experimental data from a trapped-ion quantum computer and compare the results to state-of-the-art techniques. Our method can be easily extended to estimate the expectation value of any observable, such as entanglement witnesses.
