@@ -76,8 +76,6 @@ Here is the [StatOptML seminar website](https://sites.google.com/colorado.edu/st
 ### APPM 5630 Convex Optimization, Spring 2023
 [![Spring 23](/assets/img/SlideshowAllPresentations_5630_Spring23.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_5630_Spring23.pdf)
 
-### APPM 7400 ML Theory, Spring 2020
-
 ### APPM 4490/5490 ML Theory, Spring 2022
 [![Spring 22](/assets/img/SlideshowAllPresentations_4490_Spring22.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_4490_Spring22.pdf)
 
