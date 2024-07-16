@@ -69,13 +69,20 @@ Here is the [StatOptML seminar website](https://sites.google.com/colorado.edu/st
 
 ## Projects created for my classes
 (Click the image for full-resolution PDF)
+
+### APPM 4490/5490 ML Theory, Spring 2024
+[![Spring 22](/assets/img/SlideshowAllPresentations_4490_Spring24.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_4490_Spring24.pdf)
+
+### APPM 5630 Convex Optimization, Spring 2023
+[![Spring 23](/assets/img/SlideshowAllPresentations_5630_Spring23.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_5630_Spring23.pdf)
+
+### APPM 7400 ML Theory, Spring 2020
+
 ### APPM 4490/5490 ML Theory, Spring 2022
 [![Spring 22](/assets/img/SlideshowAllPresentations_4490_Spring22.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_4490_Spring22.pdf)
 
 ### APPM 5650 Randomized Algorithms, Fall 2021
-
 [![Fall 21](/assets/img/SlideshowAllPresentations_5650_Fall21.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_5650_Fall21.pdf)
-
 
 ### APPM 5630 Convex Optimization, Spring 2021
 [![Spring 21](/assets/img/SlideshowAllPresentations_5630_Spring21.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_5630_Spring21.pdf)
