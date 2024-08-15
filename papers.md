@@ -193,9 +193,11 @@ This thesis presents the results of extensive simulations of the ST2 model of wa
 Theses of my students (after 2019, CU stopped posting these online, so I'm posting local copies when I haven them):
 
 In the pipeline
-- Akshay Seshadri (PhD, CU Physics) 2023?
-- Kevin Doherty (PhD), 2023-4?
-- Jacob Spainhour (PhD), 2024?
+- Kevin Doherty (PhD), July 2024
+- Akshay Seshadri (PhD, CU Physics) Fall 2024
+- Jacob Spainhour (PhD), 2025?
+- K. Aditi (PhD), 202?
+- Nic Rummel (PhD), 202?
 
 PhD theses
 - [Mathematical Formulations with Uncertain Data in
