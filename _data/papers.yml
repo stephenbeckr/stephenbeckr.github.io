@@ -169,6 +169,7 @@
   author: Richard Clancy, Stephen Becker
   year: 2022
   abstract: In this paper we consider regression problems subject to arbitrary noise in the operator or design matrix. This characterization appropriately models many physical phenomena with uncertainty in the regressors. Although the problem has been studied extensively for ordinary/total least squares, and via models that implicitly or explicitly assume Gaussianity, less attention has been paid to improving estimation for regression problems under general uncertainty in the design matrix. To address difficulties encountered when dealing with distributions of sums of random variables, we rely on the saddle point method to estimate densities and form an approximate log-likelihood to maximize. We show that the proposed method performs favorably against other classical methods.
+  venue: Mathematical Programming Computation (to appear)
   unpublished: true
 
 - arXiv: '2006.05610'
