@@ -159,6 +159,7 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
 
 Here I list a few talks that have video or slides or websites
 
+- "Research in Applied Math at CU", Math Circles talk (K-12), Sept 15 2024.  [Slides](/assets/docs/MathCircles_Sept15_2024.pdf).
 - "Randomization methods for big-data", at CU CS Dept colloquium Oct 26 2023, and Purdue Math dept Applied Math seminar Oct 23 2023.  [Slides](/assets/docs/2023_10_CU_CS_RandomMethods.pdf).
   - For related sketching code:
   - [Random sketching operators](https://github.com/stephenbeckr/randomized-algorithm-class/tree/master/Code) in Matlab and Python, as part of the class I teach. This has Gaussian sketch, Fast Johnson Lindenstrauss (with FFT or a fast Hadamard), and count sketch. The Hadamard and count sketch have C functions to make them extra fast.  
