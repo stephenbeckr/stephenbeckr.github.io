@@ -5,6 +5,8 @@ permalink: /teaching/
 ---
 
 ## Teaching at CU
+- 2024 Fall
+  - [APPM 4720/5720 Special Topics: Scientific Machine Learning (SciML)](https://github.com/cu-applied-math/SciML-Class/tree/main)
 - 2024 Spring
   - [APPM 4490/5490 Theory of Machine Learning](https://github.com/stephenbeckr/ML-theory-class)
 - 2023 Fall
