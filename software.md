@@ -21,14 +21,9 @@ Most of our group's latest software is on github. These are github project or us
   - [quadrature-sampling](https://github.com/OsmanMalik/quadrature-sampling)
   - [Tensor-Ring ALS Sampled](https://github.com/OsmanMalik/tr-als-sampled)
   - [Fast matrix/tensor ID](https://github.com/OsmanMalik/countsketch-matrix-tensor-id) ([paper](../papers#tensorid))
-- [Angran](https://github.com/truthlive/ASCR_DataReduction)
-- [Ibrohim](https://github.com/ib-nosirov/peeling_algorithm)
-- [Noki](https://github.com/NUOJIN): 
-  - [monotone lower set](https://github.com/CU-UQ/monotone-lower-set/) ([paper](../papers#monotone-sampling))
-  - [Boosted Quad. Sampling](https://github.com/CU-UQ/BF-Boosted-Quadrature-Sampling) ([paper](../papers#bifidelity-boosting))
 - [Claudia](https://github.com/claudiachen1457/)
 - [Tzu-Chi](https://github.com/junipertcy/)
-- [Kevin](https://github.com/kvndhrty)
+  - [Regularized Spring Rank](https://github.com/junipertcy/RegRank)
 - Jacob S: [optimal_ultrasound_encoding](https://github.com/jcs15c/optimal_ultrasound_encoding) ([paper](../papers#ultrasound2022))
 - Liam: 
   - [sgd](https://github.com/liammadden/sgd) ([paper](../papers#liamSGD))
@@ -39,11 +34,30 @@ Most of our group's latest software is on github. These are github project or us
 - Akshay: [minimax-fidelity-estimation](https://github.com/akshayseshadri/minimax-fidelity-estimation) ([paper](../papers#versatilefidelity))
 - [Gregor](https://github.com/gregor-robinson/)
 - [Erik](https://github.com/erikj540)
-- [Richie](https://github.com/rclancyc/)
 - [Lucas](https://github.com/lucas-laird/Hammming_Resolvability)
 - Richard: [SL REML](https://github.com/rborder/SL_REML) ([paper](../papers#REML))
 - Marc: [MDSpectralAnalysis](https://github.com/MarcThomson/MDSpectralAnalysis)
 - Jeff: [Hadamard Transform](https://github.com/jeffeverett/hadamard-transform)
+- ["Algorithmic Data Reduction"](https://github.com/AlgorithmicDataReduction) for Cooper and Kevin's work
+  - [PyTorch-QuadConv](https://github.com/AlgorithmicDataReduction/PyTorch-QuadConv/tree/main)  ([paper](../papers#quadConv))
+- Cooper Simpson
+  - [PyTorch-ARC](https://github.com/RS-Coop/PyTorch-ARC) in Python
+  - [QuasiNewton.jl](https://github.com/RS-Coop/QuasiNewton.jl) in Julia
+- [Kevin](https://github.com/kvndhrty)
+  - [QuadConv](https://github.com/kvndhrty/QuadConv), superseded by PyTorch-QuadConv
+- [Richie Clancy](https://github.com/rclancyc/)
+  - [approximate MLE](https://github.com/rclancyc/approximate_mle)  ([paper](../papers#approx_MLE))
+  - [MEG](https://github.com/rclancyc/meg) for Magnetoencephalography
+- Collaboration with Alireza Doostan's [CU-UQ](https://github.com/CU-UQ) group
+- [Noki](https://github.com/NUOJIN): 
+  - [monotone lower set sampling](https://github.com/CU-UQ/monotone-lower-set/) with  [Noki](https://github.com/NUOJIN) and Osman ([paper](../papers#monotone-sampling))
+  - [Boosted Quad. Sampling](https://github.com/CU-UQ/BF-Boosted-Quadrature-Sampling) ([paper](../papers#bifidelity-boosting))
+  - [Bi-fidelity Variational AutoEncoder](https://github.com/CU-UQ/Bi-fidelity-VAE) Noki and Osman  ([paper](../papers#bifiVAE))
+- [K. Aditi](https://github.com/Additi-K)
+- [Killian Wood](https://github.com/killianrwood)
+- Mitchell Krock: [Multivariate Basis Graphical Lasso](https://github.com/mlkrock/MultivariateBasisGraphicalLasso)  ([paper](../papers#Mitch))
+- Angran Li: [Data Reduction via ID](https://github.com/truthlive/ASCR_DataReduction)
+- Ibrohim Nosirov: [Peeling algorithm](https://github.com/ib-nosirov/peeling_algorithm) for structured matrix approximation
 
 </div>
 

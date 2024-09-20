@@ -44,6 +44,7 @@
 - title: Bi-fidelity Variational Auto-encoder for Uncertainty Quantification
   author: Nuojin Cheng, Osman Asif Malik, Subjayan De, Stephen Becker, Alireza Doostan
   year: 2024
+  id: bifiVAE
   arXiv: '2305.16530'
   DOI: https://doi.org/10.1016/j.cma.2024.116793
   unpublished: false
@@ -161,6 +162,8 @@
   year: 2023
   abstract: We propose a new modeling framework for highly-multivariate spatial processes that synthesizes ideas from recent multiscale and spectral approaches with graphical models. The basis graphical lasso writes a univariate Gaussian process as a linear combination of basis functions weighted with entries of a Gaussian graphical vector whose graph is estimated from optimizing an ℓ1 penalized likelihood. This paper extends the setting to a multivariate Gaussian process where the basis functions are weighted with Gaussian graphical vectors. We motivate a model where the basis functions represent different levels of resolution and the graphical vectors for each level are assumed to be independent. Using an orthogonal basis grants linear complexity and memory usage in the number of spatial locations, the number of basis functions, and the number of realizations. An additional fusion penalty encourages a parsimonious conditional independence structure in the multilevel graphical model. We illustrate our method on a large climate ensemble from the National Center for Atmospheric Research's Community Atmosphere Model that involves 40 spatial processes.
   unpublished: false
+  code: https://github.com/mlkrock/MultivariateBasisGraphicalLasso
+  id: Mitch
   venue: Journal of Computational and Graphical Statistics
   DOI: https://doi.org/10.1080/10618600.2023.2174126
 
@@ -171,6 +174,8 @@
   abstract: In this paper we consider regression problems subject to arbitrary noise in the operator or design matrix. This characterization appropriately models many physical phenomena with uncertainty in the regressors. Although the problem has been studied extensively for ordinary/total least squares, and via models that implicitly or explicitly assume Gaussianity, less attention has been paid to improving estimation for regression problems under general uncertainty in the design matrix. To address difficulties encountered when dealing with distributions of sums of random variables, we rely on the saddle point method to estimate densities and form an approximate log-likelihood to maximize. We show that the proposed method performs favorably against other classical methods.
   venue: Mathematical Programming Computation (to appear)
   unpublished: true
+  id: approx_MLE
+  code: https://github.com/rclancyc/approximate_mle
 
 - arXiv: '2006.05610'
   title: High probability convergence and uniform stability bounds for nonconvex stochastic gradient descent
