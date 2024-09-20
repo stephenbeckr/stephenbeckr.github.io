@@ -58,6 +58,8 @@ Most of our group's latest software is on github. These are github project or us
 - Mitchell Krock: [Multivariate Basis Graphical Lasso](https://github.com/mlkrock/MultivariateBasisGraphicalLasso)  ([paper](../papers#Mitch))
 - Angran Li: [Data Reduction via ID](https://github.com/truthlive/ASCR_DataReduction)
 - Ibrohim Nosirov: [Peeling algorithm](https://github.com/ib-nosirov/peeling_algorithm) for structured matrix approximation
+- Alexey Yermakov: [Tutorial on Bayesian Optimization with First-Order information (gradients)](https://github.com/yyexela/botorch/blob/main/tutorials/fobo.ipynb)
+  - [BoTorch pull request](https://github.com/pytorch/botorch/pull/2137), and [BoTorch feature request](https://github.com/pytorch/botorch/issues/1679)
 
 </div>
 
