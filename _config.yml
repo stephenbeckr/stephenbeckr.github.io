@@ -106,3 +106,7 @@ minima:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+baseurl: /faculty/becker
+url: https://amath.colorado.edu
+baseurl: /faculty/becker
+url: https://amath.colorado.edu

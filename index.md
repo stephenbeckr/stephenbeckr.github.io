@@ -22,6 +22,14 @@ Stephen is on the editorial boards at [Transactions on Machine Learning Research
 More information about us at [people](people).
  <!-- we also have the old (and infrequently updated)  [google site member page](https://sites.google.com/colorado.edu/becker/members). -->
 
+### **News!** Our department is hiring fall 2024 for two tenure-track positions
+One in math of climate, one in math of data science.
+
+More [details on the jobs](https://www.colorado.edu/amath/job-openings). The deadline for both is Nov 1 2024.
+
+### **Postdoc position**
+Jointly with Alireza Doostan, I am hiring for a postdoc for scientific data compression. See our [job ad](https://jobs.colorado.edu/jobs/JobDetail/?jobId=58939). Apply before Oct 31 2024.
+
 ### Contact info
 
 <table class="imgtable" style="border: 0px; float: right; width: 150px; clear=all;">
@@ -45,8 +53,6 @@ Please note: this website [`amath.colorado.edu/faculty/becker`](https://amath.co
 
 My CV is on my [CU Experts Profile page](https://experts.colorado.edu/display/fisid_154263).
 
-## News! Our department is hiring fall 2023 for tenure-track positions
-Full details at the [job posting](https://jobs.colorado.edu/jobs/JobDetail/?jobId=52135).
 
 <!--
 ## News! Now hiring for a postdoc position
@@ -64,7 +70,7 @@ As part of the new DOE-funded [CHaRMNET](https://charmnet-mmicc.github.io/) cent
 Details at the [official job posting](https://jobs.colorado.edu/jobs/JobDetail/PostDoctoral-Research-Associate/44188).
 -->
 
-## News! We're part of the CHaRMNET plasma modeling center
+## News! We're part of the CHaRMNET plasma modeling center as of 2022
 [CU press release](https://www.colorado.edu/asmagazine/2022/10/19/cu-boulder-joins-national-effort-advance-nuclear-fusion-research) on the plasma project.
 [MSU press release](https://msutoday.msu.edu/news/2022/msu-helms-project-to-help-make-fusion-energy-reality) as well.
 

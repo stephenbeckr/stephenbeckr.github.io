@@ -13,6 +13,15 @@
 
 # Postdocs
 
+- name: Tzu-Chi Yen
+  short: Postdoc
+  long: since 2024; PhD from CU CS Dept. Multifidelity optimization
+  website: https://junipertcy.info/
+  google-scholar: https://scholar.google.com/citations?user=ZUxl-r0AAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/tzuchiy/
+  photo: TzuChi.jpg
+  github: https://github.com/junipertcy/
+
 - name: Jon Belcher
   short: Postdoc
   photo: Jon.jpeg
@@ -23,11 +32,12 @@
 - name: Angran Li
   short: Postdoc, joint with Alireza Doostan
   photo: Unknown.png
-  long: since 2022; PhD CMU
+  long: 2022-2024; PhD CMU; online compression of scientific data
   photo: Angran.jpeg
   github: https://github.com/truthlive
   google-scholar: https://scholar.google.com/citations?hl=en&user=oWWmkZsAAAAJ
   linkedin: https://www.linkedin.com/in/angran-li-83a0936a/
+  graduated: true
 
 
 
@@ -35,6 +45,11 @@
 
 
 # PhD students, approximately newest to oldest
+- name: Nicholas (Nic) Rummel
+  linkedin: https://www.linkedin.com/in/nicholas-rummel/
+  photo: Nic.jpeg
+  github: https://github.com/nrummel
+  short: PhD student since 2022
 
 - name: Drona Khurana
   photo: Drona.jpeg
@@ -51,10 +66,11 @@
 
 - name: Kevin Doherty
   photo: Kevin.jpeg
-  short: PhD student
-  long: Started CU 2019; DFO; scientific compression; non-uniform convolution for ML
+  short: PhD 2024
+  long: Started CU 2019, graduated 2024; DFO; scientific compression; non-uniform convolution for ML. Now at NSA
   github: https://github.com/kvndhrty
   linkedin: https://www.linkedin.com/in/kevin-doherty-9b1baab1/
+  graduated: true
 
 - name: Jacob Spainhour
   short: PhD student
@@ -86,7 +102,7 @@
 
 - name: Richard (Richie) Clancy
   short: PhD 2022
-  long: Now at Northrop Grumman
+  long: Now at Northrop Grumman; MEG, robust statistics
   graduated: true
   photo: Richie.jpeg
   website: https://www.rjclancy.com/
@@ -176,9 +192,10 @@
 
 - name: Tyler Jensen
   short: MS 2024
-  long: TBD
+  long: now PhD at CU
   linkedin: https://www.linkedin.com/in/tyler-jensen-28890815a/
   photo: Unknown.png
+  graduated: true
 
 - name: Dominic Rudakevych
   linkedin: https://www.linkedin.com/in/dominic-rudakevych-666411262/
@@ -205,6 +222,7 @@
   long: research assistant 2023/2024; 2nd order methods for optimization; non-uniform convolutions for neural nets
   photo: Unknown.png
   google-scholar: https://scholar.google.com/citations?hl=en&user=rHbpN-YAAAAJ
+  graduated: true
 
 
 - name: Jacob Tiede
@@ -235,7 +253,7 @@
   google-scholar: https://scholar.google.com/citations?hl=en&user=fQhvPM8AAAAJ
   short: MS 2018 (concurrent with PhD at IBS 2019)
   github: https://github.com/rborder
-  long: Now postdoc at UCLA
+  long: Now postdoc at UCLA, starting as professor at CMU Jan 2025
   linkedin: https://www.linkedin.com/in/richard-border-313657203/
 
 
@@ -256,13 +274,15 @@
   photo: Claudia.jpeg
   github: https://github.com/claudiachen1457
   linkedin: https://www.linkedin.com/in/claudiachen23/
+  graduated: true
 
 - name: Ibrohim Nosirov 
   short: Summer student (2022) 
-  long: at Colorado School of Mines (main advisor Mike Wakin), low-pass methods and HODLR decomposition for kernel matrices)
+  long: at Colorado School of Mines (main advisor Mike Wakin), low-pass methods and HODLR decomposition for kernel matrices); now PhD at Cornell
   photo: IbrohimNosirov.jpeg
   github: https://github.com/ib-nosirov
   linkedin: https://www.linkedin.com/in/ibrohim-nosirov-74b893269/
+  graduated: true
 
 - name: Alexey Yermakov
   short: Undergrad (2022; hyperparameter optimization)
