@@ -201,6 +201,7 @@ In the pipeline
 - Nic Rummel (PhD), 202?
 
 PhD theses
+- [Numerical Methods for Non-uniform Data Sources](https://www.proquest.com/docview/3100721110/FF9F64101B99442DPQ) Kevin Doherty, 2024, PhD. [local PDF copy](/assets/docs/KevinDoherty_thesis2024.pdf)
 - [Mathematical Formulations with Uncertain Data in
 Optimization and Inverse Problems](https://www.rjclancy.com/assets/documents/dissertation.pdf) Richard Clancy, 2022, PhD
 - Liam Madden, 2022, PhD (co-advised with Emiliano Dall'Anese, CU ECEE)
