@@ -194,8 +194,7 @@ This thesis presents the results of extensive simulations of the ST2 model of wa
 Theses of my students (after 2019, CU stopped posting these online, so I'm posting local copies when I haven them):
 
 In the pipeline
-- Kevin Doherty (PhD), July 2024
-- Akshay Seshadri (PhD, CU Physics) Fall 2024
+- Akshay Seshadri (PhD, CU Physics) Fall 2024/Spring 2025
 - Jacob Spainhour (PhD), 2025?
 - K. Aditi (PhD), 202?
 - Nic Rummel (PhD), 202?
@@ -204,7 +203,8 @@ PhD theses
 - [Numerical Methods for Non-uniform Data Sources](https://www.proquest.com/docview/3100721110/FF9F64101B99442DPQ) Kevin Doherty, 2024, PhD. [local PDF copy](/assets/docs/KevinDoherty_thesis2024.pdf)
 - [Mathematical Formulations with Uncertain Data in
 Optimization and Inverse Problems](https://www.rjclancy.com/assets/documents/dissertation.pdf) Richard Clancy, 2022, PhD
-- Liam Madden, 2022, PhD (co-advised with Emiliano Dall'Anese, CU ECEE)
+- [First-Order Methods for Online and Stochastic Optimization, and Approximate Compiling](https://www.proquest.com/docview/2669410131/310C41AC99D04956PQ)
+Liam Madden, 2022, PhD (co-advised with Emiliano Dall'Anese, CU ECEE). [local PDF copy](/assets/docs/LiamMadden_thesis2022.pdf)
 - [Measuring Image Resolution in Super-Resolution Microscopy and Bayesian Estimation of Population Size and Overlap and Vaccine Effectiveness](https://www.proquest.com/docview/2572564388/3313CC654D214068PQ) Erik Johnson, 2021, PhD (main advisor Dan Larremore, CU CS)
 - [Topics in Matrix and Tensor Computations](https://www.proquest.com/docview/2572559828/2D96D8173E184A7CPQ/) Osman Malik, 2021, PhD. [local PDF copy](/assets/docs/OsmanMalik_thesis2021.pdf)
 - [Randomization in Statistical Machine Learning](https://www.proquest.com/docview/2447014909/80A21D291D8B4D9BPQ) Zhishen (Leo) Huang, 2020, PhD. [local PDF copy](/assets/docs/ZhishenHuang_thesis2020.pdf)
