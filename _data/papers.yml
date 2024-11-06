@@ -1,8 +1,8 @@
 - other-link: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">preprint</a>
   title: Global solutions in deep learning in sub-linear time
   author: Stephen Becker
-  venue: NeurIPS 2023 (best paper award)
-  year: 2023
+  venue: NeurIPS 2024 (best paper award)
+  year: 2024
   unpublished: true
 
 
@@ -19,7 +19,8 @@
 - title: Online randomized interpolative decomposition with a posteriori error estimator for temporal PDE data reduction
   year: 2024
   arXiv: 2405.16076
-  unpublished: true
+  unpublished: false
+  venue: Computer Methods in Applied Mechanics and Engineering (to appear)
   author: Angran Li, Stephen Becker, Alireza Doostan
   abstract: Traditional low-rank approximation is a powerful tool to compress the huge data matrices that arise in simulations of partial differential equations (PDE), but suffers from high computational cost and requires several passes over the PDE data. The compressed data may also lack interpretability thus making it difficult to identify feature patterns from the original data. To address this issue, we present an online randomized algorithm to compute the interpolative decomposition (ID) of large-scale data matrices in situ. Compared to previous randomized IDs that used the QR decomposition to determine the column basis, we adopt a streaming ridge leverage score-based column subset selection algorithm that dynamically selects proper basis columns from the data and thus avoids an extra pass over the data to compute the coefficient matrix of the ID. In particular, we adopt a single-pass error estimator based on the non-adaptive Hutch++ algorithm to provide real-time error approximation for determining the best coefficients. As a result, our approach only needs a single pass over the original data and thus is suitable for large and high-dimensional matrices stored outside of core memory or generated in PDE simulations. We also provide numerical experiments on turbulent channel flow and ignition simulations, and on the NSTX Gas Puff Image dataset, comparing our algorithm with the offline ID algorithm to demonstrate its utility in real-world applications.
 
@@ -170,10 +171,10 @@
 - arXiv: 2104.03307
   title: Approximate maximum likelihood estimators for linear regression with design matrix uncertainty
   author: Richard Clancy, Stephen Becker
-  year: 2022
+  year: 2024
   abstract: In this paper we consider regression problems subject to arbitrary noise in the operator or design matrix. This characterization appropriately models many physical phenomena with uncertainty in the regressors. Although the problem has been studied extensively for ordinary/total least squares, and via models that implicitly or explicitly assume Gaussianity, less attention has been paid to improving estimation for regression problems under general uncertainty in the design matrix. To address difficulties encountered when dealing with distributions of sums of random variables, we rely on the saddle point method to estimate densities and form an approximate log-likelihood to maximize. We show that the proposed method performs favorably against other classical methods.
   venue: Mathematical Programming Computation (to appear)
-  unpublished: true
+  unpublished: false
   id: approx_MLE
   code: https://github.com/rclancyc/approximate_mle
 
