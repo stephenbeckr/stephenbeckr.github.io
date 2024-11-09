@@ -5,11 +5,35 @@
   year: 2024
   unpublished: true
 
+- title: Aligning to What? Limits to RLHF Based Alignment
+  year: 2024
+  conference: true
+  author: Logan Barnhart, Reza Akbarian Bafghi, Stephen Becker, Maziar Raissi
+  venue: Workshop on Responsibly Building the Next Generation of Multimodal Foundational Models (NeurIPS workship RBFM)
+  other-link: <a href="https://openreview.net/forum?id=pt2d3SlXQP">openreview PDF</a>
+  abstract: Reinforcement Learning from Human Feedback (RLHF) is increasingly used to align large language models (LLMs) with human preferences. However, the effectiveness of RLHF in addressing underlying biases remains unclear. This study investigates the relationship between RLHF and both covert and overt biases in LLMs, particularly focusing on biases against African Americans. We applied various RLHF techniques (DPO, ORPO, RLOO) to Llama 3 8B and evaluated the resulting models using matched-guise probing and explicit bias testing.Our findings suggest that RLHF may not effectively align LLMs as intended. In most cases, RLHF either worsened both covert and overt biases or left them relatively unchanged compared to the base model. These results indicate that current RLHF techniques fail to address underlying biases introduced during pretraining, particularly for ambiguous objectives like harmlessness. Our study highlights the need for the development of improved techniques to ensure genuine alignment of LLMs with abstract alignment goals.
+
+
+- title: (POSTER) Surrogate-based Line Search for Stochastic Subspace Descent
+  venue: Model Reduction and Surrogate Modeling (MORe2024)
+  year: 2024
+  conference: true
+  author: Nuojin Chen, Alireza Doostan, Stephen Becker
+  abstract: Gradient-free optimization (GFO) is the optimization approach when the gradient of the objective function is unavailable, commonly happen in black-box optimizations. Traditional GFO methods that estimate gradients using finite differences face significant challenges in high-dimensional spaces, as the number of required function evaluations grows with dimensionality. To address these challenges, Kozak et al. introduced the Stochastic Subspace Descent (SSD) method, which enhances efficiency by estimating gradients within a randomly selected subspace. This approach has demonstrated substantial effectiveness, particularly in cases where the objective function exhibits weak dependence on most of its inputs—a situation frequently encountered in practice. However, the optimization performance of SSD, particularly regarding step size selection, remains suboptimal due to unknown variables such as the Lipschitz constant of the objective function gradient and the projected energy of the effective objective function onto the subspace. To overcome these limitations, recent developments have utilized reduced-order or surrogate models, such as polynomial chaos and deep learning-based surrogates, which offer cost-effective approximations of the original expensive models while maintaining a consistent performance. Building on these advancements, this work proposes a novel method that leverages reduced-order surrogate models to refine the step size selection process through a surrogate-adjusted line search method. This approach aims to harmonize the efficiency of surrogate models with the robustness of SSD, thereby enhancing the overall optimization process. This paper makes several significant contributions to the field of gradient-free optimization;  1. We introduce a novel surrogate-adjusted line search algorithm that utilizes reduced-order surrogate models to approximate the optimal step size, effectively addressing the prevalent challenge of step size tuning in gradient-free optimization. 2. We provide a comprehensive theoretical analysis of the surrogate-adjusted line search algorithm, which includes a rigorous convergence analysis and a detailed discussion on the trade-offs between the number of iterations and the accuracy of surrogate construction required for optimal step size adjustment. 3. We validate the effectiveness of our proposed method through extensive numerical experiments across various applications. The results confirm the advantages of the proposed algorithm, showcasing its potential to significantly improve the performance of gradient-free optimization methods.
+
+
+- title: Deep Learning with Enforced Data Consistency
+  year: 2024
+  conference: true
+  venue: 2024 IEEE Conference on Computational Imaging Using Synthetic Apertures (CISA)
+  DOI: https://doi.org/10.1109/CISA60639.2024.10576240
+  author: Alex McManus, Stephen Becker, Daniel O'Connor, Nicholas Dwork
+  abstract: Current deep learning methods for MRI image reconstruction handle data consistency in one of two ways, (1) add a penalty term into the loss function, or (2) add a data consis-tency layer into the network architecture. Adding a penalty to the loss function does not enforce data consistency; data inconsistent results are still often generated, which can result in erroneous reconstructions. The data consistency layer improves reconstruction quality on out-of-distribution data and largely eliminates hallucinations. However, it is too compu-tationally expensive for training with parallel imaging data. In this manuscript we explore a computationally efficient approximation to hard data consistency. We present results when adding this data consistency layer into two existing networks designed for MRI reconstruction. After retraining with the additional consistency layer, the networks show improved out-of-distribution performance and suppression of hallucinations.
+  other-link: related <a href="https://nicholasdwork.com/papers/240813_cctsiPoster.pdf">poster</a> from <a href="https://cctsi.cuanschutz.edu/">2024 CCTSI Research Innovations in Health AI</a>
 
 - title: Compressed Sensing with Homodyne Detection
   year: 2024
   conference: true
-  unpublished: false
   venue: 2024 IEEE Conference on Computational Imaging Using Synthetic Apertures (CISA)
   DOI: https://doi.org/10.1109/CISA60639.2024.10576485
   author: Alex McManus, Stephen Becker, Daniel O'Connor, Nicholas Dwork
@@ -81,7 +105,7 @@
 - title: Broadband Spectroscopic Imaging Using Dual Frequency Comb Spectroscopy and Compressive Sensing
   author: E. Strong, S. Coburn, A. Anderson, R. Cole, J. Gopinath, S. Becker, G. Rieker
   year: 2022
-  venue: CLEO
+  venue: Conference on Lasers and Electro-Optics (CLEO)
   conference: true
 
 - arXiv: 2211.05151 
@@ -122,6 +146,13 @@
   id: monotone-sampling
   abstract: Approximate solutions to large least squares problems can be computed efficiently using leverage score-based row-sketches, but directly computing the leverage scores, or sampling according to them with naive methods, still requires an expensive manipulation and processing of the design matrix. In this paper we develop efficient leverage score-based sampling methods for matrices with certain Kronecker product-type structure; in particular we consider matrices that are monotone lower column subsets of Kronecker product matrices. Our discussion is general, encompassing least squares problems on infinite domains, in which case matrices formally have infinitely many rows. We briefly survey leverage score-based sampling guarantees from the numerical linear algebra and approximation theory communities, and follow this with efficient algorithms for sampling when the design matrix has Kronecker-type structure. Our numerical examples confirm that sketches based on exact leverage score sampling for our class of structured matrices achieve superior residual compared to approximate leverage score sampling methods.
 # Submitted to SISC, Oct 11 2022
+
+- title: (POSTER) Empirical Results Suggest Quasi-Monte Carlo Sampling Increases Accuracy in the Estimation of Annual Energy Production from Operational Data
+  other-link: <a href="https://www.nrel.gov/docs/fy22osti/83810.pdf">PDF of poster</a>
+  year: 2022
+  conference: true
+  author: Jordan Perr-Sauer, Nicola Bodini, Stephen Becker, Eric Simley, Rob Hammond, Jason Fields
+  abstract: Quasi-Monte Carlo sampling was implemented in the OpenOA annual energy production analysis method. Preliminary results show that this method improves the order of the asymptotic convergence of OpenOA’s AEP estimates.
 
 - arXiv: 2112.07925 
   title: Versatile fidelity estimation with confidence
@@ -173,9 +204,10 @@
   author: Richard Clancy, Stephen Becker
   year: 2024
   abstract: In this paper we consider regression problems subject to arbitrary noise in the operator or design matrix. This characterization appropriately models many physical phenomena with uncertainty in the regressors. Although the problem has been studied extensively for ordinary/total least squares, and via models that implicitly or explicitly assume Gaussianity, less attention has been paid to improving estimation for regression problems under general uncertainty in the design matrix. To address difficulties encountered when dealing with distributions of sums of random variables, we rely on the saddle point method to estimate densities and form an approximate log-likelihood to maximize. We show that the proposed method performs favorably against other classical methods.
-  venue: Mathematical Programming Computation (to appear)
+  venue: Mathematical Programming Computation
   unpublished: false
   id: approx_MLE
+  DOI: https://doi.org/10.1007/s12532-024-00268-6
   code: https://github.com/rclancyc/approximate_mle
 
 - arXiv: '2006.05610'
@@ -188,6 +220,7 @@
   venue: Transactions of Machine Learning Research (to appear)
   code: https://github.com/liammadden/sgd
   id: liamSGD
+  other-link: <a href="https://www.jmlr.org/papers/v25/23-0466.html">JMLR link</a>
 
 
 
@@ -586,11 +619,11 @@
   conference: true
   abstract: We propose a sampling-based method for computing the tensor ring (TR) decomposition of a data tensor. The method uses leverage score sampled alternating least squares to fit the TR cores in an iterative fashion. By taking advantage of the special structure of TR tensors, we can efficiently estimate the leverage scores and attain a method which has complexity sublinear in the number of input tensor entries. We provide high-probability relative-error guarantees for the sampled least squares problems. We compare our proposal to existing methods in experiments on both synthetic and real data. Our method achieves substantial speedup -- sometimes two or three orders of magnitude -- over competing methods, while maintaining good accuracy. We also provide an example of how our method can be used for rapid feature extraction.
 
-- other-link: <a href="https://ieeexplore.ieee.org/document/9443532">link</a>
-  title: Nuclear Norm Based Spectrum Estimation for Molecular Dynamic Simulations
+- title: Nuclear Norm Based Spectrum Estimation for Molecular Dynamic Simulations
   author: Shuang Li, Stephen Becker, Michael Wakin
   venue: In Asilomar conference on Signals, Systems and Computers
   year: 2020
+  DOI: https://doi.org/10.1109/IEEECONF51394.2020.9443532
   conference: true
   abstract: Molecular dynamic (MD) simulations are used to probe molecular systems in regimes not accessible to physical experiments. A common goal of these simulations is to compute the power spectral density (PSD) of some component of the system such as particle velocity. In certain MD simulations, only a few time locations are observed, which makes it difficult to estimate the autocorrelation and PSD. This work develops a novel nuclear norm minimization-based method for this type of sub-sampled data, based on a parametric representation of the PSD as the sum of Lorentzians. We show results on both synthetic data and a test system of methanol.
 
