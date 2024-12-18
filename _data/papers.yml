@@ -44,8 +44,9 @@
   year: 2024
   arXiv: 2405.16076
   unpublished: false
-  venue: Computer Methods in Applied Mechanics and Engineering (to appear)
+  venue: Computer Methods in Applied Mechanics and Engineering
   author: Angran Li, Stephen Becker, Alireza Doostan
+  DOI: https://doi.org/10.1016/j.cma.2024.117538
   abstract: Traditional low-rank approximation is a powerful tool to compress the huge data matrices that arise in simulations of partial differential equations (PDE), but suffers from high computational cost and requires several passes over the PDE data. The compressed data may also lack interpretability thus making it difficult to identify feature patterns from the original data. To address this issue, we present an online randomized algorithm to compute the interpolative decomposition (ID) of large-scale data matrices in situ. Compared to previous randomized IDs that used the QR decomposition to determine the column basis, we adopt a streaming ridge leverage score-based column subset selection algorithm that dynamically selects proper basis columns from the data and thus avoids an extra pass over the data to compute the coefficient matrix of the ID. In particular, we adopt a single-pass error estimator based on the non-adaptive Hutch++ algorithm to provide real-time error approximation for determining the best coefficients. As a result, our approach only needs a single pass over the original data and thus is suitable for large and high-dimensional matrices stored outside of core memory or generated in PDE simulations. We also provide numerical experiments on turbulent channel flow and ignition simulations, and on the NSTX Gas Puff Image dataset, comparing our algorithm with the offline ID algorithm to demonstrate its utility in real-world applications.
 
 - title: Optimization of Array Encoding for Ultrasound Imaging
@@ -76,7 +77,6 @@
   venue: Computer Methods in Applied Mechanics and Engineering
   abstract: Quantifying the uncertainty of quantities of interest (QoIs) from physical systems is a primary objective in model validation. However, achieving this goal entails balancing the need for computational efficiency with the requirement for numerical accuracy. To address this trade-off, we propose a novel bi-fidelity formulation of variational auto-encoders (BF-VAE) designed to estimate the uncertainty associated with a QoI from low-fidelity (LF) and high-fidelity (HF) samples of the QoI. This model allows for the approximation of the statistics of the HF QoI by leveraging information derived from its LF counterpart. Specifically, we design a bi-fidelity auto-regressive model in the latent space that is integrated within the VAE's probabilistic encoder-decoder structure. An effective algorithm is proposed to maximize the variational lower bound of the HF log-likelihood in the presence of limited HF data, resulting in the synthesis of HF realizations with a reduced computational cost. Additionally, we introduce the concept of the bi-fidelity information bottleneck (BF-IB) to provide an information-theoretic interpretation of the proposed BF-VAE model. Our numerical results demonstrate that BF-VAE leads to considerably improved accuracy, as compared to a VAE trained using only HF data when limited HF data is available.
   code: https://github.com/CU-UQ/Bi-fidelity-VAE
-  other-link: <a href="https://authors.elsevier.com/c/1ibEYAQEJ57Zl">free official version for 90 days</a>
 
 
 - title: In Situ Framework for Coupling Simulation and Machine Learning with Application to CFD
