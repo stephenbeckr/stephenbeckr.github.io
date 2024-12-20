@@ -45,6 +45,7 @@ Most of our group's latest software is on github. These are github project or us
   - [QuasiNewton.jl](https://github.com/RS-Coop/QuasiNewton.jl) in Julia
 - [Kevin](https://github.com/kvndhrty)
   - [QuadConv](https://github.com/kvndhrty/QuadConv), superseded by PyTorch-QuadConv
+  - [Mesh-Float-Zip](https://github.com/kvndhrty/Mesh-Float-Zip) for compression
 - [Richie Clancy](https://github.com/rclancyc/)
   - [approximate MLE](https://github.com/rclancyc/approximate_mle)  ([paper](../papers#approx_MLE))
   - [MEG](https://github.com/rclancyc/meg) for Magnetoencephalography

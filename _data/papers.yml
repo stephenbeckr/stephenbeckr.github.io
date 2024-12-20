@@ -5,6 +5,15 @@
   year: 2024
   unpublished: true
 
+- title: Mesh-Float-Zip (MFZ), Manifold harmonic bases for unstructured spatial data compression
+  year: 2024
+  venue: Applied Mathematics for Modern Challenges (AMMC)
+  author: Kevin Doherty1, , Stephen Becker, Alireza Doostan
+  code: https://github.com/kvndhrty/Mesh-Float-Zip
+  id: MFZ
+  DOI: https://www.aimsciences.org//article/doi/10.3934/ammc.2024023
+  abstract: Block-coder style data compression schemes, such as JPEG, ZFP and SPERR, rely on de-correlating transformations in order to efficiently store data with entropy encoding schemes. These de-correlating transformations are typically reliant on a uniform spatiotemporal sampling of the transformations and/or the data. Thus, for nonuniform data which may include spatial (and temporal) nonuniformity, such as those arising from partial differential equations solveing over complex geometries and unstructured grids, there is not an efficient de-correlating transformation nor a data compression pipeline that sufficiently adapts to this nonuniformity. We presented the manifold harmonic basis (MHB) as a de-correlating transformation, and prod d a collocation method over the nonuniform domain for solving the eigen problem that defines the MHB. Additionally, we demonstrated a modified version of ZFP's compression pipeline that adapted to the problems presented by nonuniformity in a block-coder style compression scheme. This resulted in a state-of-the-art spatial data compression technique for nonuniform data which we call Mesh-Float-Zip (MFZ). We illustrated the performance of the proposed compression strategy and compared its accuracy against ZFP and SZ compressors (applied to both original and reshuffled data) on three scientific computing datasets.
+
 - title: Aligning to What? Limits to RLHF Based Alignment
   year: 2024
   conference: true
