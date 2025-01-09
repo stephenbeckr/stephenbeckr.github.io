@@ -226,7 +226,7 @@
   abstract: |-
     Stochastic gradient descent is one of the most common iterative algorithms used in machine learning. While being computationally cheap to implement, recent literature suggests it may have implicit regularization properties that prevent over-fitting. This paper analyzes the properties of stochastic gradient descent from a theoretical standpoint to help bridge the gap between theoretical and empirical results. Most theoretical results either assume convexity or only provide convergence results in mean, while this paper proves convergence bounds in high probability without assuming convexity. Assuming strong smoothness, we prove high probability convergence bounds in two settings: (1) assuming the Polyak-Łojasiewicz inequality and norm sub-Gaussian gradient noise and (2) assuming norm sub-Weibull gradient noise. In the first setting, we combine our convergence bounds with existing generalization bounds in order to bound the true risk and show that for a certain number of epochs, convergence and generalization balance in such a way that the true risk goes to the empirical minimum as the number of samples goes to infinity. In the second setting, as an intermediate step to proving convergence, we prove a probability result of independent interest. The probability result extends Freedman-type concentration beyond the sub-exponential threshold to heavier-tailed martingale difference sequences.
   unpublished: false
-  venue: Transactions of Machine Learning Research (to appear)
+  venue: Journal of Machine Learning Research (JMLR)
   code: https://github.com/liammadden/sgd
   id: liamSGD
   other-link: <a href="https://www.jmlr.org/papers/v25/23-0466.html">JMLR link</a>
