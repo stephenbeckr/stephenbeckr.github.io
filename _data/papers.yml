@@ -188,6 +188,7 @@
   id: versatilefidelity_PRA
   abstract: |-
     Estimating the fidelity with a target state is important in quantum information tasks. Many fidelity estimation techniques present a suitable measurement scheme to perform the estimation. In contrast, we present techniques that allow the experimentalist to choose a convenient measurement setting. Our primary focus lies on a method that constructs an estimator with nearly minimax optimal confidence interval for any specified measurement setting. We demonstrate, through a combination of theoretical and numerical results, various desirable properties for the method -- robustness against experimental imperfections, competitive sample complexity, and accurate estimates in practice. We compare this method with Maximum Likelihood Estimation and the associated Profile Likelihood method, a Semi-Definite Programming based approach, as well as a popular direct fidelity estimation technique.
+  DOI: https://journals.aps.org/pra/abstract/10.1103/PhysRevA.110.012431
 
 - arXiv: '2112.03390'
   title: On the computation of a non-parametric estimator by convex optimization
