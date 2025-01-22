@@ -5,6 +5,14 @@
   year: 2024
   unpublished: true
 
+- title: Aligning to What? Limits to RLHF Based Alignment
+  year: 2025
+  venue: <a href="https://2025.naacl.org/">Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL 2025)</a>
+  author: Logan Barnhart, Reza Akbarian Bafghi, Stephen Becker, Maziar Raissi
+  DOI: https://openreview.net/forum?id=wxGi669FaX
+  id: RLHF2025
+  abstract: Reinforcement Learning from Human Feedback (RLHF) is increasingly used to align large language models (LLMs) with human preferences. However, the effectiveness of RLHF in addressing underlying biases remains unclear. This study investigates the relationship between RLHF and both covert and overt biases in LLMs, particularly focusing on biases against African Americans. We applied various RLHF techniques (DPO, ORPO, and RLOO) to Llama 3 8B and evaluated the covert and overt biases of the resulting models using matched-guise probing and explicit bias testing. We performed additional tests with DPO on different base models and datasets; among several implications, we found that SFT before RLHF calcifies model biases. Additionally, we extend the tools for measuring covert-biases to multi-modal models. Through our experiments we collect evidence that indicates that current alignment techniques are inadequate for nebulous tasks such as mitigating covert biases, highlighting the need for capable datasets, data curating techniques, or alignment tools.
+
 - title: Mesh-Float-Zip (MFZ), Manifold harmonic bases for unstructured spatial data compression
   year: 2024
   venue: Applied Mathematics for Modern Challenges (AMMC)
