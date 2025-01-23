@@ -5,6 +5,16 @@
   year: 2024
   unpublished: true
 
+- title: Evaluation of data driven low-rank matrix factorization for accelerated solutions of the Vlasov equation 
+  year: 2025
+  unpublished: true
+  author: Bhavana Jonnalagadda, Stephen Becker
+  abstract: Low-rank methods have shown success in accelerating simulations of a collisionless plasma described by the Vlasov equation, but still rely on computationally costly linear algebra every time step. We propose a data-driven factorization method using artificial neural networks, specifically with convolutional layer architecture, that trains on existing simulation data. At inference time, the model outputs a low-rank decomposition of the distribution field of the charged particles, and we demonstrate that this step is faster than the standard linear algebra technique. Numerical experiments show that the method effectively interpolates time-series data, generalizing to unseen test data in a manner beyond just memorizing training data; patterns in factorization also inherently followed the same numerical trend as those within algebraic methods (e.g., truncated singular-value decomposition). However, when training on the first 70% of a time-series data and testing on the remaining 30%, the method fails to meaningfully extrapolate. Despite this limiting result, the technique may have benefits for simulations in a statistical steady-state or otherwise showing temporal stability
+  arXiv: 2501.04024
+  id: Vlasov2025
+  code: https://github.com/Chocbanana/Research-Becker-Group
+
+
 - title: Aligning to What? Limits to RLHF Based Alignment
   year: 2025
   venue: <a href="https://2025.naacl.org/">Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL 2025)</a>
@@ -17,7 +27,7 @@
 - title: Mesh-Float-Zip (MFZ), Manifold harmonic bases for unstructured spatial data compression
   year: 2024
   venue: Applied Mathematics for Modern Challenges (AMMC)
-  author: Kevin Doherty, , Stephen Becker, Alireza Doostan
+  author: Kevin Doherty, Stephen Becker, Alireza Doostan
   code: https://github.com/kvndhrty/Mesh-Float-Zip
   id: MFZ
   DOI: https://www.aimsciences.org/article/doi/10.3934/ammc.2024023

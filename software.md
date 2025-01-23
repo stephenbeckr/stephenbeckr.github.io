@@ -61,6 +61,8 @@ Most of our group's latest software is on github. These are github project or us
 - Ibrohim Nosirov: [Peeling algorithm](https://github.com/ib-nosirov/peeling_algorithm) for structured matrix approximation
 - Alexey Yermakov: [Tutorial on Bayesian Optimization with First-Order information (gradients)](https://github.com/yyexela/botorch/blob/main/tutorials/fobo.ipynb)
   - [BoTorch pull request](https://github.com/pytorch/botorch/pull/2137), and [BoTorch feature request](https://github.com/pytorch/botorch/issues/1679)
+- Bhavana Jonnalagadda
+  - [Data-drive low-rank factorization](https://github.com/Chocbanana/Research-Becker-Group) ([paper](../papers#Vlasov2025))
 
 </div>
 
