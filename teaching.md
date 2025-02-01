@@ -5,6 +5,9 @@ permalink: /teaching/
 ---
 
 ## Teaching at CU
+- 2025 Spring
+  - APPM 3310 Matrix Methods
+  - [APPM 5630 Advanced Convex Optimization](https://github.com/stephenbeckr/convex-optimization-class)
 - 2024 Fall
   - [APPM 4720/5720 Special Topics: Scientific Machine Learning (SciML)](https://github.com/cu-applied-math/SciML-Class/tree/main)
 - 2024 Spring
