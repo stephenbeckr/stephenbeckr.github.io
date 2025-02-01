@@ -22,13 +22,6 @@ Stephen is on the editorial boards at [Transactions on Machine Learning Research
 More information about us at [people](people).
  <!-- we also have the old (and infrequently updated)  [google site member page](https://sites.google.com/colorado.edu/becker/members). -->
 
-### **News!** Our department is hiring fall 2024 for two tenure-track positions
-One in math of climate, one in math of data science.
-
-More [details on the jobs](https://www.colorado.edu/amath/job-openings). The deadline for both is Nov 1 2024.
-
-### **Postdoc position**
-Jointly with Alireza Doostan, I am hiring for a postdoc for scientific data compression. See our [job ad](https://jobs.colorado.edu/jobs/JobDetail/?jobId=58939). Apply before Oct 31 2024.
 
 ### Contact info
 

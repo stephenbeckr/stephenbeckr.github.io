@@ -12,6 +12,12 @@
 
 
 # Postdocs
+- name: Deborah Pereg
+  short: Postdoc
+  long: since 2025; PhD from Technion. ML and Signal Processing, data compression. Working with Alireza Doostan as well.
+  google-scholar: https://scholar.google.com/citations?user=DUXImVIAAAAJ
+  linkedin: https://www.linkedin.com/in/deborah-pereg-b26b514a/
+  photo: Deborah.jpg
 
 - name: Tzu-Chi Yen
   short: Postdoc
@@ -21,6 +27,7 @@
   linkedin: https://www.linkedin.com/in/tzuchiy/
   photo: TzuChi.jpg
   github: https://github.com/junipertcy/
+  graduated: true
 
 - name: Jon Belcher
   short: Postdoc
@@ -45,11 +52,22 @@
 
 
 # PhD students, approximately newest to oldest
+- name: Mohit Garg
+  linkedin: https://www.linkedin.com/in/mohit-garg-824731212/
+  photo: Mohit.jpeg
+  short: PhD student, one-pass compression (joint with Alireza Doostan)
+
+- name: Cooper Doe
+  linkedin: https://www.linkedin.com/in/cooper-doe-269865232/
+  photo: CooperDoe.jpg
+  short: PhD student, magnetometers
+
+
 - name: Nicholas (Nic) Rummel
   linkedin: https://www.linkedin.com/in/nicholas-rummel/
   photo: Nic.jpeg
   github: https://github.com/nrummel
-  short: PhD student since 2022
+  short: PhD student since 2022, equation discovery
 
 - name: Drona Khurana
   photo: Drona.jpeg
@@ -189,6 +207,12 @@
 
 
 # Masters students, approximately newest to oldest
+
+- name: Kevin Brar (né Stull)
+  short: MS 2025
+  long: zeroth order optimization
+  linkedin: https://www.linkedin.com/in/kevin-stull-496b01175/
+  photo: KevinBrar.jpeg
 
 - name: Tyler Jensen
   short: MS 2024
