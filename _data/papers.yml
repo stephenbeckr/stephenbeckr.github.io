@@ -88,12 +88,21 @@
   DOI: https://iopscience.iop.org/article/10.1088/1361-6560/ad5249
   
 
-- title: Variational Entropy Search for Adjusting Expected Improvement
-  year: 2024
-  author: Nuojin Cheng, Stephen Becker
-  arXiv: 2402.11345
+- title: A Unified Framework for Entropy Search and Expected Improvement in Bayesian Optimization
+  author: Nuojin Cheng, Leonard Papenmeier, Stephen Becker, Luigi Nardi
+  year: 2025
+  other-link: |-
+    Supersedes our tech report: <a href="https://arxiv.org/abs/2402.11345">Variational Entropy Search for Adjusting Expected Improvement</a>
+  arXiv: 2501.18756
   unpublished: true
-  abstract: Bayesian optimization is a widely used technique for optimizing black-box functions, with Expected Improvement (EI) being the most commonly utilized acquisition function in this domain. While EI is often viewed as distinct from other information-theoretic acquisition functions, such as entropy search (ES) and max-value entropy search (MES), our work reveals that EI can be considered a special case of MES when approached through variational inference (VI). In this context, we have developed the Variational Entropy Search (VES) methodology and the VES-Gamma algorithm, which adapts EI by incorporating principles from information-theoretic concepts. The efficacy of VES-Gamma is demonstrated across a variety of test functions and read datasets, highlighting its theoretical and practical utilities in Bayesian optimization scenarios.
+  abstract: Bayesian optimization is a widely used method for optimizing expensive black-box functions, with Expected Improvement being one of the most commonly used acquisition functions. In contrast, information-theoretic acquisition functions aim to reduce uncertainty about the function's optimum and are often considered fundamentally distinct from EI. In this work, we challenge this prevailing perspective by introducing a unified theoretical framework, Variational Entropy Search, which reveals that EI and information-theoretic acquisition functions are more closely related than previously recognized. We demonstrate that EI can be interpreted as a variational inference approximation of the popular information-theoretic acquisition function, named Max-value Entropy Search. Building on this insight, we propose VES-Gamma, a novel acquisition function that balances the strengths of EI and MES. Extensive empirical evaluations across both low- and high-dimensional synthetic and real-world benchmarks demonstrate that VES-Gamma is competitive with state-of-the-art acquisition functions and in many cases outperforms EI and MES.
+
+# title: Variational Entropy Search for Adjusting Expected Improvement
+# year: 2024
+# author: Nuojin Cheng, Stephen Becker
+# arXiv: 2402.11345
+# unpublished: true
+# abstract: Bayesian optimization is a widely used technique for optimizing black-box functions, with Expected Improvement (EI) being the most commonly utilized acquisition function in this domain. While EI is often viewed as distinct from other information-theoretic acquisition functions, such as entropy search (ES) and max-value entropy search (MES), our work reveals that EI can be considered a special case of MES when approached through variational inference (VI). In this context, we have developed the Variational Entropy Search (VES) methodology and the VES-Gamma algorithm, which adapts EI by incorporating principles from information-theoretic concepts. The efficacy of VES-Gamma is demonstrated across a variety of test functions and read datasets, highlighting its theoretical and practical utilities in Bayesian optimization scenarios.
 
 - title: Bi-fidelity Variational Auto-encoder for Uncertainty Quantification
   author: Nuojin Cheng, Osman Asif Malik, Subjayan De, Stephen Becker, Alireza Doostan
@@ -148,7 +157,7 @@
   id: quadConv
   abstract: We present a new convolution layer for deep learning architectures which we call QuadConv -- an approximation to continuous convolution via quadrature. Our operator is developed explicitly for use on unstructured data, and accomplishes this by learning a continuous kernel that can be sampled at arbitrary locations. In the setting of neural compression, we show that a QuadConv-based autoencoder, resulting in a Quadrature Convolutional Neural Network (QCNN), can match the performance of standard discrete convolutions on structured uniform data, as in CNNs, and maintain this accuracy on unstructured data.
   # To be submitted to JCP
-  # Accepted Nov 10 2023. Od title was:     QCNN: Quadrature Convolutional Neural Network with Application to Unstructured Data Compression
+  # Accepted Nov 10 2023. Old title was:     QCNN: Quadrature Convolutional Neural Network with Application to Unstructured Data Compression
 
 - arXiv: 2209.05705
   title: Subsampling of Parametric Models with Bi-fidelity Boosting
