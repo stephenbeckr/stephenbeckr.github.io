@@ -5,6 +5,30 @@
   year: 2024
   unpublished: true
 
+- title: Exploring Exploration in Bayesian Optimization
+  year: 2025
+  unpublished: true
+  arXiv: 2502.08208
+  author: Leonard Papenmeier, Nuojin Cheng, Stephen Becker, Luigi Nardi
+  abstract: A well-balanced exploration-exploitation trade-off is crucial for successful acquisition functions in Bayesian optimization. However, there is a lack of quantitative measures for exploration, making it difficult to analyze and compare different acquisition functions. This work introduces two novel approaches - observation traveling salesman distance and observation entropy - to quantify the exploration characteristics of acquisition functions based on their selected observations. Using these measures, we examine the explorative nature of several well-known acquisition functions across a diverse set of black-box problems, uncover links between exploration and empirical performance, and reveal new relationships among existing acquisition functions. Beyond enabling a deeper understanding of acquisition functions, these measures also provide a foundation for guiding their design in a more principled and systematic manner.
+
+
+- title: A Unified Framework for Entropy Search and Expected Improvement in Bayesian Optimization
+  author: Nuojin Cheng, Leonard Papenmeier, Stephen Becker, Luigi Nardi
+  year: 2025
+  other-link: |-
+    Supersedes our tech report: <a href="https://arxiv.org/abs/2402.11345">Variational Entropy Search for Adjusting Expected Improvement</a>
+  arXiv: 2501.18756
+  unpublished: true
+  abstract: Bayesian optimization is a widely used method for optimizing expensive black-box functions, with Expected Improvement being one of the most commonly used acquisition functions. In contrast, information-theoretic acquisition functions aim to reduce uncertainty about the function's optimum and are often considered fundamentally distinct from EI. In this work, we challenge this prevailing perspective by introducing a unified theoretical framework, Variational Entropy Search, which reveals that EI and information-theoretic acquisition functions are more closely related than previously recognized. We demonstrate that EI can be interpreted as a variational inference approximation of the popular information-theoretic acquisition function, named Max-value Entropy Search. Building on this insight, we propose VES-Gamma, a novel acquisition function that balances the strengths of EI and MES. Extensive empirical evaluations across both low- and high-dimensional synthetic and real-world benchmarks demonstrate that VES-Gamma is competitive with state-of-the-art acquisition functions and in many cases outperforms EI and MES.
+
+# title: Variational Entropy Search for Adjusting Expected Improvement
+# year: 2024
+# author: Nuojin Cheng, Stephen Becker
+# arXiv: 2402.11345
+# unpublished: true
+# abstract: Bayesian optimization is a widely used technique for optimizing black-box functions, with Expected Improvement (EI) being the most commonly utilized acquisition function in this domain. While EI is often viewed as distinct from other information-theoretic acquisition functions, such as entropy search (ES) and max-value entropy search (MES), our work reveals that EI can be considered a special case of MES when approached through variational inference (VI). In this context, we have developed the Variational Entropy Search (VES) methodology and the VES-Gamma algorithm, which adapts EI by incorporating principles from information-theoretic concepts. The efficacy of VES-Gamma is demonstrated across a variety of test functions and read datasets, highlighting its theoretical and practical utilities in Bayesian optimization scenarios.
+
 - title: Evaluation of data driven low-rank matrix factorization for accelerated solutions of the Vlasov equation 
   year: 2025
   unpublished: true
@@ -23,6 +47,7 @@
   id: RLHF2025
   abstract: Reinforcement Learning from Human Feedback (RLHF) is increasingly used to align large language models (LLMs) with human preferences. However, the effectiveness of RLHF in addressing underlying biases remains unclear. This study investigates the relationship between RLHF and both covert and overt biases in LLMs, particularly focusing on biases against African Americans. We applied various RLHF techniques (DPO, ORPO, and RLOO) to Llama 3 8B and evaluated the covert and overt biases of the resulting models using matched-guise probing and explicit bias testing. We performed additional tests with DPO on different base models and datasets; among several implications, we found that SFT before RLHF calcifies model biases. Additionally, we extend the tools for measuring covert-biases to multi-modal models. Through our experiments we collect evidence that indicates that current alignment techniques are inadequate for nebulous tasks such as mitigating covert biases, highlighting the need for capable datasets, data curating techniques, or alignment tools.
   conference: true
+  code: https://github.com/loganbarnhart01/aligning-to-what
 
 - title: Mesh-Float-Zip (MFZ), Manifold harmonic bases for unstructured spatial data compression
   year: 2024
@@ -87,22 +112,6 @@
   code: https://github.com/jcs15c/optimal_ultrasound_encoding
   DOI: https://iopscience.iop.org/article/10.1088/1361-6560/ad5249
   
-
-- title: A Unified Framework for Entropy Search and Expected Improvement in Bayesian Optimization
-  author: Nuojin Cheng, Leonard Papenmeier, Stephen Becker, Luigi Nardi
-  year: 2025
-  other-link: |-
-    Supersedes our tech report: <a href="https://arxiv.org/abs/2402.11345">Variational Entropy Search for Adjusting Expected Improvement</a>
-  arXiv: 2501.18756
-  unpublished: true
-  abstract: Bayesian optimization is a widely used method for optimizing expensive black-box functions, with Expected Improvement being one of the most commonly used acquisition functions. In contrast, information-theoretic acquisition functions aim to reduce uncertainty about the function's optimum and are often considered fundamentally distinct from EI. In this work, we challenge this prevailing perspective by introducing a unified theoretical framework, Variational Entropy Search, which reveals that EI and information-theoretic acquisition functions are more closely related than previously recognized. We demonstrate that EI can be interpreted as a variational inference approximation of the popular information-theoretic acquisition function, named Max-value Entropy Search. Building on this insight, we propose VES-Gamma, a novel acquisition function that balances the strengths of EI and MES. Extensive empirical evaluations across both low- and high-dimensional synthetic and real-world benchmarks demonstrate that VES-Gamma is competitive with state-of-the-art acquisition functions and in many cases outperforms EI and MES.
-
-# title: Variational Entropy Search for Adjusting Expected Improvement
-# year: 2024
-# author: Nuojin Cheng, Stephen Becker
-# arXiv: 2402.11345
-# unpublished: true
-# abstract: Bayesian optimization is a widely used technique for optimizing black-box functions, with Expected Improvement (EI) being the most commonly utilized acquisition function in this domain. While EI is often viewed as distinct from other information-theoretic acquisition functions, such as entropy search (ES) and max-value entropy search (MES), our work reveals that EI can be considered a special case of MES when approached through variational inference (VI). In this context, we have developed the Variational Entropy Search (VES) methodology and the VES-Gamma algorithm, which adapts EI by incorporating principles from information-theoretic concepts. The efficacy of VES-Gamma is demonstrated across a variety of test functions and read datasets, highlighting its theoretical and practical utilities in Bayesian optimization scenarios.
 
 - title: Bi-fidelity Variational Auto-encoder for Uncertainty Quantification
   author: Nuojin Cheng, Osman Asif Malik, Subjayan De, Stephen Becker, Alireza Doostan
