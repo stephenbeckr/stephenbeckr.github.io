@@ -12,12 +12,12 @@
 
 
 # Postdocs
-- name: Deborah Pereg
-  short: Postdoc
-  long: since 2025; PhD from Technion. ML and Signal Processing, data compression. Working with Alireza Doostan as well.
-  google-scholar: https://scholar.google.com/citations?user=DUXImVIAAAAJ
-  linkedin: https://www.linkedin.com/in/deborah-pereg-b26b514a/
-  photo: Deborah.jpg
+#- name: Deborah Pereg
+# short: Postdoc
+# long: since 2025; PhD from Technion. ML and Signal Processing, data compression. Working with Alireza Doostan as well.
+# google-scholar: https://scholar.google.com/citations?user=DUXImVIAAAAJ
+# linkedin: https://www.linkedin.com/in/deborah-pereg-b26b514a/
+# photo: Deborah.jpg
 
 - name: Tzu-Chi Yen
   short: Postdoc
