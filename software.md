@@ -63,6 +63,8 @@ Most of our group's latest software is on github. These are github project or us
   - [BoTorch pull request](https://github.com/pytorch/botorch/pull/2137), and [BoTorch feature request](https://github.com/pytorch/botorch/issues/1679)
 - Bhavana Jonnalagadda
   - [Data-drive low-rank factorization](https://github.com/Chocbanana/Research-Becker-Group) ([paper](../papers#Vlasov2025))
+- Nic Rummel
+  - [WENDy.jl](https://github.com/nrummel/WENDy.jl)
 
 </div>
 

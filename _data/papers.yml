@@ -5,6 +5,15 @@
   year: 2024
   unpublished: true
 
+- title: WENDy for Nonlinear-in-Parameters ODEs 
+  year: 2025
+  unpublished: true
+  arXiv: 2502.08881 
+  author: Nic Rummel, Daniel A. Messenger, Stephen Becker, Vanja Dukic, David M. Bortz
+  abstract: The Weak-form Estimation of Non-linear Dynamics (WENDy) algorithm is extended to accommodate systems of ordinary differential equations that are nonlinear-in-parameters. The extension rests on derived analytic expressions for a likelihood function, its gradient and its Hessian matrix. WENDy makes use of these to approximate a maximum likelihood estimator based on optimization routines suited for non-convex optimization problems. The resulting parameter estimation algorithm has better accuracy, a substantially larger domain of convergence, and is often orders of magnitude faster than the conventional output error least squares method (based on forward solvers). The algorithm is efficiently implemented in Julia. We demonstrate the algorithm's ability to accommodate the weak form optimization for both additive normal and multiplicative log-normal noise, and present results on a suite of benchmark systems of ordinary differential equations. In order to demonstrate the practical benefits of our approach, we present extensive comparisons between our method and output error methods in terms of accuracy, precision, bias, and coverage.
+  id: WENDy
+  code: https://github.com/nrummel/WENDy.jl
+
 - title: Exploring Exploration in Bayesian Optimization
   year: 2025
   unpublished: true
