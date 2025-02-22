@@ -83,6 +83,12 @@
   author: Nuojin Chen, Alireza Doostan, Stephen Becker
   abstract: Gradient-free optimization (GFO) is the optimization approach when the gradient of the objective function is unavailable, commonly happen in black-box optimizations. Traditional GFO methods that estimate gradients using finite differences face significant challenges in high-dimensional spaces, as the number of required function evaluations grows with dimensionality. To address these challenges, Kozak et al. introduced the Stochastic Subspace Descent (SSD) method, which enhances efficiency by estimating gradients within a randomly selected subspace. This approach has demonstrated substantial effectiveness, particularly in cases where the objective function exhibits weak dependence on most of its inputs—a situation frequently encountered in practice. However, the optimization performance of SSD, particularly regarding step size selection, remains suboptimal due to unknown variables such as the Lipschitz constant of the objective function gradient and the projected energy of the effective objective function onto the subspace. To overcome these limitations, recent developments have utilized reduced-order or surrogate models, such as polynomial chaos and deep learning-based surrogates, which offer cost-effective approximations of the original expensive models while maintaining a consistent performance. Building on these advancements, this work proposes a novel method that leverages reduced-order surrogate models to refine the step size selection process through a surrogate-adjusted line search method. This approach aims to harmonize the efficiency of surrogate models with the robustness of SSD, thereby enhancing the overall optimization process. This paper makes several significant contributions to the field of gradient-free optimization;  1. We introduce a novel surrogate-adjusted line search algorithm that utilizes reduced-order surrogate models to approximate the optimal step size, effectively addressing the prevalent challenge of step size tuning in gradient-free optimization. 2. We provide a comprehensive theoretical analysis of the surrogate-adjusted line search algorithm, which includes a rigorous convergence analysis and a detailed discussion on the trade-offs between the number of iterations and the accuracy of surrogate construction required for optimal step size adjustment. 3. We validate the effectiveness of our proposed method through extensive numerical experiments across various applications. The results confirm the advantages of the proposed algorithm, showcasing its potential to significantly improve the performance of gradient-free optimization methods.
 
+- title: (POSTER) Experiment Design for Minimax Fidelity Estimation
+  author: Jacob Spainhour, Akshay Seshadri, Stephen Becker 
+  year: 2024
+  conference: true
+  venue: <a href="https://groups.oist.jp/ocqt/event/conference-theory-quantum-computation-communication-and-cryptography-tqc2024">Theory of Quantum Computation, Communication and Cryptography (TQC2024)</a>, Sept 2024, Okinawa / hybrid
+
 
 - title: Deep Learning with Enforced Data Consistency
   year: 2024
@@ -150,7 +156,7 @@
   arXiv: 2301.07256
 
 
-- title: Versatile fidelity estimation with confidence
+- title: (POSTER) Versatile fidelity estimation with confidence
   author: Akshay Seshadri, Martin Ringbauer, Rainer Blatt, Thomas Monz and Stephen Becker
   year: 2023
   venue: QIP (Quantum Information Processing), as poster, Ghent, February 6--10
