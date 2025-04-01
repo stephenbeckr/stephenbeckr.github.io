@@ -1,9 +1,17 @@
 - other-link: <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">preprint</a>
   title: Global solutions in deep learning in sub-linear time
   author: Stephen Becker
-  venue: NeurIPS 2024 (best paper award)
+  venue: NeurIPS 2024 ("test of time award" 1987)
   year: 2024
   unpublished: true
+
+- title: A Relaxed Primal-Dual Hybrid Gradient Method with Line Search
+  year: 2025
+  unpublished: true
+  arXiv: 2503.17575
+  author: Alex McManus, Stephen Becker, Nicholas Dwork
+  id: PDHG
+  abstract: The primal-dual hybrid gradient method (PDHG) is useful for optimization problems that commonly appear in image reconstruction. A downside of PDHG is that there are typically three user-set parameters and performance of the algorithm is sensitive to their values. Toward a parameter-free algorithm, we combine two existing line searches. The first, by Malitsky et al., is over two of the step sizes in the PDHG iterations. We then use the connection between PDHG and the primal-dual form of Douglas-Rachford splitting to construct a line search over the relaxation parameter. We demonstrate the efficacy of the combined line search on multiple problems, including a novel inverse problem in magnetic resonance image reconstruction. The method presented in this manuscript is the first parameter-free variant of PDHG (across all numerical experiments, there were no changes to line search hyperparameters).
 
 - title: WENDy for Nonlinear-in-Parameters ODEs 
   year: 2025
