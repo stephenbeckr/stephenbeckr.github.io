@@ -519,7 +519,7 @@
 
 - arXiv: 1511.00152
   title: Preconditioned Data Sparsification for Big Data with Applications to PCA and K-means
-  author: F. Pourkamali-Anaraki, S. Becker
+  author: Farhad Pourkamali-Anaraki, Stephen Becker
   venue: IEEE Trans. Info Theory
   code: https://github.com/stephenbeckr/SparsifiedKMeans
   year: 2017
@@ -528,7 +528,7 @@
   abstract: We analyze a compression scheme for large data sets that randomly keeps a small percentage of the components of each data sample. The benefit is that the output is a sparse matrix and therefore subsequent processing, such as PCA or K-means, is significantly faster, especially in a distributed-data setting. Furthermore, the sampling is single-pass and applicable to streaming data. The sampling mechanism is a variant of previous methods proposed in the literature combined with a randomized preconditioning to smooth the data. We provide guarantees for PCA in terms of the covariance matrix, and guarantees for K-means in terms of the error in the center estimators at a given step. We present numerical evidence to show both that our bounds are nearly tight and that our algorithms provide a real benefit when applied to standard test data sets, as well as providing certain benefits over related sampling approaches.
 
 - title: Efficient Adjoint Computation for Wavelet and Convolution Operators (Lecture Notes)
-  author: J. Folberth and S. Becker
+  author: James Folberth and Stephen Becker
   venue: IEEE Signal Processing Magazine
   misc: vol 33(6) 135-147
   year: 2016
@@ -537,7 +537,7 @@
   abstract: First-order optimization algorithms, often preferred for large problems, require the gradient of the differentiable terms in the objective function. These gradients often involve linear operators and their adjoints, which must be applied rapidly. We consider two example problems and derive methods for quickly evaluating the required adjoint operator. The first example is an image deblurring problem, where we must compute efficiently the adjoint of multi-stage wavelet reconstruction. Our formulation of the adjoint works for a variety of boundary conditions, which allows the formulation to generalize to a larger class of problems. The second example is a blind channel estimation problem taken from the optimization literature where we must compute the adjoint of the convolution of two signals. In each example, we show how the adjoint operator can be applied efficiently while leveraging existing software.
 
 - title: Designing Statistical Estimators That Balance Sample Size, Risk, and Computational Cost
-  author: J. Bruer, J. Tropp, V. Cevher and S. Becker
+  author: John Bruer, Joel Tropp, Volkan Cevher and Stephen Becker
   venue: IEEE J. Selected Topics in Signal Processing
   DOI: http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=7031873
   year: 2015
@@ -596,7 +596,7 @@
   abstract: We examine the behavior of the diffusion coefficient of the ST2 model of water over a broad region of the phase diagram via molecular dynamics simulations. The ST2 model has an accessible liquid–liquid transition between low-density and high-density phases, making the model an ideal candidate to explore the impacts of the liquid–liquid transition on dynamics. We locate characteristic dynamical loci in the phase diagram and compare them with the previously investigated thermodynamic loci. The low-density liquid phase shows a crossover from non-Arrhenius to Arrhenius behavior, signaling the onset of a crossover from fragile-to-strong behavior. We explain this crossover in terms of the asymptotic approach of the low-density liquid to a random tetrahedral network and show that the temperature dependence of the diffusion coefficient over a wide temperature range can be simply related to the concentration of defects in the network. Our findings thus confirm that the low-density phase of ST2 water is a well-defined metastable liquid.
 
 - title: Templates for Convex Cone Problems with Applications to Sparse Signal Recovery
-  author: S. Becker, E. Candès, M. Grant
+  author: Stephen Becker, Emmanuel Candès, Michael Grant
   venue: Mathematical Programming Computation
   misc: vol 3 no 3 165--218
   year: 2011
@@ -613,7 +613,7 @@
 
 - title: |-
     NESTA: a fast and accurate first-order method for sparse recovery
-  author:  S. Becker, J. Bobin and E. J. Candès
+  author:  Stephen Becker, Jérôme Bobin and Emmanuel Candès
   venue: SIAM J. on Imaging Sciences (SIIMS)
   misc: vol 4 no. 1
   year: 2011
@@ -749,7 +749,7 @@
   abstract: We consider the problem of finding local minimizers in non-convex and non-smooth optimization. Under the assumption of strict saddle points, positive results have been derived for first-order methods. We present the first known results for the non-smooth case, which requires different analysis and a different algorithm.
 
 - title: Low-rank Tucker decomposition of large tensors using TensorSketch
-  author: S. Becker and O. Malik
+  author: Stephen Becker and Osman Asif Malik
   year: 2018
   venue: NeurIPS
   id: tensorsketch
@@ -761,7 +761,7 @@
 - other-link: |-
     A preliminary, shorter version appears as <a href="https://arxiv.org/abs/1612.06470">Randomized Clustered Nystrom for Large-Scale Kernel Machines</a>
   title: Randomized Clustered Nystrom for Large-Scale Kernel Machines
-  author: F. Pourkamali-Anaraki, S. Becker, M. Wakin
+  author: Farhad Pourkamali-Anaraki, Stephen Becker, Michael Wakin
   DOI: https://doi.org/10.1609/aaai.v32i1.11614
   venue: Conference on Artificial Intelligence (<a href="https://aaai.org/Conferences/AAAI-18/">AAAI 2018</a>) San Francisco, Feb 2018
   year: 2018
@@ -769,7 +769,7 @@
   conference: true
 
 - title: Estimating Active Subspaces with Randomized Gradient Sampling
-  author: S. Becker and F. Pourkamali-Anaraki
+  author: Stephen Becker and Farhad Pourkamali-Anaraki
   venue: SIAM Workshop on Dimension Reduction, Pittsburg, July 9-10
   year: 2017
   conference: true
@@ -786,7 +786,7 @@
 
 - arXiv: 1608.07597
   title: A Randomized Approach to Efficient Kernel Clustering
-  author: F. Pourkamali-Anaraki, S. Becker
+  author: Farhad Pourkamali-Anaraki, Stephen Becker
   year: 2016
   venue: IEEE GlobalSIP (Global Conference on Signal and Information Processing
   other-link: Also available via <a href="https://scholar.colorado.edu/appm_facpapers/16/">CU Scholar website</a>
@@ -795,7 +795,7 @@
 
 - arXiv: 1504.01169
   title: Efficient Dictionary Learning via Very Sparse Random Projections
-  author: F. Pourkamali-Anaraki, S. Becker, S. Hughes
+  author: Farhad Pourkamali-Anaraki, Stephen Becker, Shannon Hughes
   venue: <a href="http://www.american.edu/cas/mathstat/sampta2015">SampTA</a>, May.
   year: 2015
   DOI: http://dx.doi.org/10.1109/SAMPTA.2015.7148937
@@ -812,7 +812,7 @@
 
 - title: Time--Data Tradeoffs by Aggressive Smoothing
   other-link: <a href="http://papers.nips.cc/paper/5259-time-data-tradeoffs-by-aggressive-smoothing">link</a>
-  author: J. Bruer, J. A. Tropp, V. Cevher, S. Becker
+  author: John Bruer, Joel Tropp, Volkan Cevher, Stephen Becker
   venue: NIPS, Montreal
   year: 2014
   abstract: This paper proposes a tradeoff between sample complexity and computation time that applies to statistical estimators based on convex optimization. As the amount of data increases, we can smooth optimization problems more and more aggressively to achieve accurate estimates more quickly. This work provides theoretical and experimental evidence of this tradeoff for a class of regularized linear inverse problems.
@@ -854,7 +854,7 @@
   abstract: Choosing a distance preserving measure or metric is fundamental to many signal processing algorithms, such as k-means, nearest neighbor searches, hashing, and compressive sensing. In virtually all these applications, the efficiency of the signal processing algorithm depends on how fast we can evaluate the learned metric. Moreover, storing the chosen metric can create space bottlenecks in high dimensional signal processing problems. As a result, we consider data dependent metric learning with rank as well as sparsity constraints. We propose a new non-convex algorithm and empirically demonstrate its performance on various datasets; a side benefit is that it is also much faster than existing approaches. The added sparsity constraints significantly improve the speed of multiplying with the learned metrics without sacrificing their quality.
 
 - title: A proximal splitting method for inf-convolutive variational models in image recovery
-  author: S. Becker and P. L. Combettes
+  author: Stephen Becker and Patrick Combettes
   venue: accepted in <a href="http://www.ieeeicip.org">ICIP</a> Melbourne
   year: 2013
   conference: true
