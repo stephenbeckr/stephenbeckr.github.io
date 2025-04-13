@@ -81,6 +81,7 @@
   linkedin: https://www.linkedin.com/in/k-aditi-972187190/
   short: PhD student, ECEE dept
   long: Started CU 2022. Optimization and quantum tomography
+  github: https://github.com/Additi-K/
 
 - name: Kevin Doherty
   photo: Kevin.jpeg
@@ -96,20 +97,23 @@
   long: Started CU 2020. Ultrasound, experimental design
   github: https://github.com/jcs15c
   linkedin: https://www.linkedin.com/in/jacob-spainhour/
+  graduated: true
 
 - name: Akshay Seshadri
   short: PhD student (physics)
   photo: Unknown.png
   github: https://github.com/akshayseshadri
-  long: Started CU 2018, jointly advised by Graeme Smith and Manny Knill
+  long: Started CU 2018, jointly advised by Graeme Smith and Manny Knill. On graduation, working for Global Technology Applied Research at JPMorgan Chase
+  graduated: true
 
 - name: Nuojin (Noki) Cheng
   short: PhD student, co-advised
   photo: Noki.webp
   github: https://github.com/NUOJIN
   linkedin: https://www.linkedin.com/in/nuojincheng/
+  graduated: true
   long: |-
-    Started CU 2020, main advisor is Alireza Doostan (Aerospace). UQ
+    Started CU 2020, main advisor is Alireza Doostan (Aerospace). UQ. On graduation, working for Google cloud team.
 
 - name: Alex McManus
   linkedin: https://www.linkedin.com/in/alex-mcmanus-78113a127/
@@ -243,7 +247,7 @@
 
 - name: Cooper Simpson
   short: MS 2022
-  long: research assistant 2023/2024; 2nd order methods for optimization; non-uniform convolutions for neural nets
+  long: research assistant 2023/2024; 2nd order methods for optimization; non-uniform convolutions for neural nets. Now PhD student at U Washington, winner of DOE CSGF
   photo: Unknown.png
   google-scholar: https://scholar.google.com/citations?hl=en&user=rHbpN-YAAAAJ
   graduated: true
@@ -302,7 +306,7 @@
 
 - name: Ibrohim Nosirov 
   short: Summer student (2022) 
-  long: at Colorado School of Mines (main advisor Mike Wakin), low-pass methods and HODLR decomposition for kernel matrices); now PhD at Cornell
+  long: at Colorado School of Mines (main advisor Mike Wakin), low-pass methods and HODLR decomposition for kernel matrices); now PhD at Cornell, winner of DOE CSGF
   photo: IbrohimNosirov.jpeg
   github: https://github.com/ib-nosirov
   linkedin: https://www.linkedin.com/in/ibrohim-nosirov-74b893269/
