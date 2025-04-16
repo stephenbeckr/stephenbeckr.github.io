@@ -245,10 +245,3 @@ Professional Masters "culminating experience"
 - [Open Problem: Property Elicitation and Elicitation Complexity](http://www.jmlr.org/proceedings/papers/v49/frongillo16.html), Rafael Frongillo, Ian Kash, Stephen Becker. 29th Annual Conference on Learning Theory (COLT), pp. 1655–1658, 2016
 - [Trig identities](/assets/docs/trig.pdf) that I used in high school and college
 
-## Copyright information (not up-to-date)
-Please support journals that allow authors to post their final papers.
-
-- [SIAM "Information for Authors"](http://www.siam.org/journals/auth-info.php). On their copyright transfer form, they state that the author retains the right to post the final paper on their academic website, as long as the SIAM copyright notice is posted and no fee is charged.
-- [American Physical Society](https://journals.aps.org/copyrightFAQ.html\#post) (APS) posting policy. APS publishes the Physical Review series. Summary: authors can post the paper as long as the citation and APS copyright are included, and no fee is charged. The copyright and citation look like: "Authors names, journal title, volume number, page number (or article identifier), year of publication. "Copyright (year) by the American Physical Society.""
-- [IEEE Electronic Information Dissemination page](http://www.ieee.org/publications_standards/publications/rights/rights_policies.html). Authors can post a published paper, but need to include the IEEE copyright notice and full citation (see the link for the copyright notice).
-- The [SHERPA\/ROMEO](http://www.sherpa.ac.uk/romeo/) website lists the policies of many publishers. The [SPARC addendum](https://sparcopen.org/our-work/author-rights/brochure-html/) is an addendum to copyright agreements that authors may request their publisher to sign.
