@@ -37,6 +37,7 @@
     Supersedes our tech report: <a href="https://arxiv.org/abs/2402.11345">Variational Entropy Search for Adjusting Expected Improvement</a>
   arXiv: 2501.18756
   unpublished: true
+  venue: ICML 2025, to appear (as spotlight poster, top 2.6% of submissions)
   abstract: Bayesian optimization is a widely used method for optimizing expensive black-box functions, with Expected Improvement being one of the most commonly used acquisition functions. In contrast, information-theoretic acquisition functions aim to reduce uncertainty about the function's optimum and are often considered fundamentally distinct from EI. In this work, we challenge this prevailing perspective by introducing a unified theoretical framework, Variational Entropy Search, which reveals that EI and information-theoretic acquisition functions are more closely related than previously recognized. We demonstrate that EI can be interpreted as a variational inference approximation of the popular information-theoretic acquisition function, named Max-value Entropy Search. Building on this insight, we propose VES-Gamma, a novel acquisition function that balances the strengths of EI and MES. Extensive empirical evaluations across both low- and high-dimensional synthetic and real-world benchmarks demonstrate that VES-Gamma is competitive with state-of-the-art acquisition functions and in many cases outperforms EI and MES.
 
 # title: Variational Entropy Search for Adjusting Expected Improvement
