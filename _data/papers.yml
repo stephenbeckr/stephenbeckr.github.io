@@ -5,6 +5,16 @@
   year: 2024
   unpublished: true
 
+- title: Stochastic Subspace Descent Accelerated via Bi-fidelity Line Search
+  year: 2025
+  unpublished: true
+  arXiv: 2505.00162
+  author: Nuojin Cheng, Alireza Doostan, Stephen Becker
+  id: BF-SSD
+  abstract: Efficient optimization remains a fundamental challenge across numerous scientific and engineering domains, especially when objective function and gradient evaluations are computationally expensive. While zeroth-order optimization methods offer effective approaches when gradients are inaccessible, their practical performance can be limited by the high cost associated with function queries. This work introduces the bi-fidelity stochastic subspace descent (BF-SSD) algorithm, a novel zeroth-order optimization method designed to reduce this computational burden. BF-SSD leverages a bi-fidelity framework, constructing a surrogate model from a combination of computationally inexpensive low-fidelity (LF) and accurate high-fidelity (HF) function evaluations. This surrogate model facilitates an efficient backtracking line search for step size selection, for which we provide theoretical convergence guarantees under standard assumptions. We perform a comprehensive empirical evaluation of BF-SSD across four distinct problems; a synthetic optimization benchmark, dual-form kernel ridge regression, black-box adversarial attacks on machine learning models, and transformer-based black-box language model fine-tuning. Numerical results demonstrate that BF-SSD consistently achieves superior optimization performance while requiring significantly fewer HF function evaluations compared to relevant baseline methods. This study highlights the efficacy of integrating bi-fidelity strategies within zeroth-order optimization, positioning BF-SSD as a promising and computationally efficient approach for tackling large-scale, high-dimensional problems encountered in various real-world applications.
+  code: https://github.com/CU-UQ/BF-Stochastic-Subspace-Descent
+
+
 - title: A Relaxed Primal-Dual Hybrid Gradient Method with Line Search
   year: 2025
   unpublished: true
