@@ -35,6 +35,7 @@
 - title: Exploring Exploration in Bayesian Optimization
   year: 2025
   unpublished: true
+  venue: UAI 2025, to appear
   arXiv: 2502.08208
   author: Leonard Papenmeier, Nuojin Cheng, Stephen Becker, Luigi Nardi
   abstract: A well-balanced exploration-exploitation trade-off is crucial for successful acquisition functions in Bayesian optimization. However, there is a lack of quantitative measures for exploration, making it difficult to analyze and compare different acquisition functions. This work introduces two novel approaches - observation traveling salesman distance and observation entropy - to quantify the exploration characteristics of acquisition functions based on their selected observations. Using these measures, we examine the explorative nature of several well-known acquisition functions across a diverse set of black-box problems, uncover links between exploration and empirical performance, and reveal new relationships among existing acquisition functions. Beyond enabling a deeper understanding of acquisition functions, these measures also provide a foundation for guiding their design in a more principled and systematic manner.
@@ -210,7 +211,7 @@
   year: 2023
   unpublished: false
   DOI: https://doi.org/10.1137/22M1524989
-  venue: SIAM/ASA Journal on Uncertainty Quantification (to appear)
+  venue: SIAM/ASA Journal on Uncertainty Quantification
   id: bifidelity-boosting
   code: https://github.com/CU-UQ/BF-Boosted-Quadrature-Sampling
   abstract: Least squares regression is a ubiquitous tool for building emulators (a.k.a. surrogate models) of problems across science and engineering for purposes such as design space exploration and uncertainty quantification. When the regression data are generated using an experimental design process (e.g., a quadrature grid) involving computationally expensive models, or when the data size is large, sketching techniques have shown promise to reduce the cost of the construction of the regression model while ensuring accuracy comparable to that of the full data. However, random sketching strategies, such as those based on leverage scores, lead to regression errors that are random and may exhibit large variability. To mitigate this issue, we present a novel boosting approach that leverages cheaper, lower-fidelity data of the problem at hand to identify the best sketch among a set of candidate sketches. This in turn specifies the sketch of the intended high-fidelity model and the associated data. We provide theoretical analyses of this bi-fidelity boosting (BFB) approach and discuss the conditions the low- and high-fidelity data must satisfy for a successful boosting. In doing so, we derive a bound on the residual norm of the BFB sketched solution relating it to its ideal, but computationally expensive, high-fidelity boosted counterpart. Empirical results on both manufactured and PDE data corroborate the theoretical analyses and illustrate the efficacy of the BFB solution in reducing the regression error, as compared to the non-boosted solution
