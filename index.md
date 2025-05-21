@@ -47,6 +47,9 @@ Please note: this website [`amath.colorado.edu/faculty/becker`](https://amath.co
 My CV is on my [CU Experts Profile page](https://experts.colorado.edu/display/fisid_154263).
 
 
+## News! We're hiring for a postdoc position (apply before June 3 2025)
+See the [job ad](https://jobs.colorado.edu/jobs/JobDetail/?jobId=64502). This is for an ASCR funded project on data compression, joint with Prof. Alireza Doostan in Aerospace engineering
+
 <!--
 ## News! Now hiring for a postdoc position
 
