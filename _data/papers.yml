@@ -5,6 +5,15 @@
   year: 2024
   unpublished: true
 
+- title: Rigorous Maximum Likelihood Estimation for Quantum States
+  year: 2025
+  unpublished: true
+  arXiv: 2506.16646
+  author: K. Aditi, Stephen Becker
+  id: quantumMLE
+  code: https://github.com/Additi-K/Rigorous-MLE
+  abstract: Existing quantum state tomography methods are limited in scalability due to their high computation and memory demands, making them impractical for recovery of large quantum states. In this work, we address these limitations by reformulating the maximum likelihood estimation (MLE) problem using the Burer-Monteiro factorization, resulting in a non-convex but low-rank parameterization of the density matrix. We derive a fully unconstrained formulation by analytically eliminating the trace-one and positive semidefinite constraints, thereby avoiding the need for projection steps during optimization. Furthermore, we determine the Lagrange multiplier associated with the unit-trace constraint a priori, reducing computational overhead. The resulting formulation is amenable to scalable first-order optimization, and we demonstrate its tractability using limited-memory BFGS (L-BFGS). Importantly, we also propose a low-memory version of the above algorithm to fully recover certain large quantum states with Pauli-based POVM measurements. Our low-memory algorithm avoids explicitly forming any density matrix, and does not require the density matrix to have a matrix product state (MPS) or other tensor structure. For a fixed number of measurements and fixed rank, our algorithm requires just (dlogd) complexity per iteration to recover a d×d density matrix. Additionally, we derive a useful error bound that can be used to give a rigorous termination criterion. We numerically demonstrate that our method is competitive with state-of-the-art algorithms for moderately sized problems, and then demonstrate that our method can solve a 20-qubit problem on a laptop in under 5 hours.
+
 - title: Stochastic Subspace Descent Accelerated via Bi-fidelity Line Search
   year: 2025
   unpublished: true
