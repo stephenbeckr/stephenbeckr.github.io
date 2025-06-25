@@ -230,12 +230,14 @@
   photo: Dom.jpeg
   short: Professional Masters
   long: Draper scholar, working on ML for aerocapture for NASA missions to Uranus
+  graduated: true
 
 - name: Bhavana Jonnalagadda
   linkedin: https://www.linkedin.com/in/bhavanajonn/
   photo: Bhav.jpeg
   short: MS in Data Science
   long: Low-rank methods to accelerate PDE solvers for plasma
+  graduated: true
 
 - name: Spencer Shortt
   short: MS 2023
@@ -248,7 +250,7 @@
 - name: Cooper Simpson
   short: MS 2022
   long: research assistant 2023/2024; 2nd order methods for optimization; non-uniform convolutions for neural nets. Now PhD student at U Washington, winner of DOE CSGF
-  photo: Unknown.png
+  photo: CooperSimpson.jpg
   google-scholar: https://scholar.google.com/citations?hl=en&user=rHbpN-YAAAAJ
   graduated: true
 
@@ -296,6 +298,20 @@
 
 
 # Undergrads, approximately newest to oldest
+
+- name: Dalia DeJianne
+  short: Undergrad summer researcher 2025
+  long: Finite difference methods for sensing metallic objects; visiting from NC State
+  photo: Dalia.jpeg
+  linkedin: https://www.linkedin.com/in/dalia-dejianne-44315628b/
+
+- name: Magnus Miller
+  short: Undergrad summer researcher 2025
+  long: Gauss-Newton methods for quantum tomography MLE
+  photo: Magnus.jpeg
+  linkedin: https://www.linkedin.com/in/magnus-miller1/
+  github: https://github.com/magnuswmiller
+
 
 - name: Claudia Chen
   short: Undergrad (2022; optimization placement for MEG sensors); MS 2023 (ultrasound)
