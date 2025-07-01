@@ -43,21 +43,23 @@
 
 - title: Exploring Exploration in Bayesian Optimization
   year: 2025
-  unpublished: true
+  unpublished: false
   venue: UAI 2025, to appear
   arXiv: 2502.08208
   author: Leonard Papenmeier, Nuojin Cheng, Stephen Becker, Luigi Nardi
   abstract: A well-balanced exploration-exploitation trade-off is crucial for successful acquisition functions in Bayesian optimization. However, there is a lack of quantitative measures for exploration, making it difficult to analyze and compare different acquisition functions. This work introduces two novel approaches - observation traveling salesman distance and observation entropy - to quantify the exploration characteristics of acquisition functions based on their selected observations. Using these measures, we examine the explorative nature of several well-known acquisition functions across a diverse set of black-box problems, uncover links between exploration and empirical performance, and reveal new relationships among existing acquisition functions. Beyond enabling a deeper understanding of acquisition functions, these measures also provide a foundation for guiding their design in a more principled and systematic manner.
   code: https://github.com/LeoIV/exploring-exploration-public
+  conference: true
 
 
 - title: A Unified Framework for Entropy Search and Expected Improvement in Bayesian Optimization
   author: Nuojin Cheng, Leonard Papenmeier, Stephen Becker, Luigi Nardi
+  conference: true
   year: 2025
   other-link: |-
     Supersedes our tech report: <a href="https://arxiv.org/abs/2402.11345">Variational Entropy Search for Adjusting Expected Improvement</a>
   arXiv: 2501.18756
-  unpublished: true
+  unpublished: false
   venue: ICML 2025, to appear (as spotlight poster, top 2.6% of submissions; and as oral presentation, top 1%)
   abstract: Bayesian optimization is a widely used method for optimizing expensive black-box functions, with Expected Improvement being one of the most commonly used acquisition functions. In contrast, information-theoretic acquisition functions aim to reduce uncertainty about the function's optimum and are often considered fundamentally distinct from EI. In this work, we challenge this prevailing perspective by introducing a unified theoretical framework, Variational Entropy Search, which reveals that EI and information-theoretic acquisition functions are more closely related than previously recognized. We demonstrate that EI can be interpreted as a variational inference approximation of the popular information-theoretic acquisition function, named Max-value Entropy Search. Building on this insight, we propose VES-Gamma, a novel acquisition function that balances the strengths of EI and MES. Extensive empirical evaluations across both low- and high-dimensional synthetic and real-world benchmarks demonstrate that VES-Gamma is competitive with state-of-the-art acquisition functions and in many cases outperforms EI and MES.
 
@@ -70,7 +72,7 @@
 
 - title: Evaluation of data driven low-rank matrix factorization for accelerated solutions of the Vlasov equation 
   year: 2025
-  unpublished: true
+  unpublished: false
   author: Bhavana Jonnalagadda, Stephen Becker
   abstract: Low-rank methods have shown success in accelerating simulations of a collisionless plasma described by the Vlasov equation, but still rely on computationally costly linear algebra every time step. We propose a data-driven factorization method using artificial neural networks, specifically with convolutional layer architecture, that trains on existing simulation data. At inference time, the model outputs a low-rank decomposition of the distribution field of the charged particles, and we demonstrate that this step is faster than the standard linear algebra technique. Numerical experiments show that the method effectively interpolates time-series data, generalizing to unseen test data in a manner beyond just memorizing training data; patterns in factorization also inherently followed the same numerical trend as those within algebraic methods (e.g., truncated singular-value decomposition). However, when training on the first 70% of a time-series data and testing on the remaining 30%, the method fails to meaningfully extrapolate. Despite this limiting result, the technique may have benefits for simulations in a statistical steady-state or otherwise showing temporal stability
   arXiv: 2501.04024
