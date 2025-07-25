@@ -159,6 +159,7 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
 
 Here I list a few talks that have video or slides or websites
 
+- "High-dimensional DFO: Stochastic Subspace Descent and improvements", ICCOPT, USC, Los Angeles, July 23 2025. [Slides](/assets/docs/2025_ICCOPT_USC.pdf)
 - "Research in Applied Math at CU", Math Circles talk (K-12), Sept 15 2024.  [Slides](/assets/docs/MathCircles_Sept15_2024.pdf).
 - "Randomization methods for big-data", at CU CS Dept colloquium Oct 26 2023, and Purdue Math dept Applied Math seminar Oct 23 2023.  [Slides](/assets/docs/2023_10_CU_CS_RandomMethods.pdf).
   - For related sketching code:
