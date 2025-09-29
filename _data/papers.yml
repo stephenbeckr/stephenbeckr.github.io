@@ -16,7 +16,8 @@
 
 - title: Stochastic Subspace Descent Accelerated via Bi-fidelity Line Search
   year: 2025
-  unpublished: true
+  unpublished: false
+  venue: Transactions on Machine Learning Research (TMLR), to appear
   arXiv: 2505.00162
   author: Nuojin Cheng, Alireza Doostan, Stephen Becker
   id: BF-SSD
