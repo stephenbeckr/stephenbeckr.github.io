@@ -159,12 +159,13 @@ In Liquid, you can include a hyphen in your tag syntax using minus sign, see htt
 
 Here I list a few talks that have video or slides or websites
 
-- "High-dimensional DFO: Stochastic Subspace Descent and improvements", ICCOPT, USC, Los Angeles, July 23 2025. [Slides](/assets/docs/2025_ICCOPT_USC.pdf)
-- "Research in Applied Math at CU", Math Circles talk (K-12), Sept 15 2024.  [Slides](/assets/docs/MathCircles_Sept15_2024.pdf).
-- "Randomization methods for big-data", at CU CS Dept colloquium Oct 26 2023, and Purdue Math dept Applied Math seminar Oct 23 2023.  [Slides](/assets/docs/2023_10_CU_CS_RandomMethods.pdf).
+- "Randomization methods for big-data (other than SGD)" about sketching methods, slight update to 2023 talk. Given at Colorado School of Mines colloquium the Penn State / Purdue / U Maryland College Park joint seminar on Mathematical Data Science, both in Sept 2025. [Slides](/assets/docs/2025_09_Mines-Becker.pdf)
   - For related sketching code:
   - [Random sketching operators](https://github.com/stephenbeckr/randomized-algorithm-class/tree/master/Code) in Matlab and Python, as part of the class I teach. This has Gaussian sketch, Fast Johnson Lindenstrauss (with FFT or a fast Hadamard), and count sketch. The Hadamard and count sketch have C functions to make them extra fast.  
   - For the tensor product sketches, which is more complicated, see [Osman's github page](https://github.com/OsmanMalik/)
+- "High-dimensional DFO: Stochastic Subspace Descent and improvements", ICCOPT, USC, Los Angeles, July 23 2025. [Slides](/assets/docs/2025_ICCOPT_USC.pdf)
+- "Research in Applied Math at CU", Math Circles talk (K-12), Sept 15 2024.  [Slides](/assets/docs/MathCircles_Sept15_2024.pdf).
+- "Randomization methods for big-data", at CU CS Dept colloquium Oct 26 2023, and Purdue Math dept Applied Math seminar Oct 23 2023.  [Slides](/assets/docs/2023_10_CU_CS_RandomMethods.pdf).
 - "High-Probability convergence and algorithmic stability for stochastic gradient descent", [ML-MTP: Machine Learning in Montpellier: Theory and Practice](https://groupes.renater.fr/wiki/ml-mtp/index) seminar, September 2022. [Slides](/assets/docs/2022_Sept_IMAG.pdf).  Similar versions given in Arcachon (Curves and Surfaces, June 2022) and Nice (October 2022)
 - "Stochastic Subspace Descent: Stochastic gradient-free optimization, with applications to PDE-constrained optimization"   [Slides (2.7 MB pdf)](/assets/docs/2022_ICCOPT_Lehigh_SSD_Becker.pdf), at ICCOPT, Lehigh University July 2022.  Similar version given January 2020 in Denver (joint MAA meetings).
 - "Optimization for statistical estimators: Applications to quantum fidelity estimation" [Slides (3.7 MB pdf)](/assets/docs/2022_Stockholm_Becker_midRes.pdf), at Conference on the Mathematics of Complex Data, KTH Royal Institute of Technology, Stockholm. June 13-16 2022
