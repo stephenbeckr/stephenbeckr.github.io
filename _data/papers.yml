@@ -5,9 +5,17 @@
   year: 2024
   unpublished: true
 
+- title: Generating Entangled Steady States in Multistable Open Quantum Systems via Initial State Control
+  author: Diego Fallas Padilla, Raphael Kaubruegger, Adrianna Gillman, Stephen Becker, Ana Maria Rey
+  unpublished: true
+  arXiv: 2510.07628
+  abstract: Entanglement underpins the power of quantum technologies, yet it is fragile and typically destroyed by dissipation. Paradoxically, the same dissipation, when carefully engineered, can drive a system toward robust entangled steady states. However, this engineering task is nontrivial, as dissipative many-body systems are complex, particularly when they support multiple steady states. Here, we derive analytic expressions that predict how the steady state of a system evolving under a Lindblad equation depends on the initial state, without requiring integration of the dynamics. These results extend the frameworks developed in Refs. [Phys. Rev. A 89, 022118 (2014) and Phys. Rev. X 6, 041031 (2016)], showing that while the steady-state manifold is determined by the Liouvillian kernel, the weights within it depend on both the Liouvillian and the initial state. We identify a special class of Liouvillians for which the steady state depends only on the initial overlap with the kernel. Our framework provides analytical insight and a computationally efficient tool for predicting steady states in open quantum systems. As an application, we propose schemes to generate metrologically useful entangled steady states in spin ensembles via balanced collective decay.
+
+
 - title: Rigorous Maximum Likelihood Estimation for Quantum States
   year: 2025
-  unpublished: true
+  unpublished: false
+  venue: Physical Review A (to appear)
   arXiv: 2506.16646
   author: K. Aditi, Stephen Becker
   id: quantumMLE
