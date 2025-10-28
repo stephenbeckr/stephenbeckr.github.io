@@ -47,9 +47,6 @@ Please note: this website [`amath.colorado.edu/faculty/becker`](https://amath.co
 My CV is on my [CU Experts Profile page](https://experts.colorado.edu/display/fisid_154263).
 
 
-## News! We're hiring for a postdoc position (apply before June 3 2025)
-See the [job ad](https://jobs.colorado.edu/jobs/JobDetail/?jobId=64502). This is for an ASCR funded project on data compression, joint with Prof. Alireza Doostan in Aerospace engineering
-
 <!--
 ## News! Now hiring for a postdoc position
 
@@ -81,24 +78,37 @@ and pround ally of [Spectra](http://lgbtmath.org/)
   - For CU engineering students, see [CEAS student funding opportunities](https://www.colorado.edu/engineering/students/research)
 - Our new page on [optimization classes and resources at CU](https://sites.google.com/colorado.edu/optimization)
 - The [RCDS](https://sites.google.com/colorado.edu/rcds/home/seminar-series?authuser=0) seminar website (for Robotics, Controls, and Dynamical Systems)
-- [Statistics, Optimization, Machine Learning seminar](https://sites.google.com/colorado.edu/statoptml/) usually at 3:30 PM every Tuesday in Newton Lab (on pause Fall '22 for  sabbatical)
+- [Statistics, Optimization, Machine Learning seminar](https://sites.google.com/colorado.edu/statoptml/) 
 
 ## News updates
-As of October 2022, the website is built with Jekyll and we'll have blog-post style news updates. Here's a summary of old updates
+As of October 2022, the website is built with Jekyll and we can now have blog-post style news updates. Here's a summary of old updates
+
 
 A similar list of announcements is at the [Announcements Page of our Google Site](https://sites.google.com/colorado.edu/becker/announcements)
+- Summer internships for 2025
+  - Aditi is R&D AI/ML Algorithm Intern at Halliburton in Houston
+  - Alex is at [ICR](https://icr-team.com/) again
+  - Cooper is funded by a joint STTR grant with [FieldLine](https://fieldlineinc.com/) working on MEG
+  - Nic is funded by our DOE grant on modeling plasma ["CHaRMNET"](https://charmnet-mmicc.github.io/)
+  - Drona is funded by our NSF grant on quantum fidelity estimation
+  - Dalia and Magnus joined the lab for undergraduate research
+- Summer internships for 2024
+  - Nuojin is Machine Learning Engineer at TikTok in Bellevue, WA
+  - Jacob is an intern at Los Alamos national lab in the XCP-4: Continuum Models and Numerical Methods group
+  - Nic is funded by our DOE grant on modeling plasma ["CHaRMNET"](https://charmnet-mmicc.github.io/)
 - Summer internships for 2023
   - Kevin at [Institute for Defense Analyses](https://en.wikipedia.org/wiki/Institute_for_Defense_Analyses) (La Jolla, CA)
   - Jacob returning to [LLNL](https://www.llnl.gov/)
   - Akshay at [NTT Research](https://ntt-research.com/about/) (Sunnyvale, CA)
   - Ibrohim at Courant Institute (NYC)
+  - Nuojin is a Research Scientist at Shell in Houston
 - Fall 2022, Stephen is on **sabbatical** at [Institut Montpellierain Alexander Grothendieck (IMAG)](https://imag.umontpellier.fr/) in Montpellier France. He will return to Boulder by January 2023.
 - [Call for papers: special issue on Big Scientific Data and Machine Learning in Science  and Engineering](https://home.liebertpub.com/cfp/big-scientific-data-and-machine-learning-in-science-and-engi/344/), submission deadline Feb 1 2022
 - Summer internships for 2022
   - Kevin at NSA
   - Jacob at LLNL
 - Summer internships for 2021
-  - Richie will intern at Argonne national labs
+  - Richie will intern at Argonne national labs (May -- July) then at Los Alamos National Lab (July -- Sept)
   - Liam will intern for IBM Research Dublin again
   - Akshay will intern at NIST
   - Kevin... TBD
@@ -109,6 +119,7 @@ A similar list of announcements is at the [Announcements Page of our Google Site
   - Liam is working for IBM Research Dublin
   - Osman is working for Fujitsu
   - Erik is working for Archer Dx
+  - Richie is working with FieldLine Inc on our joint project
 - Summer internships for 2019
   - Zhishen (Leo) Huang at Respond Software
   - Richie Clancy at Sensory, Inc
