@@ -12,6 +12,24 @@
 
 
 # Postdocs
+
+- name: Cristian López Ruano
+  short: Postdoc, joint with David Bortz
+  long: joined Aug 2025; PhD from Nebraska
+  linkedin: https://www.linkedin.com/in/cristian-l%C3%B3pez-ruano-510592167/
+  photo: Cristian.jpeg
+  google-scholar: https://scholar.google.com/citations?user=2BtHvq0AAAAJ&hl=en
+
+
+- name: Youngkyu Kim
+  short: Postdoc, joint with Alireza Doostan
+  photo: Youngkyu.jpg
+  long: PhD from Berkeley under Zohdi in Mech Eng; at CU for Fall 2025; next position LLNL
+  google-scholar: https://scholar.google.com/citations?user=SAuZhXAAAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/youngkyu-kim-phd/
+  graduated: true
+
+
 #- name: Deborah Pereg
 # short: Postdoc
 # long: since 2025; PhD from Technion. ML and Signal Processing, data compression. Working with Alireza Doostan as well.
@@ -305,6 +323,7 @@
   long: Finite difference methods for sensing metallic objects; visiting from NC State
   photo: Dalia.jpeg
   linkedin: https://www.linkedin.com/in/dalia-dejianne-44315628b/
+  graduated: true
 
 - name: Magnus Miller
   short: Undergrad summer researcher 2025
