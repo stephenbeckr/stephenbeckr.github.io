@@ -29,7 +29,7 @@ permalink: /people/
 
 -------------
 
-Our lab also works with many PhD students from other groups (e.g., Liz Strong -- see [ch 4 of her thesis](https://www.proquest.com/pagepdf/2670031200), Tzu-Chi Yen, Killian Wood, Minah Yang)
+Our lab also works with many PhD students from other groups (e.g., [Liz Strong](https://www.linkedin.com/in/elstrong/) -- see [ch 4 of her thesis](https://www.proquest.com/pagepdf/2670031200), [Killian Wood](https://www.linkedin.com/in/killianrwood/), [Minah Yang](https://www.linkedin.com/in/luciaminahyang/), [Noah Francis](https://www.linkedin.com/in/noahfrancis/))
 
 -------------
 
