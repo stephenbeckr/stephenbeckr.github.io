@@ -5,6 +5,15 @@
   year: 2024
   unpublished: true
 
+- title: Functional Liu Regression for Scalar-on-Functional Models in High-Dimensional Settings
+  author: Shaista Ashraf, Stephen Becker, Farrukh Javed, Ismail Shah
+  year: 2026
+  unpublished: true
+  id: fLiu
+  code: https://github.com/stephenbeckr/functional-Liu/
+  arXiv: 2605.01571
+  abstract: This study develops a functional Liu-type shrinkage estimator (fLiu) for scalar-on-function regression in the presence of strong multicollinearity and high-dimensional functional predictors. The approach extends the classical Liu estimator to the functional setting by combining directional shrinkage with smoothness regularization, providing flexible control over the bias-variance trade-off. Theoretical analysis is used to examine the behavior of the estimator and the associated parameter selection problem. In particular, an explicit mean squared error (MSE) decomposition is derived, characterizing the risk of the estimator in terms of variance reduction and shrinkage bias. This further yields an explicit optimal choice of the shrinkage parameter of the fLiu estimator through a one-dimensional convex risk minimization problem, leading to a practical plug-in tuning rule. Moreover, it is shown that in high-dimensional (underdetermined) settings, commonly used criterion such as GCV (and equivalently PRESS/LOO-CV) become constant with respect to the parameter d, thus uninformative for tuning. This provides a theoretical explanation for the predominant focus on the overdetermined regime in existing Liu-type methods. Numerical results demonstrate that the estimator achieves competitive predictive accuracy relative to existing methods. Implementation is carried out in R using the fda package, and in Python via the this http URL package developed for this study.
+
 - title: WSINDy for Model Predictive Control with Applications to Fusion, Drones, and Chaos
   author: Cristian López, Mckenna Partridge, Sebastian De Pascuale, Jeremy Lore, Andrew Christlieb, Stephen Becker, David M. Bortz
   year: 2026
