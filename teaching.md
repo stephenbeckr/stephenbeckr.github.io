@@ -5,6 +5,10 @@ permalink: /teaching/
 ---
 
 ## Teaching at CU
+- 2026 Spring
+  - [APPM 4490/5490 Theory of Machine Learning](https://github.com/stephenbeckr/ML-theory-class)
+- 2025 Fall
+  - [APPM 4600 Numerical Analysis](https://github.com/cu-applied-math/appm-4600-numerics/tree/Fall2025)
 - 2025 Spring
   - APPM 3310 Matrix Methods
   - [APPM 5630 Advanced Convex Optimization](https://github.com/stephenbeckr/convex-optimization-class)
@@ -75,8 +79,11 @@ Here is the [StatOptML seminar website](https://sites.google.com/colorado.edu/st
 ## Projects created for my classes
 (Click the image for full-resolution PDF)
 
+### APPM 4490/5490 ML Theory, Spring 2026
+[![Spring 26](/assets/img/SlideshowAllPresentations_4490_Spring26.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_4490_Spring26.pdf)
+
 ### APPM 4490/5490 ML Theory, Spring 2024
-[![Spring 22](/assets/img/SlideshowAllPresentations_4490_Spring24.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_4490_Spring24.pdf)
+[![Spring 24](/assets/img/SlideshowAllPresentations_4490_Spring24.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_4490_Spring24.pdf)
 
 ### APPM 5630 Convex Optimization, Spring 2023
 [![Spring 23](/assets/img/SlideshowAllPresentations_5630_Spring23.jpg){: .shadow .landscape-rounded}](../assets/docs/SlideshowAllPresentations_5630_Spring23.pdf)
