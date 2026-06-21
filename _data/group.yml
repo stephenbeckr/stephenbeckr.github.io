@@ -318,6 +318,23 @@
 
 # Undergrads, approximately newest to oldest
 
+- name: Alvin Nguyen
+  short: Undergrad summer research 2026
+  photo: Unknown.png
+  long: Robustness of finite difference methods
+
+- name: Vincent Denolf
+  short: Undergrad summer research 2026
+  photo: Vincent.jpeg
+  long: Compression for unstructured domains
+  linkedin: https://www.linkedin.com/in/vincent-denolf-99b899326/
+
+- name: Riley Wu
+  short: Undergrad summer research 2026
+  photo: Riley.jpeg
+  long: Derivative-free methods for nonlinear least squrares
+  linkedin: https://www.linkedin.com/in/riley-wu/
+
 - name: Dalia DeJianne
   short: Undergrad summer researcher 2025
   long: Finite difference methods for sensing metallic objects; visiting from NC State
