@@ -18,6 +18,7 @@
   long: joined Aug 2025; PhD from Nebraska
   linkedin: https://www.linkedin.com/in/cristian-l%C3%B3pez-ruano-510592167/
   photo: Cristian.jpeg
+  github: https://github.com/CristianLopez85
   google-scholar: https://scholar.google.com/citations?user=2BtHvq0AAAAJ&hl=en
 
 
@@ -74,11 +75,13 @@
   linkedin: https://www.linkedin.com/in/mohit-garg-824731212/
   photo: Mohit.jpeg
   short: PhD student, one-pass compression (joint with Alireza Doostan)
+  github: https://github.com/mohit712319
 
 - name: Cooper Doe
   linkedin: https://www.linkedin.com/in/cooper-doe-269865232/
   photo: CooperDoe.jpg
   short: PhD student, magnetometers
+  github: https://github.com/cdoe1
 
 
 - name: Nicholas (Nic) Rummel
@@ -333,6 +336,7 @@
   short: Undergrad summer research 2026
   photo: Riley.jpeg
   long: Derivative-free methods for nonlinear least squrares
+  github: https://github.com/rileywuisme
   linkedin: https://www.linkedin.com/in/riley-wu/
 
 - name: Dalia DeJianne
