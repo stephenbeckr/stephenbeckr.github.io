@@ -8,7 +8,7 @@
 - title: "SPIRiT Regularization: Parallel MRI with a Combination of Sensitivity Encoding and Linear Predictability"
   author: Nicholas Dwork, Alex McManus, Stephen Becker, Gennifer Smith
   DOI: https://doi.org/10.1007/s00723-026-01862-8
-  year: 20267
+  year: 2026
   unpublished: false
   venue: Applied Magnetic Resonance
   abstract: "This manuscript presents a novel combination of technologies that yield images of improved quality for accelerated Magnetic Resonance Imaging (MRI). Two established methods for accelerating MRI include parallel imaging and compressed sensing. Two types of parallel imaging include linear predictability, which assumes that the Fourier samples are linearly related, and sensitivity encoding, which incorporates  a priori knowledge of the sensitivity maps. In this work, we combine compressed sensing with both types of parallel imaging using a novel regularization term:  SPIRiT regularization. For a given number of samples, the images recon-structed with SPIRiT regularization are improved over those reconstructed without it. We demonstrate these improvements on data of a knee, a brain, and an ankle."
