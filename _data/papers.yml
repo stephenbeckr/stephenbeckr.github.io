@@ -5,6 +5,14 @@
   year: 2026
   unpublished: true
 
+- title: "SPIRiT Regularization: Parallel MRI with a Combination of Sensitivity Encoding and Linear Predictability"
+  author: Nicholas Dwork, Alex McManus, Stephen Becker, Gennifer Smith
+  DOI: https://doi.org/10.1007/s00723-026-01862-8
+  year: 20267
+  unpublished: false
+  venue: Applied Magnetic Resonance
+  abstract: "This manuscript presents a novel combination of technologies that yield images of improved quality for accelerated Magnetic Resonance Imaging (MRI). Two established methods for accelerating MRI include parallel imaging and compressed sensing. Two types of parallel imaging include linear predictability, which assumes that the Fourier samples are linearly related, and sensitivity encoding, which incorporates  a priori knowledge of the sensitivity maps. In this work, we combine compressed sensing with both types of parallel imaging using a novel regularization term:  SPIRiT regularization. For a given number of samples, the images recon-structed with SPIRiT regularization are improved over those reconstructed without it. We demonstrate these improvements on data of a knee, a brain, and an ankle."
+
 - title: Functional Liu Regression for Scalar-on-Functional Models in High-Dimensional Settings
   author: Shaista Ashraf, Stephen Becker, Farrukh Javed, Ismail Shah
   year: 2026
@@ -17,10 +25,12 @@
 - title: WSINDy for Model Predictive Control with Applications to Fusion, Drones, and Chaos
   author: Cristian López, Mckenna Partridge, Sebastian De Pascuale, Jeremy Lore, Andrew Christlieb, Stephen Becker, David M. Bortz
   year: 2026
-  unpublished: true
+  unpublished: false
   arXiv: 2604.23269
+  venue: Proceedings of the Royal Society A
   id: WSINDyc
   abstract: The control of complex dynamical systems remains a fundamental challenge in science and engineering, where strong nonlinearities, the presence of noise, and computational constraints often pose significant obstacles in traditional control approaches. Recent advances in data-driven methods, particularly system identification techniques, have shown a powerful alternative by providing fast, parsimonious, interpretable models that are well-suited for model predictive control (MPC). Building on these developments, the present article embeds WSINDy with actuation inputs (WSINDYc) within a MPC framework. Compared to benchmark data-driven methods, WSINDYc enables a more robust identification of the governing dynamics, particularly in the presence of high noise levels, resulting in more accurate and efficient control. The capabilities of the proposed WSINDY-MPC framework are demonstrated on a range of problems, including a tokamak plasma boundary model that includes main ion gas puff actuation, drone tracking and collision avoidance, the chaotic Lorenz system, and a simplified flight control model for an F-8 aircraft. The proposed framework achieves superior performance in the presence of noise, enabling longer prediction horizons, lower trajectory tracking error, and a more reliable obstacle clearance, while simultaneously achieving lower MPC cost values compared to the baseline methods.
+  code: https://github.com/MathBioCU/WSINDY-MPC
 
 
 - title: A Bifidelity Proximal Quasi-Newton Method for Dense Rigid Body Suspension Collision Resolution 
