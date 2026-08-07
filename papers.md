@@ -176,6 +176,7 @@ https://fadili.users.greyc.fr/siamis12/minisymposium2.html), Minisymposium, SIAM
 - [Quick intro to convex optimization](/assets/docs/convexOptTalk.pdf) talk for Patrick Sanan's department "ACM^tea", Oct 23 2009
 
 ## Technical Reports {#techReports}
+- [Singular value soft-thresholding via the polar decomposition](https://arxiv.org/abs/2607.22484), Stephen Becker, 2026.
 - [Variational Entropy Search for Adjusting Expected Improvement](https://arxiv.org/abs/2402.11345), Nuojin Cheng, Stephen Becker, 2024. Superseded by [A Unified Framework for Entropy Search and Expected Improvement in Bayesian Optimization](https://arxiv.org/abs/2501.18756), Nuojin Cheng, Leonard Papenmeier, Stephen Becker, Luigi Nardi, 2025.
 - [ Locality-sensitive hashing in function spaces](https://arxiv.org/abs/2002.03909), Will Shand and Stephen Becker, 2020
 - [Tensor Robust Principal Component Analysis: Better recovery with atomic norm regularization](https://arxiv.org/abs/1901.10991), Derek Driggs, Stephen Becker and Jordan Boyd-Graber, 2019

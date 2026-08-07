@@ -5,6 +5,19 @@
   year: 2026
   unpublished: true
 
+- title: "Spatiotemporal tensor reconstruction for echocardiography: effects of multidimensional structure and motion"
+  author: Joshua Fry, Nazli Javadi Eshkalak, Stephen Becker, Nick Bottenus
+  year: 2026
+  unpublished: false
+  venue: Journal of the Acoustical Society of America (JASA)
+
+- title: Nonnegative Low-Rank Matrix Correction under an Orthogonality Constraint in Conservative Vlasov Simulations
+  author: Yue Wu, Stephen Becker, Jingmei Qiu, Xiangxiong Zhang
+  unpublished: true
+  year: 2026
+  abstract: "In low-rank numerical methods for Vlasov dynamics, the SVD-type truncation procedure may introduce negative entries into the numerical solution. Such negative values are unphysical because the solution is a probability distribution function. We design optimization-based post-processing algorithms to recover nonnegativity while preserving the macroscopic quantities (density, momentum, and energy) pointwise. The preservation of the macroscopic quantities is written as an orthogonality constraint on the correction term. For a convex formulation based on squared nuclear norm minimization, we show that the proximal operator with the orthogonality constraint is characterized by an implicit singular value thresholding equation, and the threshold can be computed efficiently by bisection. Based on this result, we develop five algorithms for the convex formulation: Douglas--Rachford splitting, restarted dual FISTA, restarted dual accelerated gradient descent, dual PR+ conjugate gradient, and dual L-BFGS. We also consider a non-convex formulation with an explicit rank constraint and develop a tangent-space accelerated alternating projection algorithm that only requires a 2r x 2r SVD per iteration. Numerical results for a Landau damping test case show that the proposed algorithms give comparable correction quality. Among them, the tangent-space accelerated alternating projection is the most cost-efficient, increasingly so as the problem size grows. We further demonstrate the correction as a positivity limiter inside a time-dependent conservative low-rank Vlasov solver, where it removes the negativity introduced by the SVD-type truncation while preserving the conserved mass, momentum, and energy."
+  arXiv: 2607.26272
+
 - title: "SPIRiT Regularization: Parallel MRI with a Combination of Sensitivity Encoding and Linear Predictability"
   author: Nicholas Dwork, Alex McManus, Stephen Becker, Gennifer Smith
   DOI: https://doi.org/10.1007/s00723-026-01862-8
@@ -44,7 +57,9 @@
 - title: In Situ Training of Implicit Neural Compressors for Scientific Simulations via Sketch-Based Regularization
   year: 2025
   author: Cooper Simpson, Stephen Becker, Alireza Doostan
-  unpublished: true
+  unpublished: false
+  DOI: https://doi-org.colorado.idm.oclc.org/10.1016/j.jcp.2026.115245
+  venue: Journal of Computational Physics
   arXiv: 2511.02659
   abstract: Focusing on implicit neural representations, we present a novel in situ training protocol that employs limited memory buffers of full and sketched data samples, where the sketched data are leveraged to prevent catastrophic forgetting. The theoretical motivation for our use of sketching as a regularizer is presented via a simple Johnson-Lindenstrauss-informed result. While our methods may be of wider interest in the field of continual learning, we specifically target in situ neural compression using implicit neural representation-based hypernetworks. We evaluate our method on a variety of complex simulation data in two and three dimensions, over long time horizons, and across unstructured grids and non-Cartesian geometries. On these tasks, we show strong reconstruction performance at high compression rates. Most importantly, we demonstrate that sketching enables the presented in situ scheme to approximately match the performance of the equivalent offline method.
   id: INR
