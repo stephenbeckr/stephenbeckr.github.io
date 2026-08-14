@@ -9,7 +9,9 @@
   author: Joshua Fry, Nazli Javadi Eshkalak, Stephen Becker, Nick Bottenus
   year: 2026
   unpublished: false
+  DOI:  https://doi.org/10.1121/10.0044876
   venue: Journal of the Acoustical Society of America (JASA)
+  abstract: "It is a common desire to break traditional limits of sampling, circumventing Nyquist requirements using advanced statistical algorithms. In cardiac ultrasound imaging, reducing the number of transmissions per frame, thereby breaking spatial sampling restrictions, enables capturing faster moving structures or larger fields of view. However, the spatial and temporal image properties that may enable such acceleration have been underexplored in the ultrasound literature. This work provides a fundamental study of the structure of ultrasound images using simulations, phantoms, and in vivo cardiac data to quantify tensor rank and spatial/temporal roughness and explores the implications for tensor completion algorithms. Although low-rank reconstruction is a powerful approach that has been previously applied in this context, these data do not appear to be sufficiently low-rank for high-quality reconstructions. Two methods relying on local information—inverse distance-weighted (IDW) interpolation and the fast multiway delay-embedding transform—demonstrate significantly more accurate reconstruction (e.g., structured similarity index measure 0.76 vs 0.67 at 25% sampling and 0.63 vs 0.38 at 10% sampling for IDW versus low-rank reconstruction). Roughness in both space and time is shown to inversely correlate with tensor completion success. Motion compensation is shown to reduce both temporal roughness and rank, improving tensor completion."
 
 - title: Nonnegative Low-Rank Matrix Correction under an Orthogonality Constraint in Conservative Vlasov Simulations
   author: Yue Wu, Stephen Becker, Jingmei Qiu, Xiangxiong Zhang
