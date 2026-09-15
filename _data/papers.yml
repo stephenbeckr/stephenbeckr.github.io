@@ -5,6 +5,16 @@
   year: 2026
   unpublished: true
 
+- title: "Gradient-Free Optimization for Matrix functions"
+  author: Sawyer Allen, Cash Cherry, Aidan Eck, Stephen Becker, Daniel McKenzie
+  year: 2026
+  unpubished: true
+  arXiv: 2609.03170
+  code: https://github.com/mines-opt-ml/gradient_free_matrix_opt
+  abstract: "We consider the task of optimizing smooth, possibly non-convex functions of a matrix variable given access only to directional derivatives rather than full gradients. This setting arises when fine-tuning large neural networks on consumer-grade hardware: the network's weights are matrices, memory constraints rule out backward-mode automatic differentiation, but directional derivatives remain available through forward mode.
+We frame gradient estimation in this setting as a structured recovery problem, in the spirit of signal processing. From this perspective we provide three contributions. First, we introduce an alternative to the standard random gradient estimator; the difference corresponds to replacing the adjoint of the sampling operator with its pseudoinverse. Second, when the gradient satisfies an approximate low-rank condition, techniques from matrix sensing yield a family of highly accurate gradient estimators that drop into any first-order method. Third, we note that while the computational cost of such estimators is high, this can be amortized by combining them with a matrix-aware optimizer such as spectral descent. Specifically, the gradient estimator computes a factorization of the gradient, allowing for the projection step of spectral descent to be done at no extra cost.
+We demonstrate our findings with two careful numerical experiments on synthetic functions with approximately low-rank gradients. We show that by exploiting this low-rank property one obtains much faster convergence to good approximate solutions."
+
 - title: "Spatiotemporal tensor reconstruction for echocardiography: effects of multidimensional structure and motion"
   author: Joshua Fry, Nazli Javadi Eshkalak, Stephen Becker, Nick Bottenus
   year: 2026
