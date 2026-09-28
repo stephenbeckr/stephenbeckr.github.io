@@ -8,7 +8,7 @@
 - title: "Gradient-Free Optimization for Matrix functions"
   author: Sawyer Allen, Cash Cherry, Aidan Eck, Stephen Becker, Daniel McKenzie
   year: 2026
-  unpubished: true
+  unpublished: true
   arXiv: 2609.03170
   code: https://github.com/mines-opt-ml/gradient_free_matrix_opt
   abstract: "We consider the task of optimizing smooth, possibly non-convex functions of a matrix variable given access only to directional derivatives rather than full gradients. This setting arises when fine-tuning large neural networks on consumer-grade hardware: the network's weights are matrices, memory constraints rule out backward-mode automatic differentiation, but directional derivatives remain available through forward mode.
